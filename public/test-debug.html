@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Debug React Bundle</title>
+  <link rel="stylesheet" href="/js/lane-overview.bundle.css">
+</head>
+<body>
+  <h1>Debug React Bundle</h1>
+  <main>
+    <div class="_5giecy3">
+      <p>ORIGINAL CONTENT - should be replaced</p>
+    </div>
+  </main>
+  
+  <script>
+    console.log("Page loaded, waiting for bundle...");
+    window.onerror = function(msg, url, line) {
+      document.body.innerHTML += '<pre style="color:red">ERROR: ' + msg + ' at line ' + line + '</pre>';
+    };
+  </script>
+  <script src="/js/lane-overview.bundle.js"></script>
+  <script>
+    console.log("Bundle script tag executed");
+    setTimeout(function() {
+      var root = document.getElementById('lane-overview-root');
+      if (root) {
+        console.log("Root found:", root.innerHTML.substring(0, 100));
+      } else {
+        console.log("Root NOT found - React did not initialize");
+        document.body.innerHTML += '<pre style="color:orange">React root not created after 2 seconds</pre>';
+      }
+    }, 2000);
+  </script>
+</body>
+</html>

@@ -1,0 +1,465 @@
+/* Shared styles for Rates Overview, Capacity, Spot vs Contract */
+
+/* ── Loading / Error States ── */
+.rt-loading,
+.rt-error,
+.rt-no-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+  color: #666;
+  font-size: 14px;
+}
+
+/* ── Chart Outer ── */
+.rt-chart-outer {
+  background: #fff;
+  position: relative;
+}
+
+/* ── Hover Bar ── */
+.rt-hover-bar {
+  height: 28px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 0 4px;
+  font-size: 12px;
+}
+
+.rt-hover-date {
+  font-weight: 600;
+  color: #333;
+}
+
+.rt-hover-metric {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.rt-hover-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.rt-hover-label {
+  color: #555;
+}
+
+.rt-hover-value {
+  color: #222;
+}
+
+.rt-hover-placeholder {
+  color: #bbb;
+  font-size: 11px;
+}
+
+/* ── Simple Tooltip (capacity) ── */
+.rt-tooltip {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  min-width: 160px;
+}
+
+.rt-tooltip-header {
+  font-weight: 600;
+  font-size: 13px;
+  color: #333;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #eee;
+}
+
+.rt-tooltip-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 3px 0;
+  font-size: 12px;
+}
+
+.rt-tooltip-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.rt-tooltip-label {
+  color: #666;
+  flex: 1;
+}
+
+.rt-tooltip-value {
+  font-weight: 500;
+  color: #333;
+}
+
+/* ── Rich Tooltip Card (rates-overview, matches screenshot) ── */
+.rt-tooltip-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 14px 18px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  min-width: 220px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.rt-tooltip-card-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 6px;
+}
+
+.rt-tooltip-card-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.rt-tooltip-card-title {
+  font-weight: 600;
+  color: #333;
+  font-size: 13px;
+}
+
+.rt-tooltip-card-unit {
+  font-weight: 400;
+  color: #888;
+  font-size: 12px;
+}
+
+.rt-tooltip-card-row-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 8px;
+}
+
+.rt-tooltip-card-price {
+  font-size: 18px;
+  font-weight: 700;
+  color: #222;
+}
+
+.rt-tooltip-card-cw {
+  font-size: 12px;
+  color: #888;
+}
+
+.rt-tooltip-card-change {
+  font-size: 11px;
+  margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.rt-tooltip-card-change.down {
+  color: #16a34a;
+}
+
+.rt-tooltip-card-change.up {
+  color: #dc2626;
+}
+
+.rt-tooltip-card-arrow {
+  font-size: 9px;
+}
+
+.rt-tooltip-card-pct {
+  color: inherit;
+}
+
+.rt-tooltip-card-since {
+  color: #888;
+  margin-left: 4px;
+}
+
+.rt-tooltip-card-spread {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid #eee;
+  font-size: 12px;
+  color: #444;
+  display: flex;
+  gap: 6px;
+}
+
+/* ── Legend Overlay (inside chart, bottom-right) ── */
+.rt-legend-overlay {
+  position: absolute;
+  bottom: 34px;
+  right: 20px;
+  display: flex;
+  gap: 16px;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 4px 10px;
+  border-radius: 4px;
+  border: 1px solid #eee;
+  font-size: 12px;
+  color: #555;
+  z-index: 5;
+}
+
+.rt-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.rt-legend-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+/* ── Data Table (rates-overview & capacity) ── */
+.rt-table-wrapper {
+  overflow-x: auto;
+  margin-top: 8px;
+  max-width: 100%;
+}
+
+.rt-table {
+  border-collapse: collapse;
+  font-size: 12px;
+  min-width: 100%;
+}
+
+.rt-table th,
+.rt-table td {
+  padding: 8px 6px;
+  text-align: center;
+  border-bottom: 1px solid #f0f0f0;
+  white-space: nowrap;
+}
+
+.rt-table th {
+  font-weight: 500;
+  color: #666;
+  background: #fafafa;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.rt-metric-col {
+  text-align: left !important;
+  min-width: 150px;
+  padding-left: 12px !important;
+  font-weight: 500;
+  color: #333;
+}
+
+.rt-metric-col.rt-sticky {
+  position: sticky;
+  left: 0;
+  background: #fff;
+  z-index: 3;
+}
+
+.rt-table th.rt-metric-col {
+  background: #fafafa;
+  position: sticky;
+  left: 0;
+  z-index: 4;
+}
+
+.rt-metric-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.rt-cw-col {
+  min-width: 60px;
+  transition: background 0.1s;
+}
+
+.rt-cw-col.highlighted {
+  background: #e3f2fd !important;
+  font-weight: 600;
+}
+
+.rt-cw-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.rt-cw-num {
+  font-size: 11px;
+}
+
+.rt-cw-year {
+  font-size: 10px;
+  color: #999;
+}
+
+.rt-cell-value {
+  font-weight: 500;
+  color: #333;
+}
+
+.rt-cell-change {
+  font-size: 10px;
+  margin-top: 2px;
+}
+
+.rt-cell-change.up {
+  color: #e53935;
+}
+
+.rt-cell-change.down {
+  color: #43a047;
+}
+
+/* ── Spot vs Contract Table ── */
+.svc-container {
+  padding: 0;
+}
+
+.svc-table-wrapper {
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+.svc-table {
+  border-collapse: collapse;
+  font-size: 13px;
+  min-width: 100%;
+  width: 100%;
+}
+
+.svc-table th,
+.svc-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #eee;
+  white-space: nowrap;
+}
+
+.svc-table th {
+  background: #fafafa;
+  font-weight: 500;
+  color: #555;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.svc-rank-col {
+  width: 40px;
+  min-width: 40px;
+  text-align: center !important;
+  color: #888;
+}
+
+.svc-lane-col {
+  min-width: 240px;
+  text-align: left !important;
+  position: sticky;
+  left: 0;
+  background: #fff;
+  z-index: 3;
+}
+
+.svc-table th.svc-lane-col {
+  background: #fafafa;
+  z-index: 4;
+}
+
+.svc-lane-name {
+  font-weight: 500;
+  color: #333;
+}
+
+.svc-lane-distance {
+  font-size: 11px;
+  color: #999;
+  margin-top: 2px;
+}
+
+.svc-cw-header {
+  text-align: center;
+  border-left: 2px solid #e0e0e0;
+  font-weight: 600;
+  color: #333;
+}
+
+.svc-sub-header {
+  cursor: pointer;
+  user-select: none;
+  font-size: 11px;
+  transition: background 0.15s;
+  text-align: center !important;
+}
+
+.svc-sub-header:hover {
+  background: #f0f0f0;
+}
+
+.svc-sub-header.active {
+  background: #e3f2fd;
+  color: #0073e6;
+}
+
+.svc-sort-icon {
+  font-size: 10px;
+  opacity: 0.5;
+}
+
+.svc-sub-header.active .svc-sort-icon {
+  opacity: 1;
+}
+
+.svc-price-cell {
+  text-align: right !important;
+  font-variant-numeric: tabular-nums;
+  color: #333;
+}
+
+.svc-diff-cell {
+  text-align: right !important;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+}
+
+.svc-row-even td {
+  background: #fafcff;
+}
+
+.svc-row-even .svc-lane-col {
+  background: #fafcff;
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .rt-hover-bar {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 8px 4px;
+  }
+  
+  .svc-lane-col {
+    min-width: 180px;
+  }
+}

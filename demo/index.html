@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Market Insights</title>
+    <!-- Transporeon original CSS bundles — powers Emotion class names in static page content -->
+    <link rel="stylesheet" href="/styles/vendor.css" />
+    <link rel="stylesheet" href="/styles/main.css" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <!-- Replace broken images (e.g. API-served thumbnails) with a grey placeholder -->
+    <script>
+      document.addEventListener('error', function(e) {
+        var img = e.target;
+        if (img.tagName !== 'IMG') return;
+        img.alt = '';
+        img.style.background = '#e9ebec';
+        img.style.display = 'inline-block';
+        img.style.minWidth = (img.getAttribute('width') || '80') + 'px';
+        img.style.minHeight = (img.getAttribute('height') || '56') + 'px';
+        img.removeAttribute('src');
+      }, true);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,141 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e7]:
+      - img [ref=e9]
+      - generic [ref=e11]: Market Insights
+    - generic [ref=e12]:
+      - navigation "Main navigation" [ref=e13]:
+        - list [ref=e14]:
+          - listitem [ref=e15]:
+            - link "Freight Perspectives" [ref=e16] [cursor=pointer]:
+              - /url: /road/freight-perspectives
+              - img [ref=e18]
+              - generic [ref=e21]: Freight Perspectives
+          - listitem [ref=e22]:
+            - generic [ref=e23]:
+              - link "Market Overview" [ref=e24] [cursor=pointer]:
+                - /url: /road/market
+                - img [ref=e26]
+                - generic [ref=e29]: Market Overview
+              - button "Expand Market Overview submenu" [ref=e30] [cursor=pointer]:
+                - generic [ref=e32]:
+                  - img [ref=e33]
+                  - generic [ref=e35]: Expand Market Overview submenu
+          - listitem [ref=e36]:
+            - generic [ref=e37]:
+              - link "Lanes" [ref=e38] [cursor=pointer]:
+                - /url: /road/lanes
+                - img [ref=e40]
+                - generic [ref=e43]: Lanes
+              - button "Collapse Lanes submenu" [expanded] [ref=e44] [cursor=pointer]:
+                - generic [ref=e46]:
+                  - img [ref=e47]
+                  - generic [ref=e49]: Collapse Lanes submenu
+              - list [ref=e50]:
+                - listitem [ref=e51]:
+                  - link "Lane Overview" [ref=e52] [cursor=pointer]:
+                    - /url: /road/lanes/lane-overview/standard
+                    - generic [ref=e54]: Lane Overview
+                - listitem [ref=e55]:
+                  - link "Lane Comparison" [ref=e56] [cursor=pointer]:
+                    - /url: /road/lanes/lane-comparison/standard
+                    - generic [ref=e58]: Lane Comparison
+                - listitem [ref=e59]:
+                  - link "Yearly Comparison" [ref=e60] [cursor=pointer]:
+                    - /url: /road/lanes/yearly-comparison/standard
+                    - generic [ref=e62]: Yearly Comparison
+                - listitem [ref=e63]:
+                  - link "Top Movers" [ref=e64] [cursor=pointer]:
+                    - /url: /road/lanes/top-movers/standard
+                    - generic [ref=e66]: Top Movers
+          - listitem [ref=e67]:
+            - generic [ref=e68]:
+              - link "Rates" [ref=e69] [cursor=pointer]:
+                - /url: /road/rates
+                - img [ref=e71]
+                - generic [ref=e74]: Rates
+              - button "Expand Rates submenu" [ref=e75] [cursor=pointer]:
+                - generic [ref=e77]:
+                  - img [ref=e78]
+                  - generic [ref=e80]: Expand Rates submenu
+          - listitem [ref=e81]:
+            - link "Capacity" [ref=e82] [cursor=pointer]:
+              - /url: /road/capacity
+              - img [ref=e84]
+              - generic [ref=e87]: Capacity
+          - listitem [ref=e88]:
+            - generic [ref=e89]:
+              - link "Costs" [ref=e90] [cursor=pointer]:
+                - /url: /road/costs
+                - img [ref=e92]
+                - generic [ref=e95]: Costs
+              - button "Expand Costs submenu" [ref=e96] [cursor=pointer]:
+                - generic [ref=e98]:
+                  - img [ref=e99]
+                  - generic [ref=e101]: Expand Costs submenu
+          - listitem [ref=e102]:
+            - generic [ref=e103]:
+              - link "Rate on Demand" [ref=e104] [cursor=pointer]:
+                - /url: /road/rate-on-demand
+                - img [ref=e106]
+                - generic [ref=e109]: Rate on Demand
+              - button "Expand Rate on Demand submenu" [ref=e110] [cursor=pointer]:
+                - generic [ref=e112]:
+                  - img [ref=e113]
+                  - generic [ref=e115]: Expand Rate on Demand submenu
+          - listitem [ref=e116]:
+            - link "Dashboard" [ref=e117] [cursor=pointer]:
+              - /url: /road/dashboards
+              - img [ref=e119]
+              - generic [ref=e122]: Dashboard
+          - separator [ref=e123]
+          - listitem [ref=e124]:
+            - generic [ref=e125]:
+              - link "Autonomous Quotation" [ref=e126] [cursor=pointer]:
+                - /url: /autonomous-quotation
+                - img [ref=e128]
+                - generic [ref=e131]: Autonomous Quotation
+              - button "Expand Autonomous Quotation submenu" [ref=e132] [cursor=pointer]:
+                - generic [ref=e134]:
+                  - img [ref=e135]
+                  - generic [ref=e137]: Expand Autonomous Quotation submenu
+          - separator [ref=e138]
+          - listitem [ref=e139]:
+            - link "Subscriptions" [ref=e140] [cursor=pointer]:
+              - /url: /road/subscriptions
+              - img [ref=e142]
+              - generic [ref=e145]: Subscriptions
+          - listitem [ref=e146]:
+            - link "Settings" [ref=e147] [cursor=pointer]:
+              - /url: /settings
+              - img [ref=e149]
+              - generic [ref=e152]: Settings
+          - listitem [ref=e153]:
+            - generic [ref=e154]:
+              - link "Help" [ref=e155] [cursor=pointer]:
+                - /url: /road/help
+                - img [ref=e157]
+                - generic [ref=e160]: Help
+              - button "Expand Help submenu" [ref=e161] [cursor=pointer]:
+                - generic [ref=e163]:
+                  - img [ref=e164]
+                  - generic [ref=e166]: Expand Help submenu
+          - listitem [ref=e167]:
+            - link "Contact support" [ref=e168] [cursor=pointer]:
+              - /url: /road/lanes/top-movers/standard?sidepanel=contact-support
+              - img [ref=e170]
+              - generic [ref=e173]: Contact support
+      - button "Log out" [ref=e176] [cursor=pointer]:
+        - img [ref=e177]
+        - generic [ref=e179]: Log out
+      - button "Collapse navigation" [expanded] [ref=e181] [cursor=pointer]:
+        - img [ref=e182]
+        - generic [ref=e184]: Collapse navigation
+  - main [ref=e191]:
+    - generic [ref=e193]:
+      - img "Metric preview" [ref=e194]
+      - generic [ref=e196]:
+        - heading "Core Metrics is not part of your subscription" [level=2] [ref=e197]
+        - generic [ref=e198]: Your company has not purchased Core Metrics. If you are interested in using this service, please contact our sales team.
+        - button "Contact sales" [ref=e199] [cursor=pointer]:
+          - generic [ref=e202]: Contact sales

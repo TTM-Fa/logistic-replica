@@ -1,0 +1,126 @@
+
+.isypxo0 {
+  position: absolute;
+  border-radius: var(--_7msrlr8u);
+  max-width: 210px;
+  text-align: center;
+}
+.isypxo1 {
+  background-color: var(--_7msrlr68);
+  color: var(--_7msrlr63);
+}
+.isypxo2 {
+  background-color: var(--_7msrlr70);
+}
+._10amxbj0 {
+  padding: var(--_7msrlr9m);
+  text-align: center;
+  max-width: 30%;
+  min-width: 250px;
+}
+.kjkrii0 {
+  padding-top: 0;
+  padding-bottom: 0;
+  display: flex;
+}
+.kjkrii0 > :last-child {
+  width: 100%;
+  justify-content: space-between;
+}
+.kjkrii1 {
+  background-color: var(--_7msrlr6z);
+}
+.kjkrii2 {
+  background-color: var(--_7msrlr70);
+}
+.kjkrii3 {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+._1rlij3x0 {
+  width: 50%;
+}
+._1rlij3x1 {
+  width: 450px;
+  min-width: 450px;
+}
+._1rlij3x2 {
+  background-color: var(--_7msrlr75);
+}
+._1rlij3x3 {
+  background-color: var(--_7msrlr76);
+}
+._1rlij3x4 {
+  text-align: center;
+}
+@media (max-width: 1023px) {
+  ._1rlij3x0 {
+    width: 100%;
+  }
+  ._1rlij3x1 {
+    padding-inline: 0;
+  }
+  ._1rlij3x2 {
+    min-width: unset;
+    align-items: center;
+  }
+  ._1rlij3x3 {
+    min-width: unset;
+    align-items: center;
+  }
+}
+._5pdeum0 {
+  max-width: 90%;
+}
+._1jtw26f0 {
+  background-color: var(--_7msrlr6z);
+}
+._1uxcraf0 {
+  display: flex;
+  justify-content: flex-start;
+  height: 600px;
+  min-width: 600px;
+  position: relative;
+}
+._1uxcraf1 {
+  object-fit: cover;
+  object-position: left;
+  display: flex;
+  height: 600px;
+  box-shadow: var(--_7msrlraq);
+  border-radius: var(--_7msrlr8u);
+  overflow: hidden;
+}
+._1va00je0 {
+  flex: 1;
+}
+._1va00je1 {
+  flex: 1;
+  min-width: 500px;
+}
+._1va00je2 {
+  width: 440px;
+}
+._1va00je3 {
+  display: flex;
+}
+@media (max-width: 1399px) {
+  ._1va00je1 {
+    align-items: center;
+  }
+  ._1va00je2 {
+    max-width: 500px;
+    width: unset;
+  }
+}
+.o55ez40 {
+  gap: 72px;
+}
+.o55ez41 {
+  max-width: 900px;
+  gap: 72px;
+  align-self: center;
+}
+
+/*# sourceMappingURL=6019.9be5d0bd11a333ac60a5.css.map*/

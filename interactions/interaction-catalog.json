@@ -1,0 +1,3925 @@
+{
+  "lane-overview": {
+    "url": "https://insights.transporeon.com/road/lanes/lane-overview/standard",
+    "elements": [
+      {
+        "selector": "button:nth-of-type(1)",
+        "type": "button",
+        "text": "Expand Market Overview submenu",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_54_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 129,
+          "width": 24,
+          "height": 24,
+          "top": 129,
+          "right": 235,
+          "bottom": 153,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_54_\" aria-expanded=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451"
+      },
+      {
+        "selector": "button:nth-of-type(2)",
+        "type": "button",
+        "text": "Expand Lanes submenu",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_5b_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 173,
+          "width": 24,
+          "height": 24,
+          "top": 173,
+          "right": 235,
+          "bottom": 197,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_5b_\" aria-expanded=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451"
+      },
+      {
+        "selector": "button:nth-of-type(3)",
+        "type": "button",
+        "text": "Expand Rates submenu",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_5m_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 217,
+          "width": 24,
+          "height": 24,
+          "top": 217,
+          "right": 235,
+          "bottom": 241,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_5m_\" aria-expanded=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451"
+      },
+      {
+        "selector": "button:nth-of-type(4)",
+        "type": "button",
+        "text": "Expand Costs submenu",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_64_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 305,
+          "width": 24,
+          "height": 24,
+          "top": 305,
+          "right": 235,
+          "bottom": 329,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_64_\" aria-expanded=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451"
+      },
+      {
+        "selector": "button:nth-of-type(5)",
+        "type": "button",
+        "text": "Expand Rate on Demand submenu",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_6d_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 349,
+          "width": 24,
+          "height": 24,
+          "top": 349,
+          "right": 235,
+          "bottom": 373,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_6d_\" aria-expanded=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451"
+      },
+      {
+        "selector": "button:nth-of-type(6)",
+        "type": "button",
+        "text": "Expand Autonomous Quotation submenu",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_6p_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 466,
+          "width": 24,
+          "height": 24,
+          "top": 466,
+          "right": 235,
+          "bottom": 490,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_6p_\" aria-expanded=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451"
+      },
+      {
+        "selector": "button:nth-of-type(7)",
+        "type": "button",
+        "text": "Collapse Help submenu",
+        "ariaExpanded": "true",
+        "ariaControls": "_r_7c_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 627,
+          "width": 24,
+          "height": 24,
+          "top": 627,
+          "right": 235,
+          "bottom": 651,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_7c_\" aria-expanded=\"true\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c654512"
+      },
+      {
+        "selector": "button:nth-of-type(8)",
+        "type": "button",
+        "text": "Log out",
+        "ariaExpanded": null,
+        "ariaControls": null,
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "izf0mf0 izf0mf4 izf0mfc izf0mfh izf0mfm izf0mfn izf0mfv izf0mfx izf0mf15 izf0mf1d izf0mf1l izf0mf1w izf0mf1t _1ie0trf8 _1j8ajjw1",
+        "rect": {
+          "x": 12,
+          "y": 944,
+          "width": 231,
+          "height": 40,
+          "top": 944,
+          "right": 243,
+          "bottom": 984,
+          "left": 12
+        },
+        "outerHTML": "<button class=\"izf0mf0 izf0mf4 izf0mfc izf0mfh izf0mfm izf0mfn izf0mfv izf0mfx izf0mf15 izf0mf1d izf0mf1l izf0mf1w izf0mf1t _1ie0trf8 _1j8ajjw1\" type=\"submit\"><svg width=\"24\" height=\"24\" class=\"gkj6b50 _1ie0trfa\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451261fa5bb76c97c.svg#logout\"></u"
+      },
+      {
+        "selector": "button:nth-of-type(10)",
+        "type": "button",
+        "text": "Previous",
+        "ariaExpanded": null,
+        "ariaControls": null,
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv88 _18ctzv86 _18ctzv83 y6gieja",
+        "rect": {
+          "x": 648,
+          "y": 572.390625,
+          "width": 40,
+          "height": 40,
+          "top": 572.390625,
+          "right": 688,
+          "bottom": 612.390625,
+          "left": 648
+        },
+        "outerHTML": "<button class=\"_18ctzv81 _18ctzv88 _18ctzv86 _18ctzv83 y6gieja\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451261fa5bb76c97c.svg#small-chevron-left\"></use><"
+      },
+      {
+        "selector": "button:nth-of-type(11)",
+        "type": "button",
+        "text": "Next",
+        "ariaExpanded": null,
+        "ariaControls": null,
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv88 _18ctzv86 _18ctzv83 y6giejb",
+        "rect": {
+          "x": 1488,
+          "y": 572.390625,
+          "width": 40,
+          "height": 40,
+          "top": 572.390625,
+          "right": 1528,
+          "bottom": 612.390625,
+          "left": 1488
+        },
+        "outerHTML": "<button class=\"_18ctzv81 _18ctzv88 _18ctzv86 _18ctzv83 y6giejb\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451261fa5bb76c97c.svg#small-chevron-right\"></use>"
+      },
+      {
+        "selector": "button:nth-of-type(12)",
+        "type": "button",
+        "text": "Copy link",
+        "ariaExpanded": null,
+        "ariaControls": null,
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _33ozil1 _16bvz761",
+        "rect": {
+          "x": 963.375,
+          "y": 648.78125,
+          "width": 8,
+          "height": 4,
+          "top": 648.78125,
+          "right": 971.375,
+          "bottom": 652.78125,
+          "left": 963.375
+        },
+        "outerHTML": "<button class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _33ozil1 _16bvz761\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451261fa5bb76c97c.svg#small-link\"></us"
+      },
+      {
+        "selector": "button:nth-of-type(13)",
+        "type": "button",
+        "text": "Contact sales",
+        "ariaExpanded": null,
+        "ariaControls": null,
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv89 _18ctzv86",
+        "rect": {
+          "x": 1027.078125,
+          "y": 963.78125,
+          "width": 121.828125,
+          "height": 40,
+          "top": 963.78125,
+          "right": 1148.90625,
+          "bottom": 1003.78125,
+          "left": 1027.078125
+        },
+        "outerHTML": "<button class=\"_18ctzv81 _18ctzv89 _18ctzv86\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><span class=\"_18ctzv8n\">Contact sales</span></span></button>"
+      },
+      {
+        "selector": "button:nth-of-type(75)",
+        "type": "button",
+        "text": "Contact support",
+        "ariaExpanded": "false",
+        "ariaControls": null,
+        "ariaHaspopup": "dialog",
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv89 _18ctzv86",
+        "rect": {
+          "x": 1017.3125,
+          "y": 14722.125,
+          "width": 141.375,
+          "height": 40,
+          "top": 14722.125,
+          "right": 1158.6875,
+          "bottom": 14762.125,
+          "left": 1017.3125
+        },
+        "outerHTML": "<button aria-expanded=\"false\" aria-haspopup=\"dialog\" class=\"_18ctzv81 _18ctzv89 _18ctzv86\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><span class=\"_18ctzv8n\">Contact support</span></span></button>"
+      },
+      {
+        "selector": "[role=\"null\"]:nth-of-type(1)",
+        "type": "clickable",
+        "text": "ReleasesLatest releasePreviousNextNew Diesel Price viewCopy ",
+        "classes": "l6zkfw0 l6zkfw1 l6zkfw9 l6zkfwh l6zkfwp l6zkfwx l6zkfw10 _146tvct0 _5giecy0",
+        "rect": {
+          "x": 256,
+          "y": 0,
+          "width": 1664,
+          "height": 1080,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "left": 256
+        }
+      }
+    ],
+    "interactions": [
+      {
+        "elementIndex": 0,
+        "elementType": "button",
+        "elementText": "Expand Market Overview submenu",
+        "elementClasses": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_54_",
+        "ariaHaspopup": null,
+        "clickCoords": {
+          "x": 223,
+          "y": 141
+        },
+        "domChanges": 7,
+        "changes": [
+          {
+            "type": "changed",
+            "key": "aria__r_54_",
+            "changes": {
+              "ariaExpanded": {
+                "from": "false",
+                "to": "true"
+              }
+            }
+          },
+          {
+            "type": "changed",
+            "key": "aria__r_5b_",
+            "changes": {
+              "rect": {
+                "from": {
+                  "x": 211,
+                  "y": 173,
+                  "width": 24,
+                  "height": 24,
+                  "top": 173,
+                  "right": 235,
+                  "bottom": 197,
+                  "left": 211
+                },
+                "to": {
+                  "x": 211,
+                  "y": 245,
+                  "width": 24,
+                  "height": 24,
+                  "top": 245,
+                  "right": 235,
+                  "bottom": 269,
+                  "left": 211
+                }
+              }
+            }
+          },
+          {
+            "type": "changed",
+            "key": "aria__r_5m_",
+            "changes": {
+              "rect": {
+                "from": {
+                  "x": 211,
+                  "y": 217,
+                  "width": 24,
+                  "height": 24,
+                  "top": 217,
+                  "right": 235,
+                  "bottom": 241,
+                  "left": 211
+                },
+                "to": {
+                  "x": 211,
+                  "y": 289,
+                  "width": 24,
+                  "height": 24,
+                  "top": 289,
+                  "right": 235,
+                  "bottom": 313,
+                  "left": 211
+                }
+              }
+            }
+          },
+          {
+            "type": "changed",
+            "key": "aria__r_64_",
+            "changes": {
+              "rect": {
+                "from": {
+                  "x": 211,
+                  "y": 305,
+                  "width": 24,
+                  "height": 24,
+                  "top": 305,
+                  "right": 235,
+                  "bottom": 329,
+                  "left": 211
+                },
+                "to": {
+                  "x": 211,
+                  "y": 377,
+                  "width": 24,
+                  "height": 24,
+                  "top": 377,
+                  "right": 235,
+                  "bottom": 401,
+                  "left": 211
+                }
+              }
+            }
+          },
+          {
+            "type": "changed",
+            "key": "aria__r_6d_",
+            "changes": {
+              "rect": {
+                "from": {
+                  "x": 211,
+                  "y": 349,
+                  "width": 24,
+                  "height": 24,
+                  "top": 349,
+                  "right": 235,
+                  "bottom": 373,
+                  "left": 211
+                },
+                "to": {
+                  "x": 211,
+                  "y": 421,
+                  "width": 24,
+                  "height": 24,
+                  "top": 421,
+                  "right": 235,
+                  "bottom": 445,
+                  "left": 211
+                }
+              }
+            }
+          },
+          {
+            "type": "changed",
+            "key": "aria__r_6p_",
+            "changes": {
+              "rect": {
+                "from": {
+                  "x": 211,
+                  "y": 466,
+                  "width": 24,
+                  "height": 24,
+                  "top": 466,
+                  "right": 235,
+                  "bottom": 490,
+                  "left": 211
+                },
+                "to": {
+                  "x": 211,
+                  "y": 538,
+                  "width": 24,
+                  "height": 24,
+                  "top": 538,
+                  "right": 235,
+                  "bottom": 562,
+                  "left": 211
+                }
+              }
+            }
+          },
+          {
+            "type": "changed",
+            "key": "aria__r_7c_",
+            "changes": {
+              "rect": {
+                "from": {
+                  "x": 211,
+                  "y": 627,
+                  "width": 24,
+                  "height": 24,
+                  "top": 627,
+                  "right": 235,
+                  "bottom": 651,
+                  "left": 211
+                },
+                "to": {
+                  "x": 211,
+                  "y": 699,
+                  "width": 24,
+                  "height": 24,
+                  "top": 699,
+                  "right": 235,
+                  "bottom": 723,
+                  "left": 211
+                }
+              }
+            }
+          }
+        ],
+        "newVisibleElements": [],
+        "screenshotAfter": "/home/taha/Projects/logistic-replica/interactions/lane-overview-0-after.png"
+      },
+      {
+        "elementIndex": 1,
+        "elementType": "button",
+        "elementText": "Expand Lanes submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 2,
+        "elementType": "button",
+        "elementText": "Expand Rates submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 3,
+        "elementType": "button",
+        "elementText": "Expand Costs submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 4,
+        "elementType": "button",
+        "elementText": "Expand Rate on Demand submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 5,
+        "elementType": "button",
+        "elementText": "Expand Autonomous Quotation submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 6,
+        "elementType": "button",
+        "elementText": "Collapse Help submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 7,
+        "elementType": "button",
+        "elementText": "Log out",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 8,
+        "elementType": "button",
+        "elementText": "Previous",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 9,
+        "elementType": "button",
+        "elementText": "Next",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 10,
+        "elementType": "button",
+        "elementText": "Copy link",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 11,
+        "elementType": "button",
+        "elementText": "Contact sales",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 12,
+        "elementType": "button",
+        "elementText": "Contact support",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 13,
+        "elementType": "clickable",
+        "elementText": "ReleasesLatest releasePreviousNextNew Diesel Price viewCopy ",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      }
+    ],
+    "hoverEffects": []
+  },
+  "lane-comparison": {
+    "url": "https://insights.transporeon.com/road/lanes/lane-comparison/standard",
+    "elements": [
+      {
+        "selector": "button:nth-of-type(1)",
+        "type": "button",
+        "text": "Expand Market Overview submenu",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_b_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 129,
+          "width": 24,
+          "height": 24,
+          "top": 129,
+          "right": 235,
+          "bottom": 153,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_b_\" aria-expanded=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c654512"
+      },
+      {
+        "selector": "button:nth-of-type(2)",
+        "type": "button",
+        "text": "Collapse Lanes submenu",
+        "ariaExpanded": "true",
+        "ariaControls": "_r_i_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 173,
+          "width": 24,
+          "height": 24,
+          "top": 173,
+          "right": 235,
+          "bottom": 197,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_i_\" aria-expanded=\"true\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c6545126"
+      },
+      {
+        "selector": "button:nth-of-type(3)",
+        "type": "button",
+        "text": "Expand Rates submenu",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_t_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 361,
+          "width": 24,
+          "height": 24,
+          "top": 361,
+          "right": 235,
+          "bottom": 385,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_t_\" aria-expanded=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c654512"
+      },
+      {
+        "selector": "button:nth-of-type(4)",
+        "type": "button",
+        "text": "Expand Costs submenu",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_1b_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 449,
+          "width": 24,
+          "height": 24,
+          "top": 449,
+          "right": 235,
+          "bottom": 473,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_1b_\" aria-expanded=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451"
+      },
+      {
+        "selector": "button:nth-of-type(5)",
+        "type": "button",
+        "text": "Expand Rate on Demand submenu",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_1k_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 493,
+          "width": 24,
+          "height": 24,
+          "top": 493,
+          "right": 235,
+          "bottom": 517,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_1k_\" aria-expanded=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451"
+      },
+      {
+        "selector": "button:nth-of-type(6)",
+        "type": "button",
+        "text": "Expand Autonomous Quotation submenu",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_20_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 610,
+          "width": 24,
+          "height": 24,
+          "top": 610,
+          "right": 235,
+          "bottom": 634,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_20_\" aria-expanded=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451"
+      },
+      {
+        "selector": "button:nth-of-type(7)",
+        "type": "button",
+        "text": "Expand Help submenu",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_2j_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 771,
+          "width": 24,
+          "height": 24,
+          "top": 771,
+          "right": 235,
+          "bottom": 795,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_2j_\" aria-expanded=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451"
+      },
+      {
+        "selector": "button:nth-of-type(8)",
+        "type": "button",
+        "text": "Log out",
+        "ariaExpanded": null,
+        "ariaControls": null,
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "izf0mf0 izf0mf4 izf0mfc izf0mfh izf0mfm izf0mfn izf0mfv izf0mfx izf0mf15 izf0mf1d izf0mf1l izf0mf1w izf0mf1t _1ie0trf8 _1j8ajjw1",
+        "rect": {
+          "x": 12,
+          "y": 872,
+          "width": 231,
+          "height": 40,
+          "top": 872,
+          "right": 243,
+          "bottom": 912,
+          "left": 12
+        },
+        "outerHTML": "<button class=\"izf0mf0 izf0mf4 izf0mfc izf0mfh izf0mfm izf0mfn izf0mfv izf0mfx izf0mf15 izf0mf1d izf0mf1l izf0mf1w izf0mf1t _1ie0trf8 _1j8ajjw1\" type=\"submit\"><svg width=\"24\" height=\"24\" class=\"gkj6b50 _1ie0trfa\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451261fa5bb76c97c.svg#logout\"></u"
+      },
+      {
+        "selector": "button:nth-of-type(10)",
+        "type": "button",
+        "text": "Help",
+        "ariaExpanded": "false",
+        "ariaControls": null,
+        "ariaHaspopup": "dialog",
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8b _18ctzv85",
+        "rect": {
+          "x": 487.546875,
+          "y": 16,
+          "width": 71.21875,
+          "height": 32,
+          "top": 16,
+          "right": 558.765625,
+          "bottom": 48,
+          "left": 487.546875
+        },
+        "outerHTML": "<button aria-expanded=\"false\" aria-haspopup=\"dialog\" class=\"_18ctzv81 _18ctzv8b _18ctzv85\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451261fa5bb76c97c.svg#"
+      },
+      {
+        "selector": "button:nth-of-type(11)",
+        "type": "button",
+        "text": "Toggle fullscreen",
+        "ariaExpanded": null,
+        "ariaControls": null,
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv88 _18ctzv85 _18ctzv83",
+        "rect": {
+          "x": 1872,
+          "y": 16,
+          "width": 32,
+          "height": 32,
+          "top": 16,
+          "right": 1904,
+          "bottom": 48,
+          "left": 1872
+        },
+        "outerHTML": "<button class=\"_18ctzv81 _18ctzv88 _18ctzv85 _18ctzv83\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451261fa5bb76c97c.svg#small-expand\"></use></svg><span cla"
+      },
+      {
+        "selector": "#_r_3j_-button",
+        "type": "button",
+        "text": "Last 2 years",
+        "ariaExpanded": null,
+        "ariaControls": null,
+        "ariaHaspopup": "menu",
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv88 _18ctzv85 ryo8nr3",
+        "rect": {
+          "x": 272,
+          "y": 113,
+          "width": 141.078125,
+          "height": 32,
+          "top": 113,
+          "right": 413.078125,
+          "bottom": 145,
+          "left": 272
+        },
+        "outerHTML": "<button data-testid=\"date-select-dropdown\" id=\"_r_3j_-button\" aria-haspopup=\"menu\" class=\"_18ctzv81 _18ctzv88 _18ctzv85 ryo8nr3\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/i"
+      },
+      {
+        "selector": "button:nth-of-type(13)",
+        "type": "button",
+        "text": "Edit lanes",
+        "ariaExpanded": "false",
+        "ariaControls": null,
+        "ariaHaspopup": "dialog",
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv89 _18ctzv85",
+        "rect": {
+          "x": 741.53125,
+          "y": 113,
+          "width": 81.40625,
+          "height": 32,
+          "top": 113,
+          "right": 822.9375,
+          "bottom": 145,
+          "left": 741.53125
+        },
+        "outerHTML": "<button aria-expanded=\"false\" aria-haspopup=\"dialog\" class=\"_18ctzv81 _18ctzv89 _18ctzv85\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><span class=\"_18ctzv8n\">Edit lanes</span></span></button>"
+      },
+      {
+        "selector": "#_r_41_-button",
+        "type": "button",
+        "text": "Export",
+        "ariaExpanded": null,
+        "ariaControls": null,
+        "ariaHaspopup": "menu",
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv88 _18ctzv85 _18ctzv87",
+        "rect": {
+          "x": 1819.625,
+          "y": 113,
+          "width": 84.375,
+          "height": 32,
+          "top": 113,
+          "right": 1904,
+          "bottom": 145,
+          "left": 1819.625
+        },
+        "outerHTML": "<button data-testid=\"export-dropdown\" id=\"_r_41_-button\" aria-haspopup=\"menu\" class=\"_18ctzv81 _18ctzv88 _18ctzv85 _18ctzv87\" aria-disabled=\"true\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><span class=\"_18ctzv8n\">Export</span><svg width=\"16\" height=\"16\" class=\"gk"
+      },
+      {
+        "selector": "button:nth-of-type(15)",
+        "type": "button",
+        "text": "More information",
+        "ariaExpanded": "false",
+        "ariaControls": null,
+        "ariaHaspopup": "dialog",
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83",
+        "rect": {
+          "x": 513.5625,
+          "y": 983,
+          "width": 24,
+          "height": 24,
+          "top": 983,
+          "right": 537.5625,
+          "bottom": 1007,
+          "left": 513.5625
+        },
+        "outerHTML": "<button aria-expanded=\"false\" aria-haspopup=\"dialog\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451261fa5bb7"
+      },
+      {
+        "selector": "#_r_3q_",
+        "type": "input",
+        "inputType": "text",
+        "placeholder": "",
+        "value": "",
+        "classes": "css-1hac4vs-dummyInput",
+        "rect": {
+          "x": 376.1356201171875,
+          "y": 128.91952514648438,
+          "width": 0.010009765625,
+          "height": 0.16094970703125,
+          "top": 128.91952514648438,
+          "right": 376.1456298828125,
+          "bottom": 129.08047485351562,
+          "left": 376.1356201171875
+        }
+      },
+      {
+        "selector": "#_r_3t_",
+        "type": "input",
+        "inputType": "text",
+        "placeholder": "",
+        "value": "",
+        "classes": "css-1hac4vs-dummyInput",
+        "rect": {
+          "x": 592.0262451171875,
+          "y": 128.91952514648438,
+          "width": 0.010009765625,
+          "height": 0.16094970703125,
+          "top": 128.91952514648438,
+          "right": 592.0362548828125,
+          "bottom": 129.08047485351562,
+          "left": 592.0262451171875
+        }
+      },
+      {
+        "selector": "[role=\"null\"]:nth-of-type(1)",
+        "type": "clickable",
+        "text": "Lane ComparisonHelpToggle fullscreenStandardReeferLast 2 yea",
+        "classes": "l6zkfw0 l6zkfw1 l6zkfw9 l6zkfwh l6zkfwp l6zkfwx l6zkfw10 _146tvct0 _5giecy0",
+        "rect": {
+          "x": 256,
+          "y": 0,
+          "width": 1664,
+          "height": 1080,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "left": 256
+        }
+      }
+    ],
+    "interactions": [
+      {
+        "elementIndex": 0,
+        "elementType": "button",
+        "elementText": "Expand Market Overview submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 1,
+        "elementType": "button",
+        "elementText": "Collapse Lanes submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 2,
+        "elementType": "button",
+        "elementText": "Expand Rates submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 3,
+        "elementType": "button",
+        "elementText": "Expand Costs submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 4,
+        "elementType": "button",
+        "elementText": "Expand Rate on Demand submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 5,
+        "elementType": "button",
+        "elementText": "Expand Autonomous Quotation submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 6,
+        "elementType": "button",
+        "elementText": "Expand Help submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 7,
+        "elementType": "button",
+        "elementText": "Log out",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 8,
+        "elementType": "button",
+        "elementText": "Help",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 9,
+        "elementType": "button",
+        "elementText": "Toggle fullscreen",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 10,
+        "elementType": "button",
+        "elementText": "Last 2 years",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 11,
+        "elementType": "button",
+        "elementText": "Edit lanes",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 12,
+        "elementType": "button",
+        "elementText": "Export",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 13,
+        "elementType": "button",
+        "elementText": "More information",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 14,
+        "elementType": "input",
+        "elementText": "",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 15,
+        "elementType": "input",
+        "elementText": "",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 16,
+        "elementType": "clickable",
+        "elementText": "Lane ComparisonHelpToggle fullscreenStandardReeferLast 2 yea",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      }
+    ],
+    "hoverEffects": [
+      {
+        "elementIndex": 8,
+        "elementText": "Help",
+        "tooltips": [
+          {
+            "text": "Open the online help for this view",
+            "classes": "qbb9jo8 qbb9jo5 qbb9jo2"
+          }
+        ]
+      },
+      {
+        "elementIndex": 10,
+        "elementText": "Last 2 years",
+        "tooltips": [
+          {
+            "text": "Select a different date range",
+            "classes": "qbb9jo8 qbb9jo4 qbb9jo2"
+          }
+        ]
+      },
+      {
+        "elementIndex": 12,
+        "elementText": "Export",
+        "tooltips": [
+          {
+            "text": "This option is only available in the paid version",
+            "classes": "qbb9jo8 qbb9jo4 qbb9jo2"
+          }
+        ]
+      },
+      {
+        "elementIndex": 14,
+        "elementText": "",
+        "tooltips": [
+          {
+            "text": "Select a different date range",
+            "classes": "qbb9jo8 qbb9jo4 qbb9jo2"
+          }
+        ]
+      }
+    ]
+  },
+  "freight-perspectives": {
+    "url": "https://insights.transporeon.com/road/freight-perspectives",
+    "elements": [
+      {
+        "selector": "button:nth-of-type(1)",
+        "type": "button",
+        "text": "Expand Market Overview submenu",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_b_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 129,
+          "width": 24,
+          "height": 24,
+          "top": 129,
+          "right": 235,
+          "bottom": 153,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_b_\" aria-expanded=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c654512"
+      },
+      {
+        "selector": "button:nth-of-type(2)",
+        "type": "button",
+        "text": "Expand Lanes submenu",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_i_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 173,
+          "width": 24,
+          "height": 24,
+          "top": 173,
+          "right": 235,
+          "bottom": 197,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_i_\" aria-expanded=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c654512"
+      },
+      {
+        "selector": "button:nth-of-type(3)",
+        "type": "button",
+        "text": "Expand Rates submenu",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_t_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 217,
+          "width": 24,
+          "height": 24,
+          "top": 217,
+          "right": 235,
+          "bottom": 241,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_t_\" aria-expanded=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c654512"
+      },
+      {
+        "selector": "button:nth-of-type(4)",
+        "type": "button",
+        "text": "Expand Costs submenu",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_1b_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 305,
+          "width": 24,
+          "height": 24,
+          "top": 305,
+          "right": 235,
+          "bottom": 329,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_1b_\" aria-expanded=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451"
+      },
+      {
+        "selector": "button:nth-of-type(5)",
+        "type": "button",
+        "text": "Expand Rate on Demand submenu",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_1k_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 349,
+          "width": 24,
+          "height": 24,
+          "top": 349,
+          "right": 235,
+          "bottom": 373,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_1k_\" aria-expanded=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451"
+      },
+      {
+        "selector": "button:nth-of-type(6)",
+        "type": "button",
+        "text": "Expand Autonomous Quotation submenu",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_20_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 466,
+          "width": 24,
+          "height": 24,
+          "top": 466,
+          "right": 235,
+          "bottom": 490,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_20_\" aria-expanded=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451"
+      },
+      {
+        "selector": "button:nth-of-type(7)",
+        "type": "button",
+        "text": "Expand Help submenu",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_2j_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 627,
+          "width": 24,
+          "height": 24,
+          "top": 627,
+          "right": 235,
+          "bottom": 651,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_2j_\" aria-expanded=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451"
+      },
+      {
+        "selector": "button:nth-of-type(8)",
+        "type": "button",
+        "text": "Log out",
+        "ariaExpanded": null,
+        "ariaControls": null,
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "izf0mf0 izf0mf4 izf0mfc izf0mfh izf0mfm izf0mfn izf0mfv izf0mfx izf0mf15 izf0mf1d izf0mf1l izf0mf1w izf0mf1t _1ie0trf8 _1j8ajjw1",
+        "rect": {
+          "x": 12,
+          "y": 728,
+          "width": 231,
+          "height": 40,
+          "top": 728,
+          "right": 243,
+          "bottom": 768,
+          "left": 12
+        },
+        "outerHTML": "<button class=\"izf0mf0 izf0mf4 izf0mfc izf0mfh izf0mfm izf0mfn izf0mfv izf0mfx izf0mf15 izf0mf1d izf0mf1l izf0mf1w izf0mf1t _1ie0trf8 _1j8ajjw1\" type=\"submit\"><svg width=\"24\" height=\"24\" class=\"gkj6b50 _1ie0trfa\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451261fa5bb76c97c.svg#logout\"></u"
+      },
+      {
+        "selector": "button:nth-of-type(10)",
+        "type": "button",
+        "text": "Enable email notifications",
+        "ariaExpanded": null,
+        "ariaControls": null,
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8b _18ctzv85",
+        "rect": {
+          "x": 517.203125,
+          "y": 16,
+          "width": 214.765625,
+          "height": 32,
+          "top": 16,
+          "right": 731.96875,
+          "bottom": 48,
+          "left": 517.203125
+        },
+        "outerHTML": "<button class=\"_18ctzv81 _18ctzv8b _18ctzv85\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><span class=\"_18ctzv8n\">Enable email notifications</span><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451261fa5b"
+      },
+      {
+        "selector": "button:nth-of-type(11)",
+        "type": "button",
+        "text": "Toggle fullscreen",
+        "ariaExpanded": null,
+        "ariaControls": null,
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv88 _18ctzv85 _18ctzv83",
+        "rect": {
+          "x": 1872,
+          "y": 16,
+          "width": 32,
+          "height": 32,
+          "top": 16,
+          "right": 1904,
+          "bottom": 48,
+          "left": 1872
+        },
+        "outerHTML": "<button class=\"_18ctzv81 _18ctzv88 _18ctzv85 _18ctzv83\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451261fa5bb76c97c.svg#small-expand\"></use></svg><span cla"
+      },
+      {
+        "selector": "#_r_3h_",
+        "type": "input",
+        "inputType": "text",
+        "placeholder": "Search for articles",
+        "value": "",
+        "classes": "mvq6e7",
+        "rect": {
+          "x": 688,
+          "y": 90,
+          "width": 824,
+          "height": 30,
+          "top": 90,
+          "right": 1512,
+          "bottom": 120,
+          "left": 688
+        }
+      },
+      {
+        "selector": "[role=\"null\"]:nth-of-type(1)",
+        "type": "clickable",
+        "text": "Freight PerspectivesEnable email notificationsToggle fullscr",
+        "classes": "l6zkfw0 l6zkfw1 l6zkfw9 l6zkfwh l6zkfwp l6zkfwx l6zkfw10 _146tvct0 _5giecy0",
+        "rect": {
+          "x": 256,
+          "y": 0,
+          "width": 1664,
+          "height": 1080,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "left": 256
+        }
+      }
+    ],
+    "interactions": [
+      {
+        "elementIndex": 0,
+        "elementType": "button",
+        "elementText": "Expand Market Overview submenu",
+        "elementClasses": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_b_",
+        "ariaHaspopup": null,
+        "clickCoords": {
+          "x": 223,
+          "y": 141
+        },
+        "domChanges": 7,
+        "changes": [
+          {
+            "type": "changed",
+            "key": "aria__r_b_",
+            "changes": {
+              "ariaExpanded": {
+                "from": "false",
+                "to": "true"
+              }
+            }
+          },
+          {
+            "type": "changed",
+            "key": "aria__r_i_",
+            "changes": {
+              "rect": {
+                "from": {
+                  "x": 211,
+                  "y": 173,
+                  "width": 24,
+                  "height": 24,
+                  "top": 173,
+                  "right": 235,
+                  "bottom": 197,
+                  "left": 211
+                },
+                "to": {
+                  "x": 211,
+                  "y": 245,
+                  "width": 24,
+                  "height": 24,
+                  "top": 245,
+                  "right": 235,
+                  "bottom": 269,
+                  "left": 211
+                }
+              }
+            }
+          },
+          {
+            "type": "changed",
+            "key": "aria__r_t_",
+            "changes": {
+              "rect": {
+                "from": {
+                  "x": 211,
+                  "y": 217,
+                  "width": 24,
+                  "height": 24,
+                  "top": 217,
+                  "right": 235,
+                  "bottom": 241,
+                  "left": 211
+                },
+                "to": {
+                  "x": 211,
+                  "y": 289,
+                  "width": 24,
+                  "height": 24,
+                  "top": 289,
+                  "right": 235,
+                  "bottom": 313,
+                  "left": 211
+                }
+              }
+            }
+          },
+          {
+            "type": "changed",
+            "key": "aria__r_1b_",
+            "changes": {
+              "rect": {
+                "from": {
+                  "x": 211,
+                  "y": 305,
+                  "width": 24,
+                  "height": 24,
+                  "top": 305,
+                  "right": 235,
+                  "bottom": 329,
+                  "left": 211
+                },
+                "to": {
+                  "x": 211,
+                  "y": 377,
+                  "width": 24,
+                  "height": 24,
+                  "top": 377,
+                  "right": 235,
+                  "bottom": 401,
+                  "left": 211
+                }
+              }
+            }
+          },
+          {
+            "type": "changed",
+            "key": "aria__r_1k_",
+            "changes": {
+              "rect": {
+                "from": {
+                  "x": 211,
+                  "y": 349,
+                  "width": 24,
+                  "height": 24,
+                  "top": 349,
+                  "right": 235,
+                  "bottom": 373,
+                  "left": 211
+                },
+                "to": {
+                  "x": 211,
+                  "y": 421,
+                  "width": 24,
+                  "height": 24,
+                  "top": 421,
+                  "right": 235,
+                  "bottom": 445,
+                  "left": 211
+                }
+              }
+            }
+          },
+          {
+            "type": "changed",
+            "key": "aria__r_20_",
+            "changes": {
+              "rect": {
+                "from": {
+                  "x": 211,
+                  "y": 466,
+                  "width": 24,
+                  "height": 24,
+                  "top": 466,
+                  "right": 235,
+                  "bottom": 490,
+                  "left": 211
+                },
+                "to": {
+                  "x": 211,
+                  "y": 538,
+                  "width": 24,
+                  "height": 24,
+                  "top": 538,
+                  "right": 235,
+                  "bottom": 562,
+                  "left": 211
+                }
+              }
+            }
+          },
+          {
+            "type": "changed",
+            "key": "aria__r_2j_",
+            "changes": {
+              "rect": {
+                "from": {
+                  "x": 211,
+                  "y": 627,
+                  "width": 24,
+                  "height": 24,
+                  "top": 627,
+                  "right": 235,
+                  "bottom": 651,
+                  "left": 211
+                },
+                "to": {
+                  "x": 211,
+                  "y": 699,
+                  "width": 24,
+                  "height": 24,
+                  "top": 699,
+                  "right": 235,
+                  "bottom": 723,
+                  "left": 211
+                }
+              }
+            }
+          }
+        ],
+        "newVisibleElements": [],
+        "screenshotAfter": "/home/taha/Projects/logistic-replica/interactions/freight-perspectives-0-after.png"
+      },
+      {
+        "elementIndex": 1,
+        "elementType": "button",
+        "elementText": "Expand Lanes submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 2,
+        "elementType": "button",
+        "elementText": "Expand Rates submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 3,
+        "elementType": "button",
+        "elementText": "Expand Costs submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 4,
+        "elementType": "button",
+        "elementText": "Expand Rate on Demand submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 5,
+        "elementType": "button",
+        "elementText": "Expand Autonomous Quotation submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 6,
+        "elementType": "button",
+        "elementText": "Expand Help submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 7,
+        "elementType": "button",
+        "elementText": "Log out",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 8,
+        "elementType": "button",
+        "elementText": "Enable email notifications",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 9,
+        "elementType": "button",
+        "elementText": "Toggle fullscreen",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 10,
+        "elementType": "input",
+        "elementText": "",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 11,
+        "elementType": "clickable",
+        "elementText": "Freight PerspectivesEnable email notificationsToggle fullscr",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      }
+    ],
+    "hoverEffects": []
+  },
+  "market-overview": {
+    "url": "https://insights.transporeon.com/road/market/overview",
+    "elements": [
+      {
+        "selector": "button:nth-of-type(1)",
+        "type": "button",
+        "text": "Collapse Market Overview submenu",
+        "ariaExpanded": "true",
+        "ariaControls": "_r_b_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 129,
+          "width": 24,
+          "height": 24,
+          "top": 129,
+          "right": 235,
+          "bottom": 153,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_b_\" aria-expanded=\"true\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c6545126"
+      },
+      {
+        "selector": "button:nth-of-type(2)",
+        "type": "button",
+        "text": "Expand Lanes submenu",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_i_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 245,
+          "width": 24,
+          "height": 24,
+          "top": 245,
+          "right": 235,
+          "bottom": 269,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_i_\" aria-expanded=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c654512"
+      },
+      {
+        "selector": "button:nth-of-type(3)",
+        "type": "button",
+        "text": "Expand Rates submenu",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_t_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 289,
+          "width": 24,
+          "height": 24,
+          "top": 289,
+          "right": 235,
+          "bottom": 313,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_t_\" aria-expanded=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c654512"
+      },
+      {
+        "selector": "button:nth-of-type(4)",
+        "type": "button",
+        "text": "Expand Costs submenu",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_1b_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 377,
+          "width": 24,
+          "height": 24,
+          "top": 377,
+          "right": 235,
+          "bottom": 401,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_1b_\" aria-expanded=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451"
+      },
+      {
+        "selector": "button:nth-of-type(5)",
+        "type": "button",
+        "text": "Expand Rate on Demand submenu",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_1k_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 421,
+          "width": 24,
+          "height": 24,
+          "top": 421,
+          "right": 235,
+          "bottom": 445,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_1k_\" aria-expanded=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451"
+      },
+      {
+        "selector": "button:nth-of-type(6)",
+        "type": "button",
+        "text": "Expand Autonomous Quotation submenu",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_20_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 538,
+          "width": 24,
+          "height": 24,
+          "top": 538,
+          "right": 235,
+          "bottom": 562,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_20_\" aria-expanded=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451"
+      },
+      {
+        "selector": "button:nth-of-type(7)",
+        "type": "button",
+        "text": "Expand Help submenu",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_2j_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 699,
+          "width": 24,
+          "height": 24,
+          "top": 699,
+          "right": 235,
+          "bottom": 723,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_2j_\" aria-expanded=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451"
+      },
+      {
+        "selector": "button:nth-of-type(8)",
+        "type": "button",
+        "text": "Log out",
+        "ariaExpanded": null,
+        "ariaControls": null,
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "izf0mf0 izf0mf4 izf0mfc izf0mfh izf0mfm izf0mfn izf0mfv izf0mfx izf0mf15 izf0mf1d izf0mf1l izf0mf1w izf0mf1t _1ie0trf8 _1j8ajjw1",
+        "rect": {
+          "x": 12,
+          "y": 800,
+          "width": 231,
+          "height": 40,
+          "top": 800,
+          "right": 243,
+          "bottom": 840,
+          "left": 12
+        },
+        "outerHTML": "<button class=\"izf0mf0 izf0mf4 izf0mfc izf0mfh izf0mfm izf0mfn izf0mfv izf0mfx izf0mf15 izf0mf1d izf0mf1l izf0mf1w izf0mf1t _1ie0trf8 _1j8ajjw1\" type=\"submit\"><svg width=\"24\" height=\"24\" class=\"gkj6b50 _1ie0trfa\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451261fa5bb76c97c.svg#logout\"></u"
+      },
+      {
+        "selector": "button:nth-of-type(10)",
+        "type": "button",
+        "text": "Toggle fullscreen",
+        "ariaExpanded": null,
+        "ariaControls": null,
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv88 _18ctzv85 _18ctzv83",
+        "rect": {
+          "x": 1872,
+          "y": 16,
+          "width": 32,
+          "height": 32,
+          "top": 16,
+          "right": 1904,
+          "bottom": 48,
+          "left": 1872
+        },
+        "outerHTML": "<button class=\"_18ctzv81 _18ctzv88 _18ctzv85 _18ctzv83\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451261fa5bb76c97c.svg#small-expand\"></use></svg><span cla"
+      },
+      {
+        "selector": "button:nth-of-type(11)",
+        "type": "button",
+        "text": "Contact sales",
+        "ariaExpanded": null,
+        "ariaControls": null,
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv89 _18ctzv86",
+        "rect": {
+          "x": 1100,
+          "y": 676,
+          "width": 121.828125,
+          "height": 40,
+          "top": 676,
+          "right": 1221.828125,
+          "bottom": 716,
+          "left": 1100
+        },
+        "outerHTML": "<button class=\"_18ctzv81 _18ctzv89 _18ctzv86\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><span class=\"_18ctzv8n\">Contact sales</span></span></button>"
+      },
+      {
+        "selector": "[role=\"null\"]:nth-of-type(1)",
+        "type": "clickable",
+        "text": "Market OverviewToggle fullscreenCore Metrics is not part of ",
+        "classes": "l6zkfw0 l6zkfw1 l6zkfw9 l6zkfwh l6zkfwp l6zkfwx l6zkfw10 _146tvct0 _5giecy0",
+        "rect": {
+          "x": 256,
+          "y": 0,
+          "width": 1664,
+          "height": 1080,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "left": 256
+        }
+      }
+    ],
+    "interactions": [
+      {
+        "elementIndex": 0,
+        "elementType": "button",
+        "elementText": "Collapse Market Overview submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 1,
+        "elementType": "button",
+        "elementText": "Expand Lanes submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 2,
+        "elementType": "button",
+        "elementText": "Expand Rates submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 3,
+        "elementType": "button",
+        "elementText": "Expand Costs submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 4,
+        "elementType": "button",
+        "elementText": "Expand Rate on Demand submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 5,
+        "elementType": "button",
+        "elementText": "Expand Autonomous Quotation submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 6,
+        "elementType": "button",
+        "elementText": "Expand Help submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 7,
+        "elementType": "button",
+        "elementText": "Log out",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 8,
+        "elementType": "button",
+        "elementText": "Toggle fullscreen",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 9,
+        "elementType": "button",
+        "elementText": "Contact sales",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 10,
+        "elementType": "clickable",
+        "elementText": "Market OverviewToggle fullscreenCore Metrics is not part of ",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      }
+    ],
+    "hoverEffects": []
+  },
+  "rates-overview": {
+    "url": "https://insights.transporeon.com/road/rates/overview",
+    "elements": [
+      {
+        "selector": "button:nth-of-type(1)",
+        "type": "button",
+        "text": "Expand Market Overview submenu",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_b_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 129,
+          "width": 24,
+          "height": 24,
+          "top": 129,
+          "right": 235,
+          "bottom": 153,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_b_\" aria-expanded=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c654512"
+      },
+      {
+        "selector": "button:nth-of-type(2)",
+        "type": "button",
+        "text": "Expand Lanes submenu",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_i_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 173,
+          "width": 24,
+          "height": 24,
+          "top": 173,
+          "right": 235,
+          "bottom": 197,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_i_\" aria-expanded=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c654512"
+      },
+      {
+        "selector": "button:nth-of-type(3)",
+        "type": "button",
+        "text": "Collapse Rates submenu",
+        "ariaExpanded": "true",
+        "ariaControls": "_r_t_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 217,
+          "width": 24,
+          "height": 24,
+          "top": 217,
+          "right": 235,
+          "bottom": 241,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_t_\" aria-expanded=\"true\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c6545126"
+      },
+      {
+        "selector": "button:nth-of-type(4)",
+        "type": "button",
+        "text": "Expand Costs submenu",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_1b_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 413,
+          "width": 24,
+          "height": 24,
+          "top": 413,
+          "right": 235,
+          "bottom": 437,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_1b_\" aria-expanded=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451"
+      },
+      {
+        "selector": "button:nth-of-type(5)",
+        "type": "button",
+        "text": "Expand Rate on Demand submenu",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_1k_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 457,
+          "width": 24,
+          "height": 24,
+          "top": 457,
+          "right": 235,
+          "bottom": 481,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_1k_\" aria-expanded=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451"
+      },
+      {
+        "selector": "button:nth-of-type(6)",
+        "type": "button",
+        "text": "Expand Autonomous Quotation submenu",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_20_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 574,
+          "width": 24,
+          "height": 24,
+          "top": 574,
+          "right": 235,
+          "bottom": 598,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_20_\" aria-expanded=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451"
+      },
+      {
+        "selector": "button:nth-of-type(7)",
+        "type": "button",
+        "text": "Expand Help submenu",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_2j_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 735,
+          "width": 24,
+          "height": 24,
+          "top": 735,
+          "right": 235,
+          "bottom": 759,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_2j_\" aria-expanded=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451"
+      },
+      {
+        "selector": "button:nth-of-type(8)",
+        "type": "button",
+        "text": "Log out",
+        "ariaExpanded": null,
+        "ariaControls": null,
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "izf0mf0 izf0mf4 izf0mfc izf0mfh izf0mfm izf0mfn izf0mfv izf0mfx izf0mf15 izf0mf1d izf0mf1l izf0mf1w izf0mf1t _1ie0trf8 _1j8ajjw1",
+        "rect": {
+          "x": 12,
+          "y": 836,
+          "width": 231,
+          "height": 40,
+          "top": 836,
+          "right": 243,
+          "bottom": 876,
+          "left": 12
+        },
+        "outerHTML": "<button class=\"izf0mf0 izf0mf4 izf0mfc izf0mfh izf0mfm izf0mfn izf0mfv izf0mfx izf0mf15 izf0mf1d izf0mf1l izf0mf1w izf0mf1t _1ie0trf8 _1j8ajjw1\" type=\"submit\"><svg width=\"24\" height=\"24\" class=\"gkj6b50 _1ie0trfa\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451261fa5bb76c97c.svg#logout\"></u"
+      },
+      {
+        "selector": "button:nth-of-type(10)",
+        "type": "button",
+        "text": "Help",
+        "ariaExpanded": "false",
+        "ariaControls": null,
+        "ariaHaspopup": "dialog",
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8b _18ctzv85",
+        "rect": {
+          "x": 452.0625,
+          "y": 16,
+          "width": 71.21875,
+          "height": 32,
+          "top": 16,
+          "right": 523.28125,
+          "bottom": 48,
+          "left": 452.0625
+        },
+        "outerHTML": "<button aria-expanded=\"false\" aria-haspopup=\"dialog\" class=\"_18ctzv81 _18ctzv8b _18ctzv85\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451261fa5bb76c97c.svg#"
+      },
+      {
+        "selector": "button:nth-of-type(11)",
+        "type": "button",
+        "text": "Toggle fullscreen",
+        "ariaExpanded": null,
+        "ariaControls": null,
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv88 _18ctzv85 _18ctzv83",
+        "rect": {
+          "x": 1872,
+          "y": 16,
+          "width": 32,
+          "height": 32,
+          "top": 16,
+          "right": 1904,
+          "bottom": 48,
+          "left": 1872
+        },
+        "outerHTML": "<button class=\"_18ctzv81 _18ctzv88 _18ctzv85 _18ctzv83\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451261fa5bb76c97c.svg#small-expand\"></use></svg><span cla"
+      },
+      {
+        "selector": "#_r_3u_-button",
+        "type": "button",
+        "text": "Last 2 years",
+        "ariaExpanded": null,
+        "ariaControls": null,
+        "ariaHaspopup": "menu",
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv88 _18ctzv85 ryo8nr3",
+        "rect": {
+          "x": 656.4375,
+          "y": 73,
+          "width": 141.078125,
+          "height": 32,
+          "top": 73,
+          "right": 797.515625,
+          "bottom": 105,
+          "left": 656.4375
+        },
+        "outerHTML": "<button data-testid=\"date-select-dropdown\" id=\"_r_3u_-button\" aria-haspopup=\"menu\" class=\"_18ctzv81 _18ctzv88 _18ctzv85 ryo8nr3\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/i"
+      },
+      {
+        "selector": "button:nth-of-type(14)",
+        "type": "button",
+        "text": "€/km",
+        "ariaExpanded": null,
+        "ariaControls": null,
+        "ariaHaspopup": null,
+        "role": "radio",
+        "classes": "_18ctzv81 _18ctzv88 _18ctzv85 vxgfwe0",
+        "rect": {
+          "x": 912.078125,
+          "y": 75,
+          "width": 50.84375,
+          "height": 28,
+          "top": 75,
+          "right": 962.921875,
+          "bottom": 103,
+          "left": 912.078125
+        },
+        "outerHTML": "<button data-value=\"price\" role=\"radio\" tabindex=\"0\" aria-checked=\"true\" class=\"_18ctzv81 _18ctzv88 _18ctzv85 vxgfwe0\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><span class=\"_18ctzv8n\">€/km</span></span></button>"
+      },
+      {
+        "selector": "button:nth-of-type(15)",
+        "type": "button",
+        "text": "Index",
+        "ariaExpanded": null,
+        "ariaControls": null,
+        "ariaHaspopup": null,
+        "role": "radio",
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv85 vxgfwe0",
+        "rect": {
+          "x": 964.921875,
+          "y": 75,
+          "width": 53.671875,
+          "height": 28,
+          "top": 75,
+          "right": 1018.59375,
+          "bottom": 103,
+          "left": 964.921875
+        },
+        "outerHTML": "<button data-value=\"index\" role=\"radio\" tabindex=\"-1\" aria-checked=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv85 vxgfwe0\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><span class=\"_18ctzv8n\">Index</span></span></button>"
+      },
+      {
+        "selector": "#_r_47_-button",
+        "type": "button",
+        "text": "Export",
+        "ariaExpanded": null,
+        "ariaControls": null,
+        "ariaHaspopup": "menu",
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv88 _18ctzv85 _18ctzv87",
+        "rect": {
+          "x": 1819.625,
+          "y": 73,
+          "width": 84.375,
+          "height": 32,
+          "top": 73,
+          "right": 1904,
+          "bottom": 105,
+          "left": 1819.625
+        },
+        "outerHTML": "<button data-testid=\"export-dropdown\" id=\"_r_47_-button\" aria-haspopup=\"menu\" class=\"_18ctzv81 _18ctzv88 _18ctzv85 _18ctzv87\" aria-disabled=\"true\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><span class=\"_18ctzv8n\">Export</span><svg width=\"16\" height=\"16\" class=\"gk"
+      },
+      {
+        "selector": "button:nth-of-type(17)",
+        "type": "button",
+        "text": "More information",
+        "ariaExpanded": "false",
+        "ariaControls": null,
+        "ariaHaspopup": "dialog",
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83",
+        "rect": {
+          "x": 349.1875,
+          "y": 926,
+          "width": 24,
+          "height": 24,
+          "top": 926,
+          "right": 373.1875,
+          "bottom": 950,
+          "left": 349.1875
+        },
+        "outerHTML": "<button aria-expanded=\"false\" aria-haspopup=\"dialog\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451261fa5bb7"
+      },
+      {
+        "selector": "#_r_45_",
+        "type": "input",
+        "inputType": "text",
+        "placeholder": "",
+        "value": "",
+        "classes": "css-1hac4vs-dummyInput",
+        "rect": {
+          "x": 760.5731201171875,
+          "y": 88.9195327758789,
+          "width": 0.010009765625,
+          "height": 0.1609344482421875,
+          "top": 88.9195327758789,
+          "right": 760.5831298828125,
+          "bottom": 89.0804672241211,
+          "left": 760.5731201171875
+        }
+      },
+      {
+        "selector": "[role=\"null\"]:nth-of-type(1)",
+        "type": "clickable",
+        "text": "Rate OverviewHelpToggle fullscreenFrom:Germany (DE)Swap from",
+        "classes": "l6zkfw0 l6zkfw1 l6zkfw9 l6zkfwh l6zkfwp l6zkfwx l6zkfw10 _146tvct0 _5giecy0",
+        "rect": {
+          "x": 256,
+          "y": 0,
+          "width": 1664,
+          "height": 1080,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "left": 256
+        }
+      },
+      {
+        "selector": "[role=\"combobox\"]:nth-of-type(2)",
+        "type": "combobox",
+        "text": "Germany (DE)",
+        "classes": "c3lk2j9",
+        "rect": {
+          "x": 316.25,
+          "y": 74,
+          "width": 127.9375,
+          "height": 30,
+          "top": 74,
+          "right": 444.1875,
+          "bottom": 104,
+          "left": 316.25
+        }
+      },
+      {
+        "selector": "[role=\"combobox\"]:nth-of-type(3)",
+        "type": "combobox",
+        "text": "Germany (DE)",
+        "classes": "c3lk2j9",
+        "rect": {
+          "x": 510.5,
+          "y": 74,
+          "width": 127.9375,
+          "height": 30,
+          "top": 74,
+          "right": 638.4375,
+          "bottom": 104,
+          "left": 510.5
+        }
+      }
+    ],
+    "interactions": [
+      {
+        "elementIndex": 0,
+        "elementType": "button",
+        "elementText": "Expand Market Overview submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 1,
+        "elementType": "button",
+        "elementText": "Expand Lanes submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 2,
+        "elementType": "button",
+        "elementText": "Collapse Rates submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 3,
+        "elementType": "button",
+        "elementText": "Expand Costs submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 4,
+        "elementType": "button",
+        "elementText": "Expand Rate on Demand submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 5,
+        "elementType": "button",
+        "elementText": "Expand Autonomous Quotation submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 6,
+        "elementType": "button",
+        "elementText": "Expand Help submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 7,
+        "elementType": "button",
+        "elementText": "Log out",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 8,
+        "elementType": "button",
+        "elementText": "Help",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 9,
+        "elementType": "button",
+        "elementText": "Toggle fullscreen",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 10,
+        "elementType": "button",
+        "elementText": "Last 2 years",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 11,
+        "elementType": "button",
+        "elementText": "€/km",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 12,
+        "elementType": "button",
+        "elementText": "Index",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 13,
+        "elementType": "button",
+        "elementText": "Export",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 14,
+        "elementType": "button",
+        "elementText": "More information",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 15,
+        "elementType": "input",
+        "elementText": "",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 16,
+        "elementType": "clickable",
+        "elementText": "Rate OverviewHelpToggle fullscreenFrom:Germany (DE)Swap from",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 17,
+        "elementType": "combobox",
+        "elementText": "Germany (DE)",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 18,
+        "elementType": "combobox",
+        "elementText": "Germany (DE)",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      }
+    ],
+    "hoverEffects": [
+      {
+        "elementIndex": 8,
+        "elementText": "Help",
+        "tooltips": [
+          {
+            "text": "Open the online help for this view",
+            "classes": "qbb9jo8 qbb9jo5 qbb9jo2"
+          }
+        ]
+      },
+      {
+        "elementIndex": 10,
+        "elementText": "Last 2 years",
+        "tooltips": [
+          {
+            "text": "Select a different date range",
+            "classes": "qbb9jo8 qbb9jo4 qbb9jo2"
+          }
+        ]
+      },
+      {
+        "elementIndex": 13,
+        "elementText": "Export",
+        "tooltips": [
+          {
+            "text": "This option is only available in the paid version",
+            "classes": "qbb9jo8 qbb9jo4 qbb9jo2"
+          }
+        ]
+      },
+      {
+        "elementIndex": 15,
+        "elementText": "",
+        "tooltips": [
+          {
+            "text": "Select a different date range",
+            "classes": "qbb9jo8 qbb9jo4 qbb9jo2"
+          }
+        ]
+      }
+    ]
+  },
+  "dashboards": {
+    "url": "https://insights.transporeon.com/road/dashboards",
+    "elements": [
+      {
+        "selector": "button:nth-of-type(1)",
+        "type": "button",
+        "text": "Expand Market Overview submenu",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_b_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 129,
+          "width": 24,
+          "height": 24,
+          "top": 129,
+          "right": 235,
+          "bottom": 153,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_b_\" aria-expanded=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c654512"
+      },
+      {
+        "selector": "button:nth-of-type(2)",
+        "type": "button",
+        "text": "Expand Lanes submenu",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_i_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 173,
+          "width": 24,
+          "height": 24,
+          "top": 173,
+          "right": 235,
+          "bottom": 197,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_i_\" aria-expanded=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c654512"
+      },
+      {
+        "selector": "button:nth-of-type(3)",
+        "type": "button",
+        "text": "Expand Rates submenu",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_t_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 217,
+          "width": 24,
+          "height": 24,
+          "top": 217,
+          "right": 235,
+          "bottom": 241,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_t_\" aria-expanded=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c654512"
+      },
+      {
+        "selector": "button:nth-of-type(4)",
+        "type": "button",
+        "text": "Expand Costs submenu",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_1b_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 305,
+          "width": 24,
+          "height": 24,
+          "top": 305,
+          "right": 235,
+          "bottom": 329,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_1b_\" aria-expanded=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451"
+      },
+      {
+        "selector": "button:nth-of-type(5)",
+        "type": "button",
+        "text": "Expand Rate on Demand submenu",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_1k_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 349,
+          "width": 24,
+          "height": 24,
+          "top": 349,
+          "right": 235,
+          "bottom": 373,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_1k_\" aria-expanded=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451"
+      },
+      {
+        "selector": "button:nth-of-type(6)",
+        "type": "button",
+        "text": "Expand Autonomous Quotation submenu",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_20_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 466,
+          "width": 24,
+          "height": 24,
+          "top": 466,
+          "right": 235,
+          "bottom": 490,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_20_\" aria-expanded=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451"
+      },
+      {
+        "selector": "button:nth-of-type(7)",
+        "type": "button",
+        "text": "Expand Help submenu",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_2j_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 627,
+          "width": 24,
+          "height": 24,
+          "top": 627,
+          "right": 235,
+          "bottom": 651,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_2j_\" aria-expanded=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451"
+      },
+      {
+        "selector": "button:nth-of-type(8)",
+        "type": "button",
+        "text": "Log out",
+        "ariaExpanded": null,
+        "ariaControls": null,
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "izf0mf0 izf0mf4 izf0mfc izf0mfh izf0mfm izf0mfn izf0mfv izf0mfx izf0mf15 izf0mf1d izf0mf1l izf0mf1w izf0mf1t _1ie0trf8 _1j8ajjw1",
+        "rect": {
+          "x": 12,
+          "y": 728,
+          "width": 231,
+          "height": 40,
+          "top": 728,
+          "right": 243,
+          "bottom": 768,
+          "left": 12
+        },
+        "outerHTML": "<button class=\"izf0mf0 izf0mf4 izf0mfc izf0mfh izf0mfm izf0mfn izf0mfv izf0mfx izf0mf15 izf0mf1d izf0mf1l izf0mf1w izf0mf1t _1ie0trf8 _1j8ajjw1\" type=\"submit\"><svg width=\"24\" height=\"24\" class=\"gkj6b50 _1ie0trfa\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451261fa5bb76c97c.svg#logout\"></u"
+      },
+      {
+        "selector": "button:nth-of-type(10)",
+        "type": "button",
+        "text": "Toggle fullscreen",
+        "ariaExpanded": null,
+        "ariaControls": null,
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv88 _18ctzv85 _18ctzv83",
+        "rect": {
+          "x": 1872,
+          "y": 16,
+          "width": 32,
+          "height": 32,
+          "top": 16,
+          "right": 1904,
+          "bottom": 48,
+          "left": 1872
+        },
+        "outerHTML": "<button class=\"_18ctzv81 _18ctzv88 _18ctzv85 _18ctzv83\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451261fa5bb76c97c.svg#small-expand\"></use></svg><span cla"
+      },
+      {
+        "selector": "button:nth-of-type(11)",
+        "type": "button",
+        "text": "Contact sales",
+        "ariaExpanded": null,
+        "ariaControls": null,
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv89 _18ctzv86",
+        "rect": {
+          "x": 1100,
+          "y": 676,
+          "width": 121.828125,
+          "height": 40,
+          "top": 676,
+          "right": 1221.828125,
+          "bottom": 716,
+          "left": 1100
+        },
+        "outerHTML": "<button class=\"_18ctzv81 _18ctzv89 _18ctzv86\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><span class=\"_18ctzv8n\">Contact sales</span></span></button>"
+      },
+      {
+        "selector": "[role=\"null\"]:nth-of-type(1)",
+        "type": "clickable",
+        "text": "DashboardToggle fullscreenCore Metrics is not part of your s",
+        "classes": "l6zkfw0 l6zkfw1 l6zkfw9 l6zkfwh l6zkfwp l6zkfwx l6zkfw10 _146tvct0 _5giecy0",
+        "rect": {
+          "x": 256,
+          "y": 0,
+          "width": 1664,
+          "height": 1080,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "left": 256
+        }
+      }
+    ],
+    "interactions": [
+      {
+        "elementIndex": 0,
+        "elementType": "button",
+        "elementText": "Expand Market Overview submenu",
+        "elementClasses": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_b_",
+        "ariaHaspopup": null,
+        "clickCoords": {
+          "x": 223,
+          "y": 141
+        },
+        "domChanges": 7,
+        "changes": [
+          {
+            "type": "changed",
+            "key": "aria__r_b_",
+            "changes": {
+              "ariaExpanded": {
+                "from": "false",
+                "to": "true"
+              }
+            }
+          },
+          {
+            "type": "changed",
+            "key": "aria__r_i_",
+            "changes": {
+              "rect": {
+                "from": {
+                  "x": 211,
+                  "y": 173,
+                  "width": 24,
+                  "height": 24,
+                  "top": 173,
+                  "right": 235,
+                  "bottom": 197,
+                  "left": 211
+                },
+                "to": {
+                  "x": 211,
+                  "y": 245,
+                  "width": 24,
+                  "height": 24,
+                  "top": 245,
+                  "right": 235,
+                  "bottom": 269,
+                  "left": 211
+                }
+              }
+            }
+          },
+          {
+            "type": "changed",
+            "key": "aria__r_t_",
+            "changes": {
+              "rect": {
+                "from": {
+                  "x": 211,
+                  "y": 217,
+                  "width": 24,
+                  "height": 24,
+                  "top": 217,
+                  "right": 235,
+                  "bottom": 241,
+                  "left": 211
+                },
+                "to": {
+                  "x": 211,
+                  "y": 289,
+                  "width": 24,
+                  "height": 24,
+                  "top": 289,
+                  "right": 235,
+                  "bottom": 313,
+                  "left": 211
+                }
+              }
+            }
+          },
+          {
+            "type": "changed",
+            "key": "aria__r_1b_",
+            "changes": {
+              "rect": {
+                "from": {
+                  "x": 211,
+                  "y": 305,
+                  "width": 24,
+                  "height": 24,
+                  "top": 305,
+                  "right": 235,
+                  "bottom": 329,
+                  "left": 211
+                },
+                "to": {
+                  "x": 211,
+                  "y": 377,
+                  "width": 24,
+                  "height": 24,
+                  "top": 377,
+                  "right": 235,
+                  "bottom": 401,
+                  "left": 211
+                }
+              }
+            }
+          },
+          {
+            "type": "changed",
+            "key": "aria__r_1k_",
+            "changes": {
+              "rect": {
+                "from": {
+                  "x": 211,
+                  "y": 349,
+                  "width": 24,
+                  "height": 24,
+                  "top": 349,
+                  "right": 235,
+                  "bottom": 373,
+                  "left": 211
+                },
+                "to": {
+                  "x": 211,
+                  "y": 421,
+                  "width": 24,
+                  "height": 24,
+                  "top": 421,
+                  "right": 235,
+                  "bottom": 445,
+                  "left": 211
+                }
+              }
+            }
+          },
+          {
+            "type": "changed",
+            "key": "aria__r_20_",
+            "changes": {
+              "rect": {
+                "from": {
+                  "x": 211,
+                  "y": 466,
+                  "width": 24,
+                  "height": 24,
+                  "top": 466,
+                  "right": 235,
+                  "bottom": 490,
+                  "left": 211
+                },
+                "to": {
+                  "x": 211,
+                  "y": 538,
+                  "width": 24,
+                  "height": 24,
+                  "top": 538,
+                  "right": 235,
+                  "bottom": 562,
+                  "left": 211
+                }
+              }
+            }
+          },
+          {
+            "type": "changed",
+            "key": "aria__r_2j_",
+            "changes": {
+              "rect": {
+                "from": {
+                  "x": 211,
+                  "y": 627,
+                  "width": 24,
+                  "height": 24,
+                  "top": 627,
+                  "right": 235,
+                  "bottom": 651,
+                  "left": 211
+                },
+                "to": {
+                  "x": 211,
+                  "y": 699,
+                  "width": 24,
+                  "height": 24,
+                  "top": 699,
+                  "right": 235,
+                  "bottom": 723,
+                  "left": 211
+                }
+              }
+            }
+          }
+        ],
+        "newVisibleElements": [],
+        "screenshotAfter": "/home/taha/Projects/logistic-replica/interactions/dashboards-0-after.png"
+      },
+      {
+        "elementIndex": 1,
+        "elementType": "button",
+        "elementText": "Expand Lanes submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 2,
+        "elementType": "button",
+        "elementText": "Expand Rates submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 3,
+        "elementType": "button",
+        "elementText": "Expand Costs submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 4,
+        "elementType": "button",
+        "elementText": "Expand Rate on Demand submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 5,
+        "elementType": "button",
+        "elementText": "Expand Autonomous Quotation submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 6,
+        "elementType": "button",
+        "elementText": "Expand Help submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 7,
+        "elementType": "button",
+        "elementText": "Log out",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 8,
+        "elementType": "button",
+        "elementText": "Toggle fullscreen",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 9,
+        "elementType": "button",
+        "elementText": "Contact sales",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 10,
+        "elementType": "clickable",
+        "elementText": "DashboardToggle fullscreenCore Metrics is not part of your s",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      }
+    ],
+    "hoverEffects": []
+  },
+  "capacity": {
+    "url": "https://insights.transporeon.com/road/capacity",
+    "elements": [
+      {
+        "selector": "button:nth-of-type(1)",
+        "type": "button",
+        "text": "Expand Market Overview submenu",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_b_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 129,
+          "width": 24,
+          "height": 24,
+          "top": 129,
+          "right": 235,
+          "bottom": 153,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_b_\" aria-expanded=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c654512"
+      },
+      {
+        "selector": "button:nth-of-type(2)",
+        "type": "button",
+        "text": "Expand Lanes submenu",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_i_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 173,
+          "width": 24,
+          "height": 24,
+          "top": 173,
+          "right": 235,
+          "bottom": 197,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_i_\" aria-expanded=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c654512"
+      },
+      {
+        "selector": "button:nth-of-type(3)",
+        "type": "button",
+        "text": "Expand Rates submenu",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_t_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 217,
+          "width": 24,
+          "height": 24,
+          "top": 217,
+          "right": 235,
+          "bottom": 241,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_t_\" aria-expanded=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c654512"
+      },
+      {
+        "selector": "button:nth-of-type(4)",
+        "type": "button",
+        "text": "Expand Costs submenu",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_1b_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 305,
+          "width": 24,
+          "height": 24,
+          "top": 305,
+          "right": 235,
+          "bottom": 329,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_1b_\" aria-expanded=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451"
+      },
+      {
+        "selector": "button:nth-of-type(5)",
+        "type": "button",
+        "text": "Expand Rate on Demand submenu",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_1k_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 349,
+          "width": 24,
+          "height": 24,
+          "top": 349,
+          "right": 235,
+          "bottom": 373,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_1k_\" aria-expanded=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451"
+      },
+      {
+        "selector": "button:nth-of-type(6)",
+        "type": "button",
+        "text": "Expand Autonomous Quotation submenu",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_20_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 466,
+          "width": 24,
+          "height": 24,
+          "top": 466,
+          "right": 235,
+          "bottom": 490,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_20_\" aria-expanded=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451"
+      },
+      {
+        "selector": "button:nth-of-type(7)",
+        "type": "button",
+        "text": "Expand Help submenu",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_2j_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 627,
+          "width": 24,
+          "height": 24,
+          "top": 627,
+          "right": 235,
+          "bottom": 651,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_2j_\" aria-expanded=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451"
+      },
+      {
+        "selector": "button:nth-of-type(8)",
+        "type": "button",
+        "text": "Log out",
+        "ariaExpanded": null,
+        "ariaControls": null,
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "izf0mf0 izf0mf4 izf0mfc izf0mfh izf0mfm izf0mfn izf0mfv izf0mfx izf0mf15 izf0mf1d izf0mf1l izf0mf1w izf0mf1t _1ie0trf8 _1j8ajjw1",
+        "rect": {
+          "x": 12,
+          "y": 728,
+          "width": 231,
+          "height": 40,
+          "top": 728,
+          "right": 243,
+          "bottom": 768,
+          "left": 12
+        },
+        "outerHTML": "<button class=\"izf0mf0 izf0mf4 izf0mfc izf0mfh izf0mfm izf0mfn izf0mfv izf0mfx izf0mf15 izf0mf1d izf0mf1l izf0mf1w izf0mf1t _1ie0trf8 _1j8ajjw1\" type=\"submit\"><svg width=\"24\" height=\"24\" class=\"gkj6b50 _1ie0trfa\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451261fa5bb76c97c.svg#logout\"></u"
+      },
+      {
+        "selector": "button:nth-of-type(10)",
+        "type": "button",
+        "text": "Help",
+        "ariaExpanded": "false",
+        "ariaControls": null,
+        "ariaHaspopup": "dialog",
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8b _18ctzv85",
+        "rect": {
+          "x": 384.78125,
+          "y": 16,
+          "width": 71.21875,
+          "height": 32,
+          "top": 16,
+          "right": 456,
+          "bottom": 48,
+          "left": 384.78125
+        },
+        "outerHTML": "<button aria-expanded=\"false\" aria-haspopup=\"dialog\" class=\"_18ctzv81 _18ctzv8b _18ctzv85\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451261fa5bb76c97c.svg#"
+      },
+      {
+        "selector": "button:nth-of-type(11)",
+        "type": "button",
+        "text": "Toggle fullscreen",
+        "ariaExpanded": null,
+        "ariaControls": null,
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv88 _18ctzv85 _18ctzv83",
+        "rect": {
+          "x": 1872,
+          "y": 16,
+          "width": 32,
+          "height": 32,
+          "top": 16,
+          "right": 1904,
+          "bottom": 48,
+          "left": 1872
+        },
+        "outerHTML": "<button class=\"_18ctzv81 _18ctzv88 _18ctzv85 _18ctzv83\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451261fa5bb76c97c.svg#small-expand\"></use></svg><span cla"
+      },
+      {
+        "selector": "#_r_3u_-button",
+        "type": "button",
+        "text": "Last 2 years",
+        "ariaExpanded": null,
+        "ariaControls": null,
+        "ariaHaspopup": "menu",
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv88 _18ctzv85 ryo8nr3",
+        "rect": {
+          "x": 656.4375,
+          "y": 73,
+          "width": 141.078125,
+          "height": 32,
+          "top": 73,
+          "right": 797.515625,
+          "bottom": 105,
+          "left": 656.4375
+        },
+        "outerHTML": "<button data-testid=\"date-select-dropdown\" id=\"_r_3u_-button\" aria-haspopup=\"menu\" class=\"_18ctzv81 _18ctzv88 _18ctzv85 ryo8nr3\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/i"
+      },
+      {
+        "selector": "#_r_46_-button",
+        "type": "button",
+        "text": "Metrics: 2 selected",
+        "ariaExpanded": null,
+        "ariaControls": null,
+        "ariaHaspopup": "menu",
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv88 _18ctzv85 ryo8nr3",
+        "rect": {
+          "x": 910.078125,
+          "y": 73,
+          "width": 163.40625,
+          "height": 32,
+          "top": 73,
+          "right": 1073.484375,
+          "bottom": 105,
+          "left": 910.078125
+        },
+        "outerHTML": "<button id=\"_r_46_-button\" aria-haspopup=\"menu\" class=\"_18ctzv81 _18ctzv88 _18ctzv85 ryo8nr3\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><span class=\"_18ctzv8n\"><span class=\"o57mr0 o57mr4 o57mr6\">Metrics: </span><span class=\"o57mr0 o57mr4 o57mr5\">2 selected</span>"
+      },
+      {
+        "selector": "#_r_48_-button",
+        "type": "button",
+        "text": "Export",
+        "ariaExpanded": null,
+        "ariaControls": null,
+        "ariaHaspopup": "menu",
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv88 _18ctzv85 _18ctzv87",
+        "rect": {
+          "x": 1819.625,
+          "y": 73,
+          "width": 84.375,
+          "height": 32,
+          "top": 73,
+          "right": 1904,
+          "bottom": 105,
+          "left": 1819.625
+        },
+        "outerHTML": "<button data-testid=\"export-dropdown\" id=\"_r_48_-button\" aria-haspopup=\"menu\" class=\"_18ctzv81 _18ctzv88 _18ctzv85 _18ctzv87\" aria-disabled=\"true\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><span class=\"_18ctzv8n\">Export</span><svg width=\"16\" height=\"16\" class=\"gk"
+      },
+      {
+        "selector": "button:nth-of-type(16)",
+        "type": "button",
+        "text": "More information",
+        "ariaExpanded": "false",
+        "ariaControls": null,
+        "ariaHaspopup": "dialog",
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83",
+        "rect": {
+          "x": 378.71875,
+          "y": 983,
+          "width": 24,
+          "height": 24,
+          "top": 983,
+          "right": 402.71875,
+          "bottom": 1007,
+          "left": 378.71875
+        },
+        "outerHTML": "<button aria-expanded=\"false\" aria-haspopup=\"dialog\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451261fa5bb7"
+      },
+      {
+        "selector": "#_r_45_",
+        "type": "input",
+        "inputType": "text",
+        "placeholder": "",
+        "value": "",
+        "classes": "css-1hac4vs-dummyInput",
+        "rect": {
+          "x": 760.5731201171875,
+          "y": 88.9195327758789,
+          "width": 0.010009765625,
+          "height": 0.1609344482421875,
+          "top": 88.9195327758789,
+          "right": 760.5831298828125,
+          "bottom": 89.0804672241211,
+          "left": 760.5731201171875
+        }
+      },
+      {
+        "selector": "[role=\"null\"]:nth-of-type(1)",
+        "type": "clickable",
+        "text": "CapacityHelpToggle fullscreenFrom:Germany (DE)Swap from and ",
+        "classes": "l6zkfw0 l6zkfw1 l6zkfw9 l6zkfwh l6zkfwp l6zkfwx l6zkfw10 _146tvct0 _5giecy0",
+        "rect": {
+          "x": 256,
+          "y": 0,
+          "width": 1664,
+          "height": 1080,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "left": 256
+        }
+      },
+      {
+        "selector": "[role=\"combobox\"]:nth-of-type(2)",
+        "type": "combobox",
+        "text": "Germany (DE)",
+        "classes": "c3lk2j9",
+        "rect": {
+          "x": 316.25,
+          "y": 74,
+          "width": 127.9375,
+          "height": 30,
+          "top": 74,
+          "right": 444.1875,
+          "bottom": 104,
+          "left": 316.25
+        }
+      },
+      {
+        "selector": "[role=\"combobox\"]:nth-of-type(3)",
+        "type": "combobox",
+        "text": "Germany (DE)",
+        "classes": "c3lk2j9",
+        "rect": {
+          "x": 510.5,
+          "y": 74,
+          "width": 127.9375,
+          "height": 30,
+          "top": 74,
+          "right": 638.4375,
+          "bottom": 104,
+          "left": 510.5
+        }
+      }
+    ],
+    "interactions": [
+      {
+        "elementIndex": 0,
+        "elementType": "button",
+        "elementText": "Expand Market Overview submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 1,
+        "elementType": "button",
+        "elementText": "Expand Lanes submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 2,
+        "elementType": "button",
+        "elementText": "Expand Rates submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 3,
+        "elementType": "button",
+        "elementText": "Expand Costs submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 4,
+        "elementType": "button",
+        "elementText": "Expand Rate on Demand submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 5,
+        "elementType": "button",
+        "elementText": "Expand Autonomous Quotation submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 6,
+        "elementType": "button",
+        "elementText": "Expand Help submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 7,
+        "elementType": "button",
+        "elementText": "Log out",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 8,
+        "elementType": "button",
+        "elementText": "Help",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 9,
+        "elementType": "button",
+        "elementText": "Toggle fullscreen",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 10,
+        "elementType": "button",
+        "elementText": "Last 2 years",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 11,
+        "elementType": "button",
+        "elementText": "Metrics: 2 selected",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 12,
+        "elementType": "button",
+        "elementText": "Export",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 13,
+        "elementType": "button",
+        "elementText": "More information",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 14,
+        "elementType": "input",
+        "elementText": "",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 15,
+        "elementType": "clickable",
+        "elementText": "CapacityHelpToggle fullscreenFrom:Germany (DE)Swap from and ",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 16,
+        "elementType": "combobox",
+        "elementText": "Germany (DE)",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 17,
+        "elementType": "combobox",
+        "elementText": "Germany (DE)",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      }
+    ],
+    "hoverEffects": [
+      {
+        "elementIndex": 8,
+        "elementText": "Help",
+        "tooltips": [
+          {
+            "text": "Open the online help for this view",
+            "classes": "qbb9jo8 qbb9jo5 qbb9jo2"
+          }
+        ]
+      },
+      {
+        "elementIndex": 10,
+        "elementText": "Last 2 years",
+        "tooltips": [
+          {
+            "text": "Select a different date range",
+            "classes": "qbb9jo8 qbb9jo4 qbb9jo2"
+          }
+        ]
+      },
+      {
+        "elementIndex": 12,
+        "elementText": "Export",
+        "tooltips": [
+          {
+            "text": "This option is only available in the paid version",
+            "classes": "qbb9jo8 qbb9jo4 qbb9jo2"
+          }
+        ]
+      },
+      {
+        "elementIndex": 14,
+        "elementText": "",
+        "tooltips": [
+          {
+            "text": "Select a different date range",
+            "classes": "qbb9jo8 qbb9jo4 qbb9jo2"
+          }
+        ]
+      }
+    ]
+  },
+  "costs": {
+    "url": "https://insights.transporeon.com/road/costs",
+    "elements": [
+      {
+        "selector": "button:nth-of-type(1)",
+        "type": "button",
+        "text": "Expand Market Overview submenu",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_b_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 129,
+          "width": 24,
+          "height": 24,
+          "top": 129,
+          "right": 235,
+          "bottom": 153,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_b_\" aria-expanded=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c654512"
+      },
+      {
+        "selector": "button:nth-of-type(2)",
+        "type": "button",
+        "text": "Expand Lanes submenu",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_i_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 173,
+          "width": 24,
+          "height": 24,
+          "top": 173,
+          "right": 235,
+          "bottom": 197,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_i_\" aria-expanded=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c654512"
+      },
+      {
+        "selector": "button:nth-of-type(3)",
+        "type": "button",
+        "text": "Expand Rates submenu",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_t_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 217,
+          "width": 24,
+          "height": 24,
+          "top": 217,
+          "right": 235,
+          "bottom": 241,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_t_\" aria-expanded=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c654512"
+      },
+      {
+        "selector": "button:nth-of-type(4)",
+        "type": "button",
+        "text": "Collapse Costs submenu",
+        "ariaExpanded": "true",
+        "ariaControls": "_r_1b_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 305,
+          "width": 24,
+          "height": 24,
+          "top": 305,
+          "right": 235,
+          "bottom": 329,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_1b_\" aria-expanded=\"true\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c654512"
+      },
+      {
+        "selector": "button:nth-of-type(5)",
+        "type": "button",
+        "text": "Expand Rate on Demand submenu",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_1k_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 457,
+          "width": 24,
+          "height": 24,
+          "top": 457,
+          "right": 235,
+          "bottom": 481,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_1k_\" aria-expanded=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451"
+      },
+      {
+        "selector": "button:nth-of-type(6)",
+        "type": "button",
+        "text": "Expand Autonomous Quotation submenu",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_20_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 574,
+          "width": 24,
+          "height": 24,
+          "top": 574,
+          "right": 235,
+          "bottom": 598,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_20_\" aria-expanded=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451"
+      },
+      {
+        "selector": "button:nth-of-type(7)",
+        "type": "button",
+        "text": "Expand Help submenu",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_2j_",
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "rect": {
+          "x": 211,
+          "y": 735,
+          "width": 24,
+          "height": 24,
+          "top": 735,
+          "right": 235,
+          "bottom": 759,
+          "left": 211
+        },
+        "outerHTML": "<button aria-controls=\"_r_2j_\" aria-expanded=\"false\" class=\"_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451"
+      },
+      {
+        "selector": "button:nth-of-type(8)",
+        "type": "button",
+        "text": "Log out",
+        "ariaExpanded": null,
+        "ariaControls": null,
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "izf0mf0 izf0mf4 izf0mfc izf0mfh izf0mfm izf0mfn izf0mfv izf0mfx izf0mf15 izf0mf1d izf0mf1l izf0mf1w izf0mf1t _1ie0trf8 _1j8ajjw1",
+        "rect": {
+          "x": 12,
+          "y": 836,
+          "width": 231,
+          "height": 40,
+          "top": 836,
+          "right": 243,
+          "bottom": 876,
+          "left": 12
+        },
+        "outerHTML": "<button class=\"izf0mf0 izf0mf4 izf0mfc izf0mfh izf0mfm izf0mfn izf0mfv izf0mfx izf0mf15 izf0mf1d izf0mf1l izf0mf1w izf0mf1t _1ie0trf8 _1j8ajjw1\" type=\"submit\"><svg width=\"24\" height=\"24\" class=\"gkj6b50 _1ie0trfa\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451261fa5bb76c97c.svg#logout\"></u"
+      },
+      {
+        "selector": "button:nth-of-type(10)",
+        "type": "button",
+        "text": "Toggle fullscreen",
+        "ariaExpanded": null,
+        "ariaControls": null,
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv88 _18ctzv85 _18ctzv83",
+        "rect": {
+          "x": 1872,
+          "y": 16,
+          "width": 32,
+          "height": 32,
+          "top": 16,
+          "right": 1904,
+          "bottom": 48,
+          "left": 1872
+        },
+        "outerHTML": "<button class=\"_18ctzv81 _18ctzv88 _18ctzv85 _18ctzv83\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><svg width=\"16\" height=\"16\" class=\"gkj6b50 _18ctzv8m\" focusable=\"false\"><use href=\"/assets/images/sprite.c65451261fa5bb76c97c.svg#small-expand\"></use></svg><span cla"
+      },
+      {
+        "selector": "button:nth-of-type(11)",
+        "type": "button",
+        "text": "Contact sales",
+        "ariaExpanded": null,
+        "ariaControls": null,
+        "ariaHaspopup": null,
+        "role": null,
+        "classes": "_18ctzv81 _18ctzv89 _18ctzv86",
+        "rect": {
+          "x": 1100,
+          "y": 676,
+          "width": 121.828125,
+          "height": 40,
+          "top": 676,
+          "right": 1221.828125,
+          "bottom": 716,
+          "left": 1100
+        },
+        "outerHTML": "<button class=\"_18ctzv81 _18ctzv89 _18ctzv86\" type=\"button\"><span class=\"_18ctzv8e\"></span><span class=\"_18ctzv8f _18ctzv8i\"><span class=\"_18ctzv8n\">Contact sales</span></span></button>"
+      },
+      {
+        "selector": "[role=\"null\"]:nth-of-type(1)",
+        "type": "clickable",
+        "text": "CostsToggle fullscreenCosts is not part of your subscription",
+        "classes": "l6zkfw0 l6zkfw1 l6zkfw9 l6zkfwh l6zkfwp l6zkfwx l6zkfw10 _146tvct0 _5giecy0",
+        "rect": {
+          "x": 256,
+          "y": 0,
+          "width": 1664,
+          "height": 1080,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "left": 256
+        }
+      }
+    ],
+    "interactions": [
+      {
+        "elementIndex": 0,
+        "elementType": "button",
+        "elementText": "Expand Market Overview submenu",
+        "elementClasses": "_18ctzv81 _18ctzv8c _18ctzv84 _18ctzv83 _688zmrf",
+        "ariaExpanded": "false",
+        "ariaControls": "_r_b_",
+        "ariaHaspopup": null,
+        "clickCoords": {
+          "x": 223,
+          "y": 141
+        },
+        "domChanges": 7,
+        "changes": [
+          {
+            "type": "changed",
+            "key": "aria__r_b_",
+            "changes": {
+              "ariaExpanded": {
+                "from": "false",
+                "to": "true"
+              }
+            }
+          },
+          {
+            "type": "changed",
+            "key": "aria__r_i_",
+            "changes": {
+              "rect": {
+                "from": {
+                  "x": 211,
+                  "y": 173,
+                  "width": 24,
+                  "height": 24,
+                  "top": 173,
+                  "right": 235,
+                  "bottom": 197,
+                  "left": 211
+                },
+                "to": {
+                  "x": 211,
+                  "y": 245,
+                  "width": 24,
+                  "height": 24,
+                  "top": 245,
+                  "right": 235,
+                  "bottom": 269,
+                  "left": 211
+                }
+              }
+            }
+          },
+          {
+            "type": "changed",
+            "key": "aria__r_t_",
+            "changes": {
+              "rect": {
+                "from": {
+                  "x": 211,
+                  "y": 217,
+                  "width": 24,
+                  "height": 24,
+                  "top": 217,
+                  "right": 235,
+                  "bottom": 241,
+                  "left": 211
+                },
+                "to": {
+                  "x": 211,
+                  "y": 289,
+                  "width": 24,
+                  "height": 24,
+                  "top": 289,
+                  "right": 235,
+                  "bottom": 313,
+                  "left": 211
+                }
+              }
+            }
+          },
+          {
+            "type": "changed",
+            "key": "aria__r_1b_",
+            "changes": {
+              "rect": {
+                "from": {
+                  "x": 211,
+                  "y": 305,
+                  "width": 24,
+                  "height": 24,
+                  "top": 305,
+                  "right": 235,
+                  "bottom": 329,
+                  "left": 211
+                },
+                "to": {
+                  "x": 211,
+                  "y": 377,
+                  "width": 24,
+                  "height": 24,
+                  "top": 377,
+                  "right": 235,
+                  "bottom": 401,
+                  "left": 211
+                }
+              }
+            }
+          },
+          {
+            "type": "changed",
+            "key": "aria__r_1k_",
+            "changes": {
+              "rect": {
+                "from": {
+                  "x": 211,
+                  "y": 457,
+                  "width": 24,
+                  "height": 24,
+                  "top": 457,
+                  "right": 235,
+                  "bottom": 481,
+                  "left": 211
+                },
+                "to": {
+                  "x": 211,
+                  "y": 529,
+                  "width": 24,
+                  "height": 24,
+                  "top": 529,
+                  "right": 235,
+                  "bottom": 553,
+                  "left": 211
+                }
+              }
+            }
+          },
+          {
+            "type": "changed",
+            "key": "aria__r_20_",
+            "changes": {
+              "rect": {
+                "from": {
+                  "x": 211,
+                  "y": 574,
+                  "width": 24,
+                  "height": 24,
+                  "top": 574,
+                  "right": 235,
+                  "bottom": 598,
+                  "left": 211
+                },
+                "to": {
+                  "x": 211,
+                  "y": 646,
+                  "width": 24,
+                  "height": 24,
+                  "top": 646,
+                  "right": 235,
+                  "bottom": 670,
+                  "left": 211
+                }
+              }
+            }
+          },
+          {
+            "type": "changed",
+            "key": "aria__r_2j_",
+            "changes": {
+              "rect": {
+                "from": {
+                  "x": 211,
+                  "y": 735,
+                  "width": 24,
+                  "height": 24,
+                  "top": 735,
+                  "right": 235,
+                  "bottom": 759,
+                  "left": 211
+                },
+                "to": {
+                  "x": 211,
+                  "y": 807,
+                  "width": 24,
+                  "height": 24,
+                  "top": 807,
+                  "right": 235,
+                  "bottom": 831,
+                  "left": 211
+                }
+              }
+            }
+          }
+        ],
+        "newVisibleElements": [],
+        "screenshotAfter": "/home/taha/Projects/logistic-replica/interactions/costs-0-after.png"
+      },
+      {
+        "elementIndex": 1,
+        "elementType": "button",
+        "elementText": "Expand Lanes submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 2,
+        "elementType": "button",
+        "elementText": "Expand Rates submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 3,
+        "elementType": "button",
+        "elementText": "Collapse Costs submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 4,
+        "elementType": "button",
+        "elementText": "Expand Rate on Demand submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 5,
+        "elementType": "button",
+        "elementText": "Expand Autonomous Quotation submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 6,
+        "elementType": "button",
+        "elementText": "Expand Help submenu",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 7,
+        "elementType": "button",
+        "elementText": "Log out",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 8,
+        "elementType": "button",
+        "elementText": "Toggle fullscreen",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 9,
+        "elementType": "button",
+        "elementText": "Contact sales",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      },
+      {
+        "elementIndex": 10,
+        "elementType": "clickable",
+        "elementText": "CostsToggle fullscreenCosts is not part of your subscription",
+        "error": "el.className.split is not a function\npptr:evaluate;%2Fhome%2Ftaha%2FProjects%2Flogistic-replica%2Fdiscover-interactions.js%3A214%3A42:6:74"
+      }
+    ],
+    "hoverEffects": []
+  }
+}

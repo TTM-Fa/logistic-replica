@@ -1,0 +1,140 @@
+{
+  "viewerId": "9969256",
+  "email": "logistics@syndicategroup.com.qa",
+  "customerId": "649040",
+  "customerName": "Syndicate Market",
+  "customerType": "CARRIER",
+  "apiKey": null,
+  "settings": [
+    {
+      "name": "autonomous_quotations_quoting",
+      "value": null
+    },
+    {
+      "name": "autonomous_quotations_quoting_consent_given_at",
+      "value": null
+    },
+    {
+      "name": "autonomous_quotations_quoting_activated_at",
+      "value": null
+    },
+    {
+      "name": "core_metrics_subscription_type",
+      "value": null
+    },
+    {
+      "name": "core_metrics_subscription_id",
+      "value": null
+    },
+    {
+      "name": "core_metrics_api",
+      "value": null
+    },
+    {
+      "name": "core_metrics_available_countries",
+      "value": null
+    },
+    {
+      "name": "core_metrics_cost_insights",
+      "value": null
+    },
+    {
+      "name": "rate_on_demand_subscription_type",
+      "value": null
+    },
+    {
+      "name": "rate_on_demand_subscription_id",
+      "value": null
+    },
+    {
+      "name": "rate_on_demand_api",
+      "value": null
+    },
+    {
+      "name": "rate_on_demand_rate_limit",
+      "value": null
+    },
+    {
+      "name": "rate_on_demand_package_type",
+      "value": null
+    },
+    {
+      "name": "rate_on_demand_package_tiers",
+      "value": null
+    },
+    {
+      "name": "rate_benchmark_subscription_type",
+      "value": null
+    },
+    {
+      "name": "rate_benchmark_subscription_id",
+      "value": null
+    },
+    {
+      "name": "rate_benchmark_api",
+      "value": null
+    },
+    {
+      "name": "rate_benchmark_api_upload",
+      "value": null
+    },
+    {
+      "name": "rate_benchmark_excel_upload",
+      "value": null
+    },
+    {
+      "name": "rate_benchmark_data_lake_upload",
+      "value": null
+    },
+    {
+      "name": "rate_benchmark_transports_upload",
+      "value": null
+    },
+    {
+      "name": "rate_benchmark_lane_limit",
+      "value": null
+    },
+    {
+      "name": "rate_benchmark_trial_export",
+      "value": null
+    },
+    {
+      "name": "rate_benchmark_package_type",
+      "value": null
+    },
+    {
+      "name": "spot_rate_on_demand_subscription_type",
+      "value": null
+    },
+    {
+      "name": "spot_rate_on_demand_subscription_id",
+      "value": null
+    },
+    {
+      "name": "spot_rate_on_demand_api",
+      "value": null
+    },
+    {
+      "name": "spot_rate_on_demand_package_type",
+      "value": null
+    },
+    {
+      "name": "data_sharing_enabled",
+      "value": null
+    }
+  ],
+  "userSettings": [
+    {
+      "name": "onboarding_completed",
+      "value": "true"
+    },
+    {
+      "name": "theme",
+      "value": "\"light\""
+    },
+    {
+      "name": "tracking_consent",
+      "value": "true"
+    }
+  ]
+}

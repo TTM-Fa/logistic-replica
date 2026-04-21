@@ -1,0 +1,7 @@
+{
+  "start_date": "2026-03-01T00:00:00.000Z",
+  "end_date": "2026-03-31T23:59:59.999Z",
+  "rate_limit": 10,
+  "rates_calculated": 0,
+  "is_free": true
+}

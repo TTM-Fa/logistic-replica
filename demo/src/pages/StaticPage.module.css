@@ -1,0 +1,14 @@
+.loading {
+  height: 100%;
+  background: var(--color-content-bg);
+}
+
+.wrapper {
+  height: 100%;
+  overflow-y: auto;
+}
+
+/* Ensure the main element from the scraped page fills the available space */
+.wrapper > main {
+  min-height: 100%;
+}

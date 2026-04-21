@@ -1,0 +1,67 @@
+[
+  {
+    "page": "index",
+    "path": "/home",
+    "hasCanvas": false,
+    "canvasCount": 0,
+    "hasCharts": false,
+    "chartCount": 0,
+    "hasDataTables": false,
+    "tableRowCount": 0,
+    "hasLoadingSpinners": true,
+    "hasDataGrids": true,
+    "hasMaps": false
+  },
+  {
+    "page": "laneRequest",
+    "path": "/laneRequest",
+    "hasCanvas": false,
+    "canvasCount": 0,
+    "hasCharts": false,
+    "chartCount": 0,
+    "hasDataTables": false,
+    "tableRowCount": 0,
+    "hasLoadingSpinners": true,
+    "hasDataGrids": true,
+    "hasMaps": false
+  },
+  {
+    "page": "profile-tpa-company-649040",
+    "path": "/profile/tpa%7Ccompany%7C649040",
+    "hasCanvas": false,
+    "canvasCount": 0,
+    "hasCharts": false,
+    "chartCount": 0,
+    "hasDataTables": false,
+    "tableRowCount": 0,
+    "hasLoadingSpinners": false,
+    "hasDataGrids": true,
+    "hasMaps": false
+  },
+  {
+    "page": "userManagement",
+    "path": "/userManagement",
+    "hasCanvas": false,
+    "canvasCount": 0,
+    "hasCharts": false,
+    "chartCount": 0,
+    "hasDataTables": false,
+    "tableRowCount": 0,
+    "hasLoadingSpinners": false,
+    "hasDataGrids": true,
+    "hasMaps": false
+  },
+  {
+    "page": "userSettings",
+    "path": "/userSettings",
+    "hasCanvas": false,
+    "canvasCount": 0,
+    "hasCharts": false,
+    "chartCount": 0,
+    "hasDataTables": false,
+    "tableRowCount": 0,
+    "hasLoadingSpinners": false,
+    "hasDataGrids": true,
+    "hasMaps": false
+  }
+]

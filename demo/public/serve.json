@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/lanes/**", "destination": "/index.html" }
+  ]
+}

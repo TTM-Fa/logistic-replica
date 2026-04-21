@@ -1,0 +1,713 @@
+.tcBoxLayout { overflow: hidden; width: 100%; position: relative; }
+.tcBoxLayout.fullHeightLayout { height: 100%; }
+.tcBoxLayout.fullHeightLayout.absoluteTop { position: absolute; height: auto; bottom: 0px; }
+.tcBoxLayout.flexBox { display: flex; }
+.tcBoxLayout.flexBox.directionColumn { flex-direction: column; }
+.tcBox { padding-right: 10px; padding-bottom: 10px; padding-left: 3px; float: left; box-sizing: border-box; position: relative; }
+.tcBox.fullBox { width: 100%; padding-right: 3px; }
+.tcBox.fixedBox .tcBoxContentWrapper { overflow: auto; position: absolute; inset: 41px 0px 0px; }
+.tcBox.fixedBox.hasFooter .tcBoxContentWrapper { bottom: 50px; }
+.tcBox.splittedBox.boxHalf { width: 50%; }
+.tcBox.splittedBox.boxLeft { float: left; }
+.tcBox.splittedBox.boxRight { float: right; }
+.tcBox.splittedBox.boxAuto { width: auto; overflow: hidden; float: none; }
+.tcBox.splittedBox.collapsedH { float: left; }
+.tcBox.fullHeight { height: 100%; padding-bottom: 3px; }
+.tcBox.fullHeight .tcBoxContentWrapper { position: absolute; inset: 41px 0px 0px; overflow: auto; }
+.tcBox.fullHeight.hasFooter .tcBoxContentWrapper { top: 41px; bottom: 50px; }
+.tcBox.onlyBox { padding-bottom: 3px; padding-right: 0px; }
+.tcBoxHeader { background: rgb(113, 113, 113); color: rgb(255, 255, 255); padding: 10px; width: 100%; box-sizing: border-box; height: 41px; overflow: auto; position: relative; border-bottom: 0.125rem solid rgb(218, 218, 218); }
+.tcBoxHeader.tcBoxHeaderWhite { background: rgb(255, 255, 255); color: rgb(0, 0, 0); }
+.tcBoxBorderRadiusTop { border-radius: 4px 4px 0px 0px; }
+.tcBoxBorderRadiusBottom { border-radius: 0px 0px 4px 4px; }
+.tcBoxBorderRadiusDefault { border-radius: 4px; }
+.tcBoxHeader.highlighted { color: rgb(237, 170, 32); }
+.tcBoxHeader.uppercase { text-transform: uppercase; }
+.tcBoxHeader.lowercase { text-transform: lowercase; }
+.tcBoxHeader.lightBackground { background: rgb(229, 229, 229); color: rgb(0, 0, 0); }
+.tcBoxHeaderText { font-size: 2rem; line-height: 2.5rem; float: left; }
+.tcBoxHeaderContent { overflow: hidden; }
+.tcBoxHeaderLight { background: rgb(229, 229, 229); color: rgb(0, 0, 0); position: relative; width: 100%; box-sizing: border-box; overflow: auto; padding: 5px 5px 5px 10px; border-radius: 0px !important; }
+.tcBoxElementsWrapper { position: relative; height: 100%; border-radius: 4px; }
+.withBoxShadow { box-shadow: rgba(0, 0, 0, 0.16) 0px 0.125rem 0.25rem; border: 0.125rem solid rgb(218, 218, 218); }
+.withBoxShadow.highlighted { border: 0.125rem solid rgb(252, 195, 31); }
+.tcBoxElementsWrapper.tcBoxBorder { border: 1px solid rgb(128, 128, 128); }
+.tcBoxContent { position: relative; height: 100%; }
+.tcBoxContentWrapper { background-color: rgb(255, 255, 255); padding: 10px; width: 100%; box-sizing: border-box; display: inline-block; }
+.tcBoxContentWrapper.transparentBackground { background-color: transparent; }
+.tcBoxContentWrapper.noPadding { padding: 0px 0px 10px; }
+.tcBoxContentWrapper.noLeftRightPadding { padding: 10px 0px; }
+.tcBoxHeader.tcBoxHeaderTop { top: 3px; }
+.tcBox.fullHeight .tcFooter.tcBoxFooter, .tcBox.fixedBox .tcFooter.tcBoxFooter { position: absolute; bottom: 0px; height: 50px; left: 0px; right: 0px; }
+.boxHeaderElement { margin-left: 10px; }
+.tcComboBox.boxHeaderElement { margin-top: 0px; position: relative; }
+.boxHeaderElement.right { float: right; }
+.boxHeaderElement.left { float: left; }
+.boxHeaderElement.clickable { cursor: pointer; }
+.boxHeaderElement.inTabbar { margin-right: 10px; }
+.tcBox.hasHeaderContent .tcBoxHeaderText { font-size: 2rem; line-height: 2.5rem; max-width: 90%; }
+.tcBox.tcFormSection .tcBoxHeader { height: auto; overflow: hidden; }
+.tcBoxDrag { cursor: move; }
+.tcBox .tcBoxHeader .tcMenu { padding-top: 0px; margin-top: 0px; margin-bottom: 0px; }
+.tcLayout { overflow: hidden; height: 100%; width: 100%; cursor: auto; }
+.tcLayout > .tcProgressContainer { z-index: 99; }
+.tcLayout > .tcProgressContainer > div { z-index: 100; }
+.tcLayoutHeaderContainer { position: absolute; width: 100%; box-sizing: border-box; height: 80px; padding-left: 20px; padding-right: 20px; }
+.tcLayoutContentContainer { position: absolute; width: 100%; box-sizing: border-box; top: 0px; bottom: 0px; padding: 20px; }
+.tcLayoutContentContainer.hasFooter { bottom: 50px; padding-bottom: 0px; }
+.tcLayoutContentContainer.hasHeader { top: 80px; padding-top: 0px; }
+.tcLayoutContentContainer.hasCells { padding-top: 0px; }
+.tcLayoutContentContainer.noPadding { padding: 0px; }
+.tcLayoutCell.left .tcLayoutContentContainer { padding-left: 0px; padding-right: 10px; }
+.tcLayoutCell.left .tcLayoutHeaderContainer { padding-left: 0px; padding-right: 10px; }
+.tcLayoutCell.left .tcLayoutFooterContainer { padding-left: 0px; padding-right: 10px; }
+.tcLayoutCell.right .tcLayoutContentContainer { padding-right: 0px; padding-left: 10px; }
+.tcLayoutCell.right .tcLayoutHeaderContainer { padding-right: 0px; padding-left: 10px; }
+.tcLayoutCell.right .tcLayoutFooterContainer { padding-right: 0px; padding-left: 10px; }
+.tcLayoutCell .tcLayoutContentContainer { padding-bottom: 0px; }
+.tcLayoutCell .tcLayoutContentContainer.noPadding { padding-top: 0px; }
+.tcLayout.centeredLayout .tcLayoutContentContainer { text-align: center; }
+.tcLayout.centeredLayout .tcLayoutHeaderContainer { text-align: center; }
+.tcLayout.centeredLayout .tcLayoutFooterContainer { text-align: center; }
+.tcLayout.centeredLayout .tcLayoutFooterContainer .tcFooter { display: inline-block; }
+.tcLayout.centeredLayout .tcLayoutContent { text-align: left; display: inline-block; }
+.tcLayout.centeredLayout .tcLayoutHeader { display: inline-block; }
+.tcLayout.centeredLayout .tcLayoutHeader .tcHeadline { float: none; }
+.tcLayout.centeredLayout .tcLayoutFooter { text-align: left; display: inline-block; }
+.tcLayoutFooterContainer { position: absolute; width: 100%; box-sizing: border-box; height: 50px; bottom: 0px; padding: 0px 20px; }
+.tcLayoutHeader { box-sizing: border-box; padding-top: 30px; overflow: hidden; height: 100%; position: relative; }
+.tcHeadline { font-family: "Seravek Web Regular", Calibri, Helvetica, sans-serif; font-size: 2.25rem; line-height: 2.75rem; font-weight: normal; }
+.tcSubHeadline { font-family: "Seravek Web Regular", Calibri, Helvetica, sans-serif; font-size: 1.75rem; line-height: 2.25rem; font-weight: normal; }
+.tcHeadline.left { float: left; }
+.tcHeadline.auto { float: none; overflow: hidden; }
+.tcLayoutHeaderContent { padding-left: 15px; }
+.tcLayoutHeaderContent.left { float: none; overflow: hidden; width: auto; }
+.tcLayoutHeaderContent.right { float: right; }
+.tcLayoutExpandedHeader { overflow: hidden; width: 100%; }
+.tcLayoutContent { box-sizing: border-box; height: 100%; overflow: auto; position: relative; }
+.tcLayoutCells { width: 100%; height: 100%; }
+.tcLayoutCell { float: left; height: 100%; }
+.tcLayoutCellWrapper { width: 100%; height: 100%; position: relative; }
+.cellHalf { width: 50%; }
+.cellLeft { float: left; }
+.cellRight { float: right; }
+.cellAuto { width: auto; overflow: hidden; float: none; }
+.cellFull { overflow: hidden; float: none; width: auto !important; }
+.tcPopup { width: 820px; overflow: hidden; position: absolute; inset: 0px; margin: auto; cursor: auto; box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 5px; border-radius: 4px; }
+.tcPopupModalDiv { width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; background: rgba(242, 242, 242, 0.8); z-index: 1; }
+.tcPopupModalDiv.modalOnTop { z-index: 200; }
+.tcPopup .tcPopupElements { position: relative; height: 100%; }
+.tcPopup .tcPopupHeader { background: rgb(255, 255, 255); color: rgb(77, 78, 83); width: 100%; box-sizing: border-box; overflow: hidden; height: 35px; padding-right: 8px; padding-top: 8px; padding-left: 10px; border-bottom: 0.125rem solid rgb(218, 218, 218); }
+.tcPopup .tcPopupHeader .tcPopupHeaderText { float: none; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; width: auto; margin-right: 15px; font-size: 2rem !important; }
+.tcPopup .tcPopupHeader .closeButton { float: right; cursor: pointer; }
+.tcPopup .tcPopupHeader .maximizeButton { float: right; cursor: pointer; padding-right: 10px; }
+.tcPopup .tcPopupHeader .closeButton.disabled { cursor: default; color: rgb(153, 153, 153); }
+.tcPopup .popupPartsContainer { position: relative; box-sizing: border-box; width: 100%; background-color: rgb(255, 255, 255); z-index: 0; }
+.tcPopup .contentHeaderSeparator { width: 100%; background: rgb(153, 153, 153); height: 1px; }
+.tcPopup .popupContentContainer { padding: 10px; overflow: auto; position: relative; }
+.tcPopup .popupContentContainer.noPadding { padding: 0px; }
+.tcPopup .popupContentContainer .popupContent { width: 100%; height: 100%; position: relative; }
+.tcPopup .popupFixedContent { padding: 10px; }
+.tcPopupHint { width: 350px; }
+.tcPopupHint .popupPartsContainer .popupContentContainer { text-align: center; }
+.tcButton { cursor: pointer; display: inline-block; padding: 4px 10px; border-radius: 4px; box-sizing: border-box; font-family: "Seravek Web Regular", Calibri, Helvetica, sans-serif; font-size: 1.75rem; box-shadow: rgba(0, 0, 0, 0.16) 0px 0.125rem 0.25rem; user-select: none; }
+.tcButton[disabled] { pointer-events: none; box-shadow: rgba(0, 0, 0, 0.16) 0px 0.125rem 0.25rem; color: rgb(209, 211, 212) !important; background-color: rgb(247, 247, 247) !important; border: 0.125rem solid rgb(218, 218, 218) !important; }
+.tcButton.default { background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); border: 0.125rem solid rgb(179, 179, 179); }
+.tcButton:hover, .tcButton:focus { box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 5px inset; }
+.tcButton[color="red"] { background-color: rgb(248, 0, 0); color: rgb(255, 255, 255); border: 1px solid rgb(248, 0, 0); }
+.tcButton[color="red"] .tcBtnArrow { border-color: rgb(255, 255, 255) transparent transparent; }
+.tcButton[color="yellow"] { background-color: rgb(255, 255, 0); color: rgb(0, 0, 0); border: 1px solid rgb(165, 165, 165); }
+.tcButton[color="yellow"] .tcBtnArrow { border-color: rgb(255, 255, 255) transparent transparent; }
+.tcButton[color="green"] { background-color: rgb(40, 74, 152); color: rgb(255, 255, 255); border: 0.125rem solid rgb(40, 74, 152); }
+.tcButton[color="green"] .tcBtnArrow { border-color: rgb(255, 255, 255) transparent transparent; }
+.tcButton[color="orange"] { background-color: rgb(40, 74, 152); color: rgb(255, 255, 255); border: 0.125rem solid rgb(40, 74, 152); }
+.tcButton[color="orange"] .tcBtnArrow { border-color: rgb(40, 74, 152) transparent transparent; }
+.tcButton[color="yellow-5"] { background-color: rgb(237, 170, 32); color: rgb(255, 255, 255); border: 1px solid rgb(165, 165, 165); }
+.tcButton[color="yellow-5"] .tcBtnArrow { border-color: rgb(255, 255, 255) transparent transparent; }
+.tcDropdownElements { list-style: none; margin-top: 2px; background: rgb(255, 255, 255); border: 1px solid rgb(165, 165, 165); position: absolute; z-index: 110; padding: 5px 0px; overflow: auto; }
+.tcDropdownElement { padding: 5px 10px; cursor: pointer; }
+.tcDropdownElement:hover { background: rgb(242, 242, 242); }
+.tcDropdownElement[disabled], .tcDropdownElementContainer[disabled] { pointer-events: none; color: rgb(153, 153, 153); opacity: 0.5; }
+.tcDropdownSeparator { padding: 5px; }
+.tcDropdownSeparator.line { height: 1px; background: rgb(153, 153, 153); }
+.tcBtnArrow { border-style: solid; border-width: 6px 5px 0px; border-color: rgb(51, 51, 51) transparent transparent; display: inline-block; vertical-align: middle; margin-left: 5px; }
+.tcBtnArrow.right { float: right; }
+.tcBtnArrow.alignUnset { margin-left: 0px; }
+.tcBtnArrow[disabled] { border-color: rgb(209, 211, 212) transparent transparent; }
+.tcButton[disabled] .tcBtnArrow, .tcDropdownElement[disabled] .tcBtnArrow { border-color: rgb(153, 153, 153) transparent transparent; }
+.tcTwoStateActive { color: rgb(255, 255, 255); background-color: rgb(40, 74, 152) !important; }
+.tcButton.footerButton.left { float: left; }
+.tcButton.footerButton.right { float: right; }
+.tcButton:focus { outline: 0px; }
+.tcButton.large { border: 1px solid; font-size: 2.25rem; padding: 5px 10px; }
+.tcButton.large[disabled] { cursor: not-allowed; pointer-events: none; }
+.tcMenu { padding-top: 5px; padding-bottom: 5px; width: 100%; box-sizing: border-box; display: inline-block; }
+.tcMenuWithLine { padding-left: 18px; }
+.tcMenuButtonLeft { float: left; margin-right: 5px; }
+.tcMenuButtonRight { float: right; margin-left: 5px; }
+.tcMenuLine { width: 1px; height: 22px; background-color: rgb(255, 255, 255); }
+.tcMenuLineH { background-color: rgb(204, 204, 204); display: inline-block; margin-top: 12px; margin-bottom: 12px; height: 1px; width: 15px; float: left; }
+.tcMenuLineH.betweenButton { width: 5px; }
+.tcMenuLineV { background-color: rgb(204, 204, 204); display: inline-block; margin-top: 8px; height: 20px; width: 1px; float: left; position: relative; bottom: -4px; }
+.tcMenu .tcLegend { margin-top: 5px; }
+.tcMenu .tcComboBox { display: inline-block; }
+.tcMenu .tcSwitch { margin-top: 5px; }
+.tcFooter .tcMenu { padding: 0px; }
+.tcTextLabel { padding: 2px 10px; cursor: default; display: inline-block; text-align: center; }
+.tcTextLabel.disabled { color: rgb(153, 153, 153); }
+.tcTabbar { box-sizing: border-box; width: 100%; overflow: hidden; position: relative; }
+.tcTabbar.fullHeight { height: 100%; }
+.tcTabbar.absoluteTop { bottom: 0px; position: absolute; height: auto; }
+.tcTabbar.fixedWidth { float: left; }
+.tcTabbar.smallTabbar .tcTabbarLine { height: 1px; }
+.tcTabbar.boxTabbar .tcTabbarLine { height: 0px; }
+.tcTabbar .tcTabsContainer { overflow: hidden; width: 100%; height: 28px; box-sizing: border-box; }
+.tcTabbar.smallTabbar .tcTabsContainer { height: 21px; }
+.tcTabbar.boxTabbar .tcTabsContainer { background-color: rgb(255, 255, 255); padding-top: 12px; box-sizing: border-box; height: 40px; border-bottom: 0.125rem solid rgb(218, 218, 218); }
+.tcTabbarLine { height: 0.125rem; background-color: rgb(218, 218, 218); }
+.tcTab { color: rgb(77, 78, 83); font-size: 2rem; padding: 6px 10px; margin-bottom: 1px; line-height: 100%; cursor: pointer; float: left; text-align: center; }
+.tcTab:hover { background-color: rgb(234, 234, 234); }
+.tcTab.active { padding: 6px 10px 4px; margin-bottom: 0px; font-weight: bold; color: rgb(0, 64, 97); border-bottom: 0.25rem solid rgb(0, 64, 97); }
+.tcTab.disabled { color: rgb(179, 179, 179); cursor: default; }
+.tcTab.hidden { display: none; }
+.tcTab.right { float: right; }
+.tcTab.first { margin-left: 10px; }
+.tcTab.last { margin-right: 10px; }
+.tcTab.overflowing { visibility: hidden; }
+.tcTab.invalid { border-left: 5px solid rgb(255, 0, 0) !important; }
+.tcTabContainerArrows { display: inline-block; }
+.tcTabContainerArrows .arrowContainer { background: rgb(153, 153, 153); padding: 5px; }
+.tcTabContainerArrows .arrowContainer.left { border-radius: 5px 0px 0px 5px; margin-right: 5px; float: left; }
+.tcTabContainerArrows .arrowContainer.right { border-radius: 0px 5px 5px 0px; float: right; }
+.tcTabContainerArrows .arrowContainer.available { background: rgb(40, 74, 152); cursor: pointer; }
+.tcTabContainerArrows .leftArrow { width: 0px; height: 0px; border-style: solid; border-width: 4px 6px 4px 0px; border-color: transparent rgb(255, 255, 255) transparent transparent; }
+.tcTabContainerArrows .rightArrow { width: 0px; height: 0px; border-style: solid; border-width: 4px 0px 4px 6px; border-color: transparent transparent transparent rgb(255, 255, 255); }
+.tcTabbar.boxTabbar .tcTabContainerArrows .arrowContainer { background: rgb(226, 226, 226); }
+.tcTabbar.boxTabbar .tcTabContainerArrows .arrowContainer.available { background: rgb(255, 255, 255); }
+.tcTabbar.boxTabbar .tcTabContainerArrows .rightArrow { border-color: transparent transparent transparent rgb(51, 51, 51); }
+.tcTabbar.boxTabbar .tcTabContainerArrows .leftArrow { border-color: transparent rgb(51, 51, 51) transparent transparent; }
+.tcTabbar.smallTabbar .tcTab { font-size: 14px; padding: 5px 10px 1px; }
+.tcTabbar.smallTabbar .tcTab.active { padding: 5px 10px 2px; }
+.tcTabbar.smallTabbar .tcTab.disabled { padding: 4px 9px 1px; }
+.tcTabbar.boxTabbar .tcTab { color: rgb(51, 51, 51); }
+.tcTabbar.boxTabbar .tcTab:hover { background-color: rgb(255, 255, 255); }
+.tcTabbar.boxTabbar .tcTab.disabled { color: rgb(153, 153, 153); }
+.tcTabbar.boxTabbar .tcTab.disabled:hover { background-color: rgb(226, 226, 226); }
+.tcTabbar.boxTabbar .tcTab.active { background-color: rgb(255, 255, 255); color: rgb(0, 64, 97); }
+.tcTabText { float: left; }
+.tcTabIcon { float: left; height: 16px; margin-right: 5px; }
+.tcTabDeleteIcon { float: right; margin-left: 5px; }
+.tcTabContentElements { position: relative; }
+.tcTabContentElements.fullHeight { height: 100%; }
+.tcTabContentElements.fullHeight .tcTabContentWrapper { position: absolute; top: 0px; bottom: 0px; }
+.tcTabContentElements.fullHeight .tcTabContentWrapper.hasFooter { bottom: 50px; }
+.tcTabContentElements.fullHeight .tcTabContentWrapper.hasMenu { top: 46px; }
+.tcTabContentElements.fullHeight .tcFooter.tcTabFooter { bottom: 0px; position: absolute; }
+.tcTabContent { position: relative; height: 100%; }
+.tcTabContentWrapper { box-sizing: border-box; width: 100%; padding: 15px; background-color: rgb(255, 255, 255); overflow: auto; }
+.tcTabContentWrapper.noPadding { padding: 0px; }
+.tcTabContentWrapper.noSidesPadding { padding-left: 0px; padding-right: 0px; }
+.tcTabContentWrapper.transparent { background: transparent; }
+.tcTabbar.fullHeight .tcTabContents { position: absolute; width: 100%; top: 30px; bottom: 0px; }
+.tcTabbar.fullHeight.boxTabbar .tcTabContents { top: 40px; }
+.tcTabbar.fullHeight.smallTabbar .tcTabContents { top: 22px; }
+.tcTabbar .tcFooter.tcTabFooter { height: 50px; }
+.tcTabbar .tcMenu.tcTabMenu { height: 46px; padding: 10px 15px; background-color: rgb(255, 255, 255); box-sizing: border-box; }
+.tcBox.fullHeight .tcTabbar.tcBoxTabbar, .tcBox.fixedBox .tcTabbar.tcBoxTabbar { position: absolute; top: 0px; height: auto; bottom: 0px; border-radius: 4px; }
+.tcBox.fullHeight.hasFooter .tcTabbar.tcBoxTabbar, .tcBox.fullHeight.fixedBox .tcTabbar.tcBoxTabbar { bottom: 50px; }
+.tabbarElementLeft { float: left; }
+.tabbarEditTabElements { cursor: pointer; margin-right: 5px; }
+.tcdynamicLeftItems { padding-top: 3px; float: left; }
+.tcTab.last + .tcdynamicLeftItems { margin-left: -5px; margin-right: 5px; }
+.tcRightItems { z-index: 1; position: absolute; right: 0px; padding-top: 3px; margin-left: 5px; }
+.tcRightItems .tcdynamicLeftItems { padding-top: 0px; }
+.tcSwitch { overflow: hidden; }
+.tcSwitchBtn { padding: 1px 8px; background-color: rgb(153, 153, 153); cursor: pointer; float: left; color: rgb(255, 255, 255); }
+.tcSwitchBtn:hover { background-color: rgb(40, 74, 152); }
+.tcSwitchBtn.active { background-color: rgb(40, 74, 152); }
+.tcSwitchBtn.disabled, .tcSwitchBtn.disabled:hover { color: rgb(51, 51, 51); background: rgb(255, 255, 255); cursor: default; font-family: "Seravek Web Regular Italic", Calibri, Helvetica, sans-serif; }
+.tcSwitchBtn.hidden { display: none; }
+.tcSwitchBtn.first { border-bottom-left-radius: 5px; }
+.tcSwitchBtn.last { border-bottom-right-radius: 5px; }
+.tcLegend { background-color: rgb(255, 255, 255); display: inline-block; }
+.tcLegendText { font-size: 12px; padding-left: 5px; padding-right: 5px; display: inline-block; float: left; }
+.tcLegendMandatory { background-color: rgb(38, 174, 228); width: 3px; margin-top: 1px; margin-bottom: 1px; height: 16px; }
+.tcLegendElement { display: inline-block; float: left; }
+.tcProgressBar { width: 100%; padding: 10px; box-sizing: border-box; }
+.tcProgressBarPercentage { font-size: 2.75rem; padding-left: 10px; width: 80px; box-sizing: border-box; float: right; line-height: 100%; }
+.tcProgressBarIndicator { box-sizing: border-box; height: 20px; width: auto; overflow: hidden; background-color: rgb(218, 218, 218); border-radius: 4px; }
+.tcProgressBarProgressed { background-color: rgb(38, 174, 228); float: left; height: 100%; border-radius: 4px; }
+.tcProgressBarNotProgressed { background-color: rgb(218, 218, 218); float: left; height: 100%; border-bottom-right-radius: 6px; border-top-right-radius: 6px; }
+.tcProgressPie { margin-left: 20px; margin-right: 20px; width: 100px; text-align: center; }
+.tcProgressPie.inLine { float: left; }
+.tcProgressPieTitle { margin-top: 8px; font-size: 15px; }
+.tcProgressPieImg { height: 100px; width: 100px; }
+.tcProgressPie .animatedPie { height: 100px; }
+.tcProgressPie .animatedPieNumber { position: relative; top: -65px; left: 0px; font-size: 25px; text-align: center; font-weight: bold; }
+.tcTooltip { position: absolute; max-width: 280px; min-width: 100px; z-index: 11; pointer-events: none; }
+.tcTooltip.clickableTooltip { pointer-events: auto; }
+.tcTooltip.autoWidth { max-width: none; }
+.tcTooltip .tcTooltipContent { position: relative; background: rgb(255, 255, 255); border: 1px solid rgb(165, 165, 165); padding: 5px; box-shadow: rgb(136, 136, 136) -1px 1px 5px 0px; pointer-events: none; }
+.tcTooltip.clickableTooltip .tcTooltipContent { pointer-events: auto; }
+.tcTooltip .tcTooltipContent.down::after, .tcTooltip .tcTooltipContent.down::before { bottom: 100%; left: 15px; border: solid transparent; content: " "; height: 0px; width: 0px; position: absolute; pointer-events: none; }
+.tcTooltip.clickableTooltip .tcTooltipContent.down::after, .tcTooltip .tcTooltipContent.down::before { pointer-events: auto; }
+.tcTooltip .tcTooltipContent.down.right::after, .tcTooltip .tcTooltipContent.down.right::before { right: 15px; left: auto; }
+.tcTooltip .tcTooltipContent.down::after { border-color: rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) rgb(255, 255, 255); border-width: 10px; margin-left: -10px; }
+.tcTooltip .tcTooltipContent.down::before { border-color: rgba(165, 165, 165, 0) rgba(165, 165, 165, 0) rgb(165, 165, 165); border-width: 11px; margin-left: -11px; }
+.tcTooltip .tcTooltipContent.up::after, .tcTooltip .tcTooltipContent.up::before { top: 100%; left: 15px; border: solid transparent; content: " "; height: 0px; width: 0px; position: absolute; }
+.tcTooltip .tcTooltipContent.up.right::after, .tcTooltip .tcTooltipContent.up.right::before { right: 15px; left: auto; }
+.tcTooltip .tcTooltipContent.up::after { border-color: rgb(255, 255, 255) rgba(255, 255, 255, 0) rgba(255, 255, 255, 0); border-width: 10px; margin-left: -10px; }
+.tcTooltip .tcTooltipContent.up::before { border-color: rgb(165, 165, 165) rgba(165, 165, 165, 0) rgba(165, 165, 165, 0); border-width: 11px; margin-left: -11px; }
+.tcTooltip.validationError .tcTooltipContent { padding: 1px 5px; }
+.tcTooltip.validationError .tcTooltipContent.up { background: rgb(255, 0, 0); border: 1px solid rgb(255, 0, 0); color: rgb(255, 255, 255); border-radius: 4px; }
+.tcTooltip.validationError .tcTooltipContent.up::after, .tcTooltip.validationError .tcTooltipContent.up::before { left: 7px; }
+.tcTooltip.validationError .tcTooltipContent.up::after { border-color: rgb(255, 0, 0) rgba(255, 0, 0, 0) rgba(255, 0, 0, 0); border-width: 10px 6px 0px; margin-left: 0px; }
+.tcTooltip.validationError .tcTooltipContent.up::before { border-color: rgb(255, 0, 0) rgba(255, 0, 0, 0) rgba(255, 0, 0, 0); border-width: 0px; margin-left: 0px; }
+.tcFooter { background-color: rgb(255, 255, 255); width: 100%; overflow: hidden; padding: 10px; box-sizing: border-box; height: 50px; }
+.tcFooterGrey { background-color: rgb(247, 247, 247); }
+.tcFooterContent { overflow: hidden; width: 100%; }
+.tcSteps { overflow: hidden; padding: 5px; box-sizing: border-box; border-radius: 4px; background-color: rgb(255, 255, 255); display: inline-block; }
+.tcSteps.useFullWidth { width: 100%; display: block; }
+.tcSteps.statusTree { background-color: transparent; width: 100%; }
+.tcSteps.absoluteTop { position: absolute; }
+.tcStep { float: left; padding-right: 10px; cursor: pointer; box-sizing: border-box; font-size: 2rem; }
+.disabled { cursor: default !important; }
+.tcStep.active .tcStepText { color: rgb(40, 74, 152); }
+.tcStep.disabled .tcStepText { color: rgb(153, 153, 153); }
+.tcStep.active .tcStepNumber { background-color: rgb(40, 74, 152); color: rgb(255, 255, 255); }
+.tcStep.finished .tcStepNumber { background-color: rgb(40, 74, 152); color: rgb(255, 255, 255); }
+.tcStep.disabled .tcStepNumber { background-color: rgb(255, 255, 255); border: 1px solid rgb(229, 229, 229); color: rgb(153, 153, 153); padding: 4px 9px; }
+.tcSteps.vertical .tcStep { float: none; overflow: hidden; padding-bottom: 10px; }
+.tcSteps.statusTree .tcStep { float: none; display: block; overflow: hidden; padding-bottom: 9px; position: relative; }
+.tcSteps.statusTree .tcStep .tcStepText { color: inherit; border-radius: 0px 10px 10px 0px; padding: 0px 10px 0px 5px; float: none; overflow: hidden; width: auto; }
+.tcSteps.statusTree .tcStep.active .tcStepText, .tcSteps.statusTree .tcStep.active .tcStepImg { background-color: rgb(229, 229, 229); }
+.tcSteps.statusTree .tcStep.disabled { border: 0px; }
+.tcSteps.statusTree .tcStep.disabled .tcStepText { color: rgb(153, 153, 153); background-color: transparent; }
+.tcSteps.statusTree .tcStep.disabled .tcStepImg { background-color: transparent; }
+.tcSteps.statusTree.noTexts .tcStep.active .tcStepImg { background-color: transparent; }
+.tcSteps.useFullWidth .tcStep .tcStepText { float: none; width: auto; }
+.tcStepText { padding: 5px; box-sizing: border-box; float: left; overflow: hidden; }
+.tcStepNumber { padding: 5px 10px; border-radius: 4px; box-sizing: border-box; background-color: rgb(229, 229, 229); float: left; }
+.tcStepImg { height: 20px; box-sizing: border-box; border-radius: 10px 0px 0px 10px; }
+.tcStepErrorIcon { float: right; vertical-align: middle; padding-top: 6px; padding-left: 3px; }
+.tcSteps.onlyOneActive .tcStep.active .tcStepText { display: inherit; }
+.tcSteps.onlyOneActive .tcStep .tcStepText { display: none; }
+.tcStepCustomImg { height: 30px; width: 30px; float: left; box-sizing: border-box; border-radius: 4px; }
+.tcStepCustomImgHelper { display: inline-block; height: 100%; vertical-align: middle; }
+.tcStepImage { vertical-align: middle; }
+.tcSteps.statusTree .statusTreeElements { float: left; }
+.tcStepTreeLine { margin-left: 6px; width: 7px; background-color: rgb(204, 204, 204); }
+.tcStepTreeLine.between { position: absolute; bottom: 0px; top: 20px; }
+.tcStepTreeLine.first { border-radius: 10px 10px 0px 0px; height: 10px; }
+.tcStepTreeLine.last { border-radius: 0px 0px 10px 10px; height: 3px; }
+.tcStepArrow { position: relative; width: 1px; height: 30px; float: right; margin-right: 15px; margin-left: 5px; }
+.tcStepArrow::after, .tcStepArrow::before { left: 100%; top: 50%; border: solid transparent; content: " "; height: 0px; width: 0px; position: absolute; pointer-events: none; }
+.tcStepArrow::after { border-color: rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) rgb(255, 255, 255); margin-top: -12px; border-width: 11px 0px 11px 9px; }
+.tcStepArrow::before { border-color: rgba(229, 229, 229, 0) rgba(229, 229, 229, 0) rgba(229, 229, 229, 0) rgb(229, 229, 229); margin-top: -14px; border-width: 13px 0px 13px 10px; }
+.tcSteps.progress { background-color: transparent; width: 100%; }
+.tcSteps.progress .container { display: flex; }
+.tcSteps.progress .tcStep { position: relative; padding-right: 0px; display: flex; flex: 1 0 0px; justify-content: center; align-items: center; }
+.tcSteps.progress .tcStep:not(:last-child)::before, .tcSteps.progress .tcStep:not(:last-child)::after { display: block; position: absolute; top: 40%; left: 50%; height: 8px; content: ""; z-index: -1; }
+.tcSteps.progress .tcStep::before { width: 100%; background-color: rgb(209, 211, 212); }
+.tcSteps.progress .tcStep::after { width: 0px; background-color: rgb(40, 74, 152); }
+.tcSteps.progress .tcStepNumber { display: flex; align-items: center; justify-content: center; position: relative; width: 23px; height: 23px; background-color: rgb(77, 78, 83); color: rgb(255, 255, 255); border-radius: 50%; }
+.tcSteps.progress .tcStepText { flex: 1 0 0px; margin-top: 8px; font-size: 1.75rem; text-align: center; word-break: normal; }
+.tcStepText[is="active"] { color: rgb(40, 74, 152); }
+.tcStepText.disabled { pointer-events: none; color: rgb(153, 153, 153); }
+.tcSteps.progress .tcStep.active .tcStepNumber { color: rgb(40, 74, 152); background-color: rgb(255, 255, 255); border: 3px solid rgb(40, 74, 152); width: 30px; height: 30px; }
+.disabled .tcStepNumber { background-color: rgb(229, 229, 229) !important; color: rgb(153, 153, 153) !important; }
+.tcSteps.progress .tcStep.complete .tcStepText { color: rgb(40, 74, 152); }
+.tcSteps.progress .tcStep.complete::after { opacity: 1; transition: width 0.6s ease-in-out, opacity 0.6s ease-in-out; width: 100% !important; }
+.tcForm { display: inline-block; width: 100%; position: relative; }
+.tcForm.autoWidth { width: auto; }
+.tcForm.gridLayout { display: grid; }
+::-webkit-input-placeholder { color: rgb(153, 153, 153); font-family: "Seravek Web Regular Italic", Calibri, Helvetica, sans-serif; }
+.tcFormItemContainer { padding: 0px 20px 10px 0px; box-sizing: border-box; float: left; clear: left; }
+.tcFormItemContainer.hidden { padding: 0px; display: none !important; }
+.tcFormItemContainer.sameLine { clear: none; }
+.tcFormItemContainer.fullWidth { width: 100%; }
+.tcFormLabel { box-sizing: border-box; line-height: 100%; padding-top: 2px; padding-bottom: 2px; display: inline-block; }
+.tcFormLabel.left { float: left; padding-right: 10px; }
+.tcFormLabel.labelBold { font-family: "Seravek Web Medium", Calibri, Helvetica, sans-serif; }
+.tcFormLabel.labelItalic { font-family: "Seravek Web Regular Italic", Calibri, Helvetica, sans-serif; }
+.tcFormItemNumber { float: left; padding-right: 10px; box-sizing: border-box; width: 50px; word-break: break-all; }
+.tcFormItem { box-sizing: border-box; position: relative; clear: left; }
+.tcFormItem.left { float: left; clear: none; }
+.tcFormControlLegend { font-family: "Seravek Web Medium", Calibri, Helvetica, sans-serif; font-size: 1.75rem; color: rgb(255, 255, 255); cursor: default; position: absolute; top: 0px; bottom: 0px; }
+.tcFormControlLegend.comboLegend { height: 24px; }
+.tcFormControlLegend.vaultLegend { bottom: 2px; }
+.tcFormControlLegend.tcFormRequired { width: 4px; background-color: rgb(38, 174, 228); }
+.tcFormControlLegend.tcValidationError { width: 8px; background-color: rgb(248, 0, 0); padding-left: 4px; padding-right: 4px; text-align: center; line-height: 1.4; }
+.tcFormControlContainer { float: none; overflow: hidden; width: auto; box-sizing: border-box; }
+.tcFormControlContainer.noLegend { overflow: visible; display: inline-block; width: 100%; }
+.tcFormControlContainer.hasRequired { margin-left: 4px; }
+.tcFormControlContainer.hasFailedValidation { margin-left: 16px; }
+.tcFormControlContainer.hasRequired .tcFormInput, .tcFormControlContainer.hasRequired .tcFormTextArea, .tcFormControlContainer.hasRequired .tcFormCombo .tcComboSelect, .tcFormControlContainer.hasRequired .tcFormTextEditor { border-left: 0px; }
+.tcFormControlContainer.hasFailedValidation .tcFormInput, .tcFormControlContainer.hasFailedValidation .tcComboBox.tcFormCombo .tcComboSelect, .tcFormControlContainer.hasFailedValidation .tcFormTextArea, .tcFormControlContainer.hasFailedValidation .tcFormTextEditor { border-top-color: rgb(248, 0, 0); border-right-color: rgb(248, 0, 0); border-bottom-color: rgb(248, 0, 0); border-left: 0px; }
+.tcFormControlContainer.hasFailedValidation .tcComboBox.tcFormCombo .tcComboSelectBtn { background-color: rgb(248, 0, 0); }
+.tcFormItemContainer.disabled .tcFormInput, .tcFormItemContainer.disabled .tcFormTextArea, .tcFormItemContainer.disabled .tcFormCombo .tcComboSelect { background-color: rgb(246, 246, 246); color: rgb(153, 153, 153); }
+.tcFormControl { width: 100%; color: rgb(51, 51, 51); overflow: auto; word-break: break-word; font-family: "Seravek Web Regular", Calibri, Helvetica, sans-serif; font-size: 1.75rem; }
+.tcFormControl.tcCheckboxList.tcFormCheckboxList, .tcFormControl.tcRadioList.tcFormRadioList { box-sizing: border-box; padding-left: 5px; }
+.tcFormControl.tcComboBox.tcFormCombo { position: static; overflow: hidden; }
+.tcFormControl.tcFormTextArea { height: auto; resize: none; box-sizing: border-box; outline: 0px; border: 1px solid rgb(153, 153, 153); padding: 1px 8px 2px 4px; margin: 0px; }
+.tcFormControl.tcFormFieldset { margin: 0px; border: 1px solid rgb(153, 153, 153); float: left; clear: left; box-sizing: border-box; padding: 5px 7px 7px; }
+.tcFormControl.tcFormFieldset.sameLine { clear: none; }
+.tcFormControl.tcFormFieldset legend { line-height: 100%; padding-top: 2px; padding-bottom: 2px; }
+.tcFormControl.tcFormFieldset.hideLines { border: 0px; padding: 0px; }
+.tcFormControl.tcFormSeparator { overflow: hidden; }
+.tcFormControl.tcFormSeparator .separatorLabel { float: left; padding-right: 5px; }
+.tcFormControl.tcFormSeparator .separatorLine { background: rgb(51, 51, 51); height: 1px; margin-top: 8px; margin-bottom: 6px; overflow: hidden; width: auto; }
+.tcFormSectionDelete { cursor: pointer; }
+.tcFormItems { display: inline-block; width: 100%; }
+.tcFormLabelHint { margin-left: 5px; display: inline-block; vertical-align: text-top; }
+.tcFormTextAreaAllowHScrolling { white-space: pre; overflow-wrap: normal; }
+.tcComboBox { position: relative; display: inline-block; box-sizing: border-box; }
+.tcComboBox.disabled { color: rgb(153, 153, 153); }
+.tcComboBox.disabled .tcComboSelect { cursor: default; }
+.tcComboSelect { box-sizing: border-box; background: rgb(255, 255, 255); border: 1px solid rgb(153, 153, 153); cursor: pointer; outline: 0px; height: 24px; }
+.tcComboSelectItem { padding: 2px 8px 1px 4px; float: none; overflow: hidden; width: auto; box-sizing: border-box; }
+.tcComboSelectBtn { padding: 7px 6px 6px 7px; float: right; box-sizing: border-box; background-color: rgb(136, 138, 133); margin: 2px; }
+.tcComboSelectText { float: none; overflow: hidden; width: auto; box-sizing: border-box; }
+.tcComboSelectText.hasPadding { padding-left: 15px; }
+.tcComboBox.disabled .tcComboSelectBtn { background-color: rgb(196, 197, 194); }
+.tcComboSelectBtnArrow { width: 0px; height: 0px; border-style: solid; border-width: 5px 4px 0px; border-color: rgb(255, 255, 255) transparent transparent; }
+.tcComboDropdown { position: absolute; z-index: 110; background: rgb(255, 255, 255); border: 1px solid rgb(153, 153, 153); list-style: none; margin-left: -1px; max-height: 200px; overflow: auto; }
+.tcComboDropdown .listItem { padding: 5px; border-bottom: 1px solid rgb(230, 232, 234); width: 100%; box-sizing: border-box; }
+.tcComboDropdown .listItem:hover { background: rgb(229, 229, 229); }
+.tcComboDropdown .listItem.focus { background: rgb(229, 229, 229); }
+.tcComboDropdown .listItem.disabled { color: rgb(153, 153, 153); background: transparent; cursor: default; }
+.tcComboDropdown .listItem.hidden { display: none; }
+.tcComboBox .selectItemInput { outline: 0px; border: 0px solid; background-color: transparent; width: 100%; color: rgb(51, 51, 51); cursor: pointer; pointer-events: none; font-family: "Seravek Web Regular", Calibri, Helvetica, sans-serif; font-size: 1.75rem; }
+.tcComboBox .selectItemInput.filteringOn { font-family: "Seravek Web Regular Italic", Calibri, Helvetica, sans-serif; }
+.tcComboBox .selectItemInput.filteringOn.red { color: rgb(255, 0, 0); }
+.tcComboBox .selectItemInput.withFilter { cursor: auto; pointer-events: auto; }
+.tcComboBox.disabled .selectItemInput { color: rgb(153, 153, 153); cursor: default; }
+.tcComboIcon { padding-bottom: 0px; padding-top: 0px; }
+.tcComboIcon.left { float: left; padding-right: 10px; }
+.tcComboIcon.right { float: right; padding-left: 10px; }
+.tcCheckbox { box-sizing: border-box; }
+.tcCheckbox.container { display: flex; align-items: flex-start; margin-top: 2px; margin-bottom: 2px; }
+.tcCheckbox.alignment { display: inline-block; }
+.tcCheckbox.position { position: absolute; }
+input[type="checkbox"] { appearance: none; margin: 0px; position: relative; cursor: pointer; }
+input[type="checkbox"]::before { display: inline-block; content: ""; width: 16px; height: 16px; }
+input[type="checkbox"]:disabled, input[type="checkbox"]:disabled + label { opacity: 0.5; pointer-events: none; }
+input[type="checkbox"]:focus { outline: 0px; }
+input[type="checkbox"]:focus + label { color: rgb(113, 113, 113); }
+input[type="checkbox"] + label { margin-left: 5px; word-break: break-word; cursor: pointer; }
+img { display: inline-block; vertical-align: middle; margin-right: 5px; }
+.tcCheckbox.alignment.hintIcon { margin-left: 3px; vertical-align: top; }
+.tcCheckboxList.subCheckList { left: 8px; position: relative; }
+.tcCheckboxList.subCheckList .checkboxWithItems .tcCheckboxList.subCheckList { left: 23px; }
+.tcCheckboxList.subCheckList .checkboxWithItems .checkListLineV { left: 23px; }
+.tcCheckboxList .checkboxWithItems { position: relative; overflow: hidden; }
+.tcCheckboxList .checkListLineV { float: left; width: 1px; position: absolute; top: 17px; left: 8px; bottom: 10px; background: rgb(153, 153, 153); }
+.tcCheckboxList .checkListLineH { float: left; height: 1px; width: 15px; margin-top: 11px; background: rgb(153, 153, 153); }
+.tcCheckbox.left { float: left; }
+.tcRadio { box-sizing: border-box; }
+.tcRadio.container { display: flex; align-items: flex-start; margin-top: 2px; margin-bottom: 2px; }
+.tcRadio.alignment { display: inline-block; }
+.tcRadio.position { position: absolute; }
+.tcRadio img { margin-left: 5px; }
+input[type="radio"] { appearance: none; margin: 0px; position: relative; cursor: pointer; }
+input[type="radio"]::before { display: inline-block; content: ""; width: 16px; height: 16px; }
+input[type="radio"]:focus { outline: 0px; }
+input[type="radio"]:disabled, input[type="radio"]:disabled + label { pointer-events: none; opacity: 0.5; }
+input[type="radio"] + label { margin-left: 5px; word-break: break-word; cursor: pointer; }
+.tcRadio.left { float: left; }
+.tcRadio .rdoTextElements { float: none; padding: 1px 5px; box-sizing: border-box; width: auto; overflow: hidden; margin-left: 18px; }
+.tcRadio .rdoText.left { float: left; }
+.tcRadio .rdoTextElements img { margin-left: 10px; cursor: default; }
+.tcRadio.alignment.hintIcon { margin-left: 3px; vertical-align: top; }
+.tcRadio.focused .rdoText { color: rgb(113, 113, 113); }
+.tcRadioListRow { display: flex; flex-direction: row; }
+.tcRadioListRow div.container:first-child { margin-left: 0px; }
+.tcRadioListRow div.container { margin-left: 10px; }
+.tcTable { width: 100%; border-collapse: collapse; table-layout: fixed; }
+.tcTable * { box-sizing: border-box; }
+.tcTable td { border-bottom: 0.125rem solid rgb(218, 218, 218); }
+.tcTable.separate { border-collapse: separate; border-spacing: 0px 8px; }
+.tcTableCol { padding: 10px 5px; }
+.tcTableCol.header { text-align: left; font-family: "Seravek Web Medium", Calibri, Helvetica, sans-serif; }
+.tcTableCol.noBorder { border-bottom: 0px; }
+.tcTableCol > .icon { margin-left: 10px; white-space: nowrap; }
+.tcTableCol > .icon:first-child { margin-left: 0px; }
+.tcTableCol.text { color: rgb(153, 153, 153); }
+.tcTableCol.taskContainer { padding: 0px; }
+.tcTableCol.taskContainer > .task { color: rgb(255, 255, 255); font-size: 2.75rem; text-align: center; padding: 6px 0px; border-radius: 4px; margin-bottom: 6px; }
+.tcTableCol.taskContainer > .task.redStatus { background-color: rgb(221, 50, 50); }
+.tcTableCol.taskContainer > .task.greenStatus { background-color: rgb(0, 177, 136); }
+.tcTableCol.taskContainer > .task.fixed { height: 36px; }
+.tcTableCol.taskContainer > .task > img { margin-top: 2px; }
+.tcTableCol.taskDescription { padding-top: 0px; padding-bottom: 0px; padding-left: 10px; }
+.tcTableCol.taskDescription .text { font-family: "Seravek Web Medium", Calibri, Helvetica, sans-serif; }
+.greyStyle { border: 1px solid rgb(204, 204, 204); }
+.greyStyle .tcTableRow.header { background-color: rgb(204, 204, 204); }
+.greyStyle .tcTableCol { padding: 5px; }
+.greyStyle .tcTableCol.header { border-right: 1px solid rgb(255, 255, 255); }
+.greyStyle .tcTableCol.header:last-child { border-right: 0px; }
+.verticalAlignTop { vertical-align: top; }
+.tcMessage { width: 40rem; padding: 2.5rem; z-index: 200; overflow: hidden; position: absolute; background: rgb(255, 255, 255); border-radius: 4px; border: 0.125rem solid rgb(218, 218, 218); box-shadow: rgba(0, 0, 0, 0.16) 0px 1.5rem 3rem; bottom: 3rem; right: 0px; left: 0px; margin: auto; display: flex; align-items: center; }
+.tcMessageIcon { margin-right: 1.5rem; }
+.tcMessage-success { border: 0.125rem solid rgb(0, 177, 136) !important; }
+.tcMessage-error { border: 0.125rem solid rgb(221, 50, 50) !important; }
+.tcAddArea { width: 100%; height: 150px; background: rgb(255, 255, 255); position: relative; float: left; }
+.tcAddAreaBtnContainer { position: absolute; inset: 1px; margin: auto; display: flex; justify-content: center; align-items: center; }
+.dottedBorderH { background-image: linear-gradient(to right, rgb(153, 153, 153) 80%, rgba(255, 255, 255, 0) 0%); background-position: center top; background-size: 15px 1px; background-repeat: repeat-x; width: 100%; height: 1px; position: absolute; }
+.dottedBorderH.top { top: 0px; }
+.dottedBorderH.bottom { bottom: 0px; }
+.dottedBorderV { background-image: linear-gradient(rgb(153, 153, 153) 80%, rgba(255, 255, 255, 0) 20%); background-position: left center; background-size: 1px 15px; background-repeat: repeat-y; width: 1px; height: 100%; position: absolute; }
+.dottedBorderV.left { left: 0px; }
+.dottedBorderV.right { right: 0px; }
+.tcTextEditor { width: 100%; height: 130px; background: rgb(255, 255, 255); position: relative; border: 1px solid rgb(162, 163, 160); box-sizing: border-box; overflow: hidden; }
+.tcTextEditorMenu { height: 30px; background-color: rgb(229, 229, 229); width: 100%; }
+.tcTextEditorMenu .line { float: left; width: 1px; height: 22px; margin: 4px 5px; background-color: rgb(255, 255, 255); }
+.tcTextEditorMenu .editorMenuElement { float: left; cursor: pointer; padding: 3px; margin: 3px; height: 24px; box-sizing: border-box; vertical-align: middle; line-height: 100%; }
+.tcTextEditorMenu .editorMenuElement:hover, .tcTextEditorMenu .editorMenuElement.active { background-color: rgb(246, 246, 246); }
+.tcTextEditor .editorTextAreaContainer { position: absolute; inset: 30px 0px 0px; }
+.tcTextEditor .editorTextAreaContainer .editorTextArea { width: 100%; height: 100%; box-sizing: border-box; }
+.tcTextEditor.disabled .editorTextAreaContainer { background: rgb(246, 246, 246); }
+.tcTextEditor .maximizeIcon { padding: 7px; float: right; cursor: pointer; }
+.tcTextEditor .sceditor-container.ie iframe { height: 100% !important; }
+.tcStatusBar { display: inline-block; }
+.tcStatusBar .statusPrefixText { float: left; margin-right: 20px; margin-top: 8px; }
+.tcStatusBar .statusAreas { overflow: hidden; }
+.tcStatusBar .statusArea { float: left; box-sizing: border-box; padding-right: 10px; width: 50px; }
+.tcStatusBar .statusArea.green, .tcStatusBar .statusArea.greenEmpty { color: rgb(0, 153, 0); }
+.tcStatusBar .statusArea.yellow { color: rgb(232, 190, 9); }
+.tcStatusBar .statusArea.red { color: rgb(248, 0, 0); }
+.tcStatusBar .statusArea.grey { color: rgb(113, 113, 113); }
+.tcStatusBar .statusArea .statusText { width: 100%; text-align: center; }
+.tcStatusBar .statusArea .statusText.isLink { cursor: pointer; }
+.tcStatusBar .statusArea .statusText.isLink:hover { text-decoration: underline; }
+.tcStatusBar .statusArea .statusElement { width: 100%; box-sizing: border-box; position: relative; overflow: hidden; height: 6px; background: rgb(204, 204, 204); }
+.tcStatusBar .statusArea .statusElement .indicator { height: 100%; box-sizing: border-box; }
+.tcStatusBar .statusArea.green .statusElement .indicator { background: rgb(0, 153, 0); }
+.tcStatusBar .statusArea.greenEmpty .statusElement .indicator { border: 1px solid rgb(0, 153, 0); }
+.tcStatusBar .statusArea.yellow .statusElement .indicator { background: rgb(232, 190, 9); }
+.tcStatusBar .statusArea.red .statusElement .indicator { background: rgb(248, 0, 0); }
+.tcStatusBar .statusArea.grey .statusElement .indicator { background: rgb(113, 113, 113); }
+.tcStatusBar .totalCountArea { overflow: hidden; margin-right: 10px; }
+.tcStatusBar .totalCountArea.greenEmpty { padding-right: 50px; }
+.tcStatusBar .totalCountArea div { float: left; box-sizing: border-box; }
+.tcStatusBar .totalCountArea .line { margin-top: 5px; padding-top: 5px; width: 40%; }
+.tcStatusBar .totalCountArea .line.left { border-left: 2px solid rgb(204, 204, 204); border-bottom: 2px solid rgb(204, 204, 204); }
+.tcStatusBar .totalCountArea .line.right { border-right: 2px solid rgb(204, 204, 204); border-bottom: 2px solid rgb(204, 204, 204); }
+.tcStatusBar .totalCountArea .totalCount { width: 20%; padding-top: 2px; text-align: center; }
+.tcInputContainer { width: 100%; position: relative; box-sizing: border-box; overflow: auto; }
+.tcInputContainer .calendarIcon { position: absolute; right: 0px; padding: 4px; cursor: pointer; }
+.tcInputContainer.disabled .calendarIcon { cursor: default; }
+.tcInputContainer .numberSelector { background: rgb(241, 241, 241); margin: 3px; padding: 3px; position: absolute; right: 0px; }
+.tcInputContainer .numberSelector .arrowDown { width: 0px; height: 0px; border-style: solid; border-width: 5px 4px 0px; border-color: rgb(51, 51, 51) transparent transparent; cursor: pointer; }
+.tcInputContainer .numberSelector .arrowUp { width: 0px; height: 0px; border-style: solid; border-width: 0px 4px 5px; border-color: transparent transparent rgb(51, 51, 51); cursor: pointer; margin-bottom: 2px; }
+.tcInputContainer.disabled .numberSelector .arrowDown, .tcInputContainer.disabled .numberSelector .arrowUp { cursor: default; }
+.tcInput { border: 1px solid rgb(153, 153, 153); padding: 3px 8px 2px 4px; box-sizing: border-box; outline: 0px; height: 24px; width: 100%; color: rgb(51, 51, 51); font-family: "Seravek Web Regular", Calibri, Helvetica, sans-serif; font-size: 1.75rem; }
+.tcInput.hasIcon { padding-right: 20px; }
+.tcIconContainer { position: relative; box-sizing: border-box; cursor: pointer; }
+.tcIconContainer.disabled { cursor: default; }
+.tcIcon { height: 18px; width: 18px; padding: 2px; }
+.tcIconDropdown { display: inline-block; vertical-align: middle; }
+.tcIconLabel { display: inline-block; margin-left: 5px; font-size: 2rem; }
+.tcIconLabel > a { text-decoration: underline; cursor: pointer; }
+.tcIconLabel > a:hover { color: rgb(30, 99, 176); }
+.tcIconLabel[color="green"] { color: rgb(0, 153, 0); }
+.tcIconLabel[color="red"] { color: rgb(248, 0, 0); }
+.position { display: inline-block; vertical-align: text-bottom; }
+i[size="12"] { font-size: 1.375rem; }
+i[size="16"] { font-size: 2rem; }
+i[size="20"] { font-size: 2.5rem; }
+i[size="24"] { font-size: 3rem; }
+i[color="red"] { color: rgb(245, 136, 115) !important; }
+i[color="yellow"] { color: rgb(223, 179, 0) !important; }
+i[color="yellow_4"] { color: rgb(252, 195, 31) !important; }
+i[color="blue_4"] { color: rgb(40, 74, 152) !important; }
+i[color="grey_4"] { color: rgb(209, 211, 212) !important; }
+i[color="grey_5"] { color: rgb(179, 179, 179) !important; }
+i[color="grey_6"] { color: rgb(77, 78, 83) !important; }
+i[color="white"] { color: rgb(255, 255, 255) !important; }
+i[color="orange_4"] { color: rgb(242, 100, 34) !important; }
+i[color="green_dark"] { color: rgb(34, 140, 34) !important; }
+i[color="green"] { color: rgb(0, 153, 0) !important; }
+i[color="purple_4"] { color: rgb(155, 68, 154) !important; }
+i[color="green_1"] { color: rgb(228, 243, 236) !important; }
+i[color="green_2"] { color: rgb(177, 219, 183) !important; }
+i[color="green_3"] { color: rgb(119, 198, 153) !important; }
+i[color="green_4"] { color: rgb(0, 177, 136) !important; }
+i[color="green_5"] { color: rgb(0, 123, 108) !important; }
+i[color="green_6"] { color: rgb(0, 85, 80) !important; }
+i[color="red_1"] { color: rgb(252, 210, 206) !important; }
+i[color="red_2"] { color: rgb(245, 136, 115) !important; }
+i[color="red_3"] { color: rgb(240, 77, 78) !important; }
+i[color="red_4"] { color: rgb(221, 50, 50) !important; }
+i[color="red_5"] { color: rgb(174, 31, 35) !important; }
+i[color="red_6"] { color: rgb(128, 48, 58) !important; }
+i[status="enabled"] { cursor: pointer; }
+i[status="disabled"] { cursor: default; color: rgb(209, 211, 212) !important; }
+.tcLabels { width: 100%; box-sizing: border-box; display: flex; flex-flow: wrap; align-content: flex-start; }
+.tcLabels .tcLabel { display: flex; align-items: center; background: rgb(205, 224, 243); padding: 5px 10px; border-radius: 4px; margin: 5px 10px 5px 0px; cursor: auto; }
+.tcLabels .tcLabel .deleteImg { cursor: pointer; padding-left: 5px; }
+.tcLabels.withInput { border: 1px solid rgb(153, 153, 153); padding: 0px 5px; box-sizing: border-box; position: relative; cursor: text; display: flex; flex-wrap: wrap; }
+.tcLabels.withInput input { border: 0px; float: left; outline: 0px; margin: 7px 0px; padding: 3px 0px; flex-grow: 1; }
+.tcLabelsDropdown { position: absolute; border: 1px solid rgb(204, 204, 204); box-sizing: border-box; left: -1px; right: -1px; max-height: 150px; overflow: auto; z-index: 110; background: rgb(255, 255, 255); }
+.tcLabelsDropdown > div { padding: 5px; }
+.tcLabelsDropdown > div.selected, .tcLabelsDropdown > div:hover { background: rgb(229, 229, 229); }
+.tcFolders { width: 100%; height: 100%; position: relative; box-sizing: border-box; }
+.tcFolders.absoluteTop { height: auto; bottom: 0px; position: absolute; }
+.tcFolders .folderBox { inset: 0px 0px 50px; position: absolute; border-width: 1px 1px 0px; border-top-style: solid; border-right-style: solid; border-left-style: solid; border-top-color: rgb(204, 204, 204); border-right-color: rgb(204, 204, 204); border-left-color: rgb(204, 204, 204); border-image: initial; border-bottom-style: initial; border-bottom-color: initial; }
+.tcFolders.readOnly .folderBox { bottom: 0px; border-bottom: 1px solid rgb(204, 204, 204); }
+.tcFolders .folderBox .folderBoxContent { position: relative; padding: 10px; height: 100%; box-sizing: border-box; overflow: auto; }
+.tcFolders .folderBox .folderBoxContent .folderLink { padding-right: 5px; border-radius: 4px; padding-left: 3px; margin-bottom: 5px; cursor: pointer; display: inline-block; }
+.tcFolders .folderBox .folderBoxContent .folderLink.selected { background-color: rgb(229, 229, 229); }
+.tcFolders .folderBox .folderBoxContent .folderLinkSeparator { height: 1px; width: 100%; background-color: rgb(153, 153, 153); margin-bottom: 5px; }
+.tcFolders .tcFooter.tcFoldersFooter { position: absolute; bottom: 0px; height: 50px; left: 0px; right: 0px; }
+.tcChartLegends { padding-bottom: 10px; display: inline-block; overflow: hidden; }
+.tcChartLegends .legend { float: left; padding-right: 10px; }
+.tcChartLegends .legend .legendColor { width: 20px; height: 3px; margin-top: 10px; margin-right: 5px; float: left; }
+.tcChartLegends .legend .labelText { float: left; cursor: pointer; color: rgb(102, 102, 102); }
+.tcChartLegends .legend .labelText:hover { text-decoration: underline; }
+.tcChartLegends .legend .labelText.hidden { text-decoration: line-through; }
+.tcOrderedList { width: 100%; }
+.tcOrderedList .listItem { overflow: hidden; padding: 10px; background-color: rgb(246, 246, 246); margin-bottom: 10px; }
+.tcOrderedList .listItem.empty, .tcOrderedList.draggable .listItem.empty { font-family: "Seravek Web Regular Italic", Calibri, Helvetica, sans-serif; text-align: center; color: rgb(102, 102, 102); cursor: default; }
+.tcOrderedList.draggable .listItem { cursor: move; }
+.tcOrderedList .listItem > i { float: right; cursor: default; }
+.tcOrderedList .listItem > i.clickable { cursor: pointer; }
+.tcOrderedList .listItem .order { float: left; padding-right: 10px; box-sizing: border-box; }
+.tcOrderedList .listItem .description { float: none; overflow: hidden; width: auto; }
+.tcOrderedList .listItem .properties { padding-right: 18px; color: rgb(102, 102, 102); box-sizing: border-box; font-family: "Seravek Web Regular Italic", Calibri, Helvetica, sans-serif; }
+.SelectionFrame { opacity: 0.22; fill: rgb(105, 121, 144); }
+.staticMarkerValue { text-anchor: middle; }
+.theLine { stroke: darkgrey; }
+.LineUL { fill: rgb(89, 105, 128); }
+.LineUR { fill: rgb(89, 105, 128); }
+.LineDL { fill: rgb(89, 105, 128); }
+.LineDR { fill: rgb(89, 105, 128); }
+.svgBeeswarm { background-color: rgb(255, 255, 255); user-select: none; }
+.SVGDark { background-color: rgb(0, 0, 0); }
+.SVGLight { background-color: rgb(255, 255, 255); }
+.fpsDark { font-family: "Seravek Web Regular", Calibri, Helvetica, sans-serif; font-size: 3rem; fill: white; }
+.fpsLight { font-size: 30px; fill: black; }
+.fpsLineDark { stroke: orange; }
+.fpsLineLight { stroke: red; }
+.detailTextDark { font-size: 2.25rem; text-anchor: middle; fill: white; }
+.detailTextLight { font-size: 2.25rem; text-anchor: middle; fill: black; }
+.detailPie { fill: orange; }
+.linkPie { fill: rgb(89, 148, 255); }
+.border { fill: grey; }
+.detailedLegendNodesTextDark { font-size: 2.25rem; fill: white; }
+.detailedLegendNodesTextLight { font-size: 2.25rem; fill: black; }
+.detailLegendNodesRect { fill: orange; }
+.detailLegendLinksRect { fill: rgb(89, 148, 255); }
+.detailedLegendLinksTextDark { font-size: 2.25rem; fill: white; }
+.detailedLegendLinksTextLight { font-size: 2.25rem; fill: black; }
+.link { stroke: rgb(204, 204, 204); stroke-width: 1; }
+.textDark { font-size: 10px; fill: white; }
+.textLight { font-size: 10px; fill: black; }
+.tc_excell.pearlnecklace { height: 100%; }
+div.pearlnecklace { height: 100%; position: relative; }
+.svgPearlnecklace { position: absolute; height: 100%; width: 100%; }
+td.colId_CubePearlNecklace { padding: 0px !important; }
+.tcWidget > .title { padding: 3rem 3rem 0px; overflow: hidden; box-sizing: border-box; }
+.tcWidget > .widgetContainer { padding: 1.5rem; display: flex; flex-wrap: wrap; }
+.tcWidget > .widgetContainer > .widgetControl { padding: 1.5rem; box-sizing: border-box; flex: 1 1 37.5rem; }
+@supports (-ms-high-contrast:none) {
+  .widgetControl { flex: initial; width: 37.5rem; }
+}
+.tcWidget > .widgetContainer > .widgetControl.auto { flex: 1 1 auto; }
+.tcWidget > .widgetContainer > .widgetControl.full { flex: 1 1 100%; }
+.tcWidget > .widgetContainer > .widgetControl.half { flex: 1 1 50%; }
+.tcWidget.small { width: 43.5rem; }
+.tcWidget.medium { width: 84rem; }
+.tcWidget.large { width: 124.5rem; }
+.tcWidget.extraLarge { width: 165rem; }
+.tcKpi { width: 100%; overflow: hidden; }
+.tcKpi > svg, .tcKpi img { float: left; width: 8rem; height: 8rem; padding-right: 1.5rem; }
+.tcKpi > div { overflow: hidden; overflow-wrap: break-word; }
+.tcKpi > div .kpiValue { font-size: 2.75rem; padding-bottom: 1rem; color: rgb(77, 78, 83); }
+.tcKpi > div .kpiDesc { font-size: 1.75rem; }
+.svgCirclePack { background-color: rgb(255, 255, 255); }
+.circleName { font-family: "Seravek Web Regular", Calibri, Helvetica, sans-serif; font-size: 1.25rem; line-height: 2.25rem; text-anchor: middle; }
+.cpBackgroundRectangle { fill: white; }
+.tcIntroWide { min-width: 500px; max-width: 500px; }
+.tcSelectionList { width: 100%; display: flex; flex-wrap: wrap; }
+.tcSelectionList h4 { font-weight: normal; }
+.tcSelectionList .listItem { box-sizing: border-box; background-color: rgb(246, 246, 246); margin: 5px; flex: 1 1 0px; display: flex; }
+.tcSelectionList .listItem.selected { border: 0.125rem solid rgb(38, 174, 228); }
+.tcSelectionList .listItem.disabled { opacity: 0.5; color: rgb(153, 153, 153); cursor: default; }
+.tcSelectionList .listItem.column { flex-direction: column; }
+.tcSelectionList .listItem .leftBox { background-color: rgb(229, 229, 229); position: relative; flex-shrink: 0; }
+.tcSelectionList .listItem .content { padding: 10px; overflow: auto; height: 100%; box-sizing: border-box; }
+.tcSelectionList .listItem .description { margin-top: 2px; margin-bottom: 0px; }
+.tcSelectionList .listItem .icon { width: 20px; height: 20px; position: absolute; left: 50%; top: 50%; margin-left: -10px; margin-top: -10px; }
+.tcSelectionList .listItem .selectionListRadio { align-items: center; margin-top: 10px; margin-bottom: 10px; margin-left: 5px; }
+.tcSelectionList .listItem .selectionListCheckBox { flex-direction: column; align-items: center; margin-top: 10px; }
+.smallBox_mainBox { display: block; overflow: hidden; margin-right: 20px; margin-bottom: 10px; padding: 0px; position: relative; }
+.smallBox_mainBox.sameLine { display: inline-block; }
+.smallBox_headerBox { display: block; overflow: hidden; padding: 10px; background-color: rgb(229, 229, 229); }
+.smallBox_contentBox { display: block; overflow: hidden; padding: 10px; background-color: rgb(246, 246, 246); }
+.smallBox_blocker { background-color: rgb(255, 255, 255); opacity: 0.4; top: 0px; left: 0px; width: 100%; height: 100%; z-index: 10000; position: absolute; }
+.tcFlexHorContainer { display: flex; flex-flow: wrap; place-content: flex-start; width: 100%; }
+.tcFlexVerContainer { display: flex; flex-flow: column wrap; place-content: flex-start; }
+.tcFlexBoxItem, .tcFlexRowItem { background-color: rgb(255, 255, 255); border: 0.125rem solid rgb(218, 218, 218); box-shadow: rgba(0, 0, 0, 0.16) 0px 0.125rem 0.25rem; position: relative; }
+.tcFlexBoxItem { margin: 0px 10px 10px 0px; box-sizing: border-box; overflow-wrap: break-word; }
+.tcFlexRowItem:last-child { margin-left: 10px; }
+.tcFlexRow { display: flex; flex-direction: row; margin: 0px 10px 10px 0px; }
+.tcFlexRowItem { flex: 1 1 auto; }
+.tcFlexBreak { flex-basis: 100%; width: 0px; }
+.tcFlexBoxItem_Header, .tcFlexBoxItem_Content, .tcFlexBoxItem_Footer { min-height: 10px; height: auto; }
+.tcFlexBoxItem_Header { padding: 10px; font-size: 2rem; border-bottom: 0.125rem solid rgb(218, 218, 218); }
+.tcFlexBoxItem_Content { padding: 10px; }
+.tcFlexBoxItem_Footer { padding: 0px 10px 10px; }
+.tcFlexBoxItem_Fog { height: 36px; position: absolute; bottom: 0px; padding: 0px 10px 10px; background-image: linear-gradient(rgba(255, 255, 255, 0), rgb(255, 255, 255), rgb(255, 255, 255)); }
+.tcFlexBoxItem_Footer_Custom { display: flex; justify-content: flex-start; align-items: flex-end; width: calc(80%); }
+.tcFlexBoxItem_Footer_Custom a, .tcFlexBoxItem_Footer_Custom a:hover { color: rgb(30, 99, 176); cursor: pointer; flex-grow: 1; }
+.tcFlexBoxItem_Footer_Custom a:hover { text-decoration: underline; }
+.tcFlexBoxItem_FogCollapsed { padding: 0px 10px 10px; }
+@media only screen and (max-width: 1230px) {
+  .tcFlexBox { width: calc(35%); }
+  .tcFlexRow { width: calc(37%); }
+  .tcFlex_1st_col { order: 1; }
+  .tcFlex_2nd_col { order: 3; }
+  #break0 { order: 2; }
+  #break1 { display: none; }
+}
+@media only screen and (min-width: 1231px) {
+  .tcFlexBox { width: calc(20%); }
+  .tcFlexRow { width: calc(22%); }
+}
+.donutControl { position: relative; background: rgb(255, 255, 255); }
+.donutControl .svgTcDonut { background-color: rgb(255, 255, 255); }
+.donutControl .htmlObject { background-color: rgb(255, 255, 255); }
+.donutControl .pieChartLegend { padding-bottom: 10px; display: flex; justify-content: left; }
+.donutControl .pieChartLegend .tcLegend:first-child { margin-left: 10px; }
+.donutControl .pieChartHeader { background-color: rgb(255, 255, 255); padding: 7px 0px 0px 10px; position: absolute; text-align: center; font-family: "Seravek Web Medium", Calibri, Helvetica, sans-serif; }
+.donutControl .pieChartLegendRight { position: absolute; top: 0px; right: 0px; bottom: 0px; overflow: hidden; display: flex; flex-direction: column; justify-content: center; }
+.donutControl .pieChartLegendRight .tcLegend:first-child { margin-top: 5px; }
+.donutControl .pieChartLegendRight .tcLegend { margin-bottom: 5px; }
+.donutControl .pieChartLegendColorSample { width: 16px; height: 16px; border-radius: 4px; }
+.donutControl .pieChartHeader { background-color: rgb(255, 255, 255); padding: 7px 0px 0px 10px; position: absolute; }
+.donutControl .pieChartName { font-family: "Seravek Web Regular", Calibri, Helvetica, sans-serif; font-size: 14px; line-height: normal; text-anchor: middle; }
+.donutControl .drawnPillar { cursor: pointer; }
+.donutControl .piePiece { cursor: pointer; }
+.donutControl #resetCircle { fill: rgb(255, 255, 255); }
+.tcContextMenu { border-radius: 5px; border: 1px solid rgb(165, 165, 165); list-style: none; background: rgb(255, 255, 255); position: absolute; z-index: 110; padding: 5px 0px; overflow: auto; max-width: 250px; min-width: 125px; user-select: none; box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 5px; outline: 0px; }
+.tcContextMenu li { padding: 8px 10px; display: flex; align-items: center; cursor: pointer; }
+.tcContextMenu li.sep { border-top: 1px solid rgb(165, 165, 165); height: 0px; padding: 0px; cursor: unset; }
+.tcContextMenu li span { padding-left: 5px; }
+.tcContextMenu li i { color: rgb(40, 74, 152); }
+.tcContextMenu li:hover { background: rgb(242, 242, 242); }
+.tcProgressContainer { position: absolute; top: 0px; bottom: 0px; width: 100%; background-color: rgb(255, 255, 255); z-index: 1; opacity: 0.75; }
+.tcProgressContainer > div { position: absolute; left: 50%; top: 0px; width: 30px; height: 100%; background-image: url("../../../images/Loading-indicator-small.png"); background-position: center center; background-repeat: no-repeat; z-index: 2; animation: 1s linear 0s infinite normal none running spin; }
+@-webkit-keyframes spin { 
+  100% { transform: rotate(360deg); }
+}
+@keyframes spin { 
+  100% { transform: rotate(360deg); }
+}
+html { font-size: 8px; }
+body { font-family: "Seravek Web Regular", Calibri, Helvetica, sans-serif; font-size: 1.75rem; color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); }
+.container { max-width: 500px; margin: 100px auto auto; text-align: center; }
+.code { font-size: 50px; color: rgb(40, 74, 152); padding-bottom: 10px; }
+.title { font-size: 45px; padding-bottom: 10px; }
+.description { font-size: 2.25rem; padding-bottom: 30px; }
+.buttons { overflow: hidden; width: 100%; }

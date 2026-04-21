@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html translate="no" lang="en">
+  <head>
+    <script src="/config/appConfig.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/import-map-overrides@6.0.1/dist/import-map-overrides.js"></script>
+    <script type="text/javascript">if (
+        window.appConfig &&
+        window.appConfig.IS_SINGLE_SPA_ENABLED &&
+        window.appConfig.SINGLE_SPA_MFE_URL
+      ) {
+        const esmImportMap = document.createElement("script");
+        esmImportMap.type = "importmap";
+        const now = new Date().getTime();
+        esmImportMap.src = `${appConfig.SINGLE_SPA_MFE_URL}?t=${now}`;
+        document.head.appendChild(esmImportMap);
+      }</script>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <!--<meta
+      name="description"
+      content="Web site created using create-react-app"
+    />-->
+    <link rel="apple-touch-icon" href="/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="icon" type="image/x-icon" href="/favicon-tp.ico">
+    <script src="https://cdn.jsdelivr.net/npm/regenerator-runtime@0.13.7/runtime.min.js"></script>
+    <title>Transporeon | Freight Marketplace</title>
+    <!-- Gainsight PX Tag-->
+    <script type="text/javascript">
+      (function(n,t,a,e,co){var i="aptrinsic";n[i]=n[i]||function(){
+          (n[i].q=n[i].q||[]).push(arguments)},n[i].p=e;n[i].c=co;
+        var r=t.createElement("script");r.async=!0,r.src=a+"?a="+e;
+        var c=t.getElementsByTagName("script")[0];c.parentNode.insertBefore(r,c)
+      })(window,document,"https://web-sdk.aptrinsic.com/api/aptrinsic.js", window.appConfig.GAINSIGHT_TOKEN);
+    </script>
+    <!-- Gainsight PX Tag-->
+    <script type="module" crossorigin src="/index.B3O2UlPw.js"></script>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    <import-map-overrides-full show-when-local-storage="devtools"></import-map-overrides-full>
+  </body>
+</html>

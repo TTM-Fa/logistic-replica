@@ -1,0 +1,76 @@
+[
+  {
+    "featureId": "5978087e-1739-4e79-ad50-1ae541b101f5",
+    "mappedElements": [
+      {
+        "id": "962a9dc1-b891-488a-bd46-442b7b0bdf32",
+        "rulesCondition": "and",
+        "textElementRules": [
+          {
+            "cssSelector": "#dateFormat_8",
+            "textOperator": "is",
+            "text": [
+              "YYYY-MM-DD"
+            ]
+          }
+        ],
+        "scopeRules": [
+          {
+            "urlScope": "https://marketplace.dev.transporeon.com/userSettings",
+            "urlCondition": "IS"
+          },
+          {
+            "urlScope": "https://marketplace.test.transporeon.com/userSettings",
+            "urlCondition": "IS"
+          },
+          {
+            "urlScope": "https://marketplace.transporeon.com/userSettings",
+            "urlCondition": "IS"
+          }
+        ],
+        "urlLogicalOperator": "URL_SCOPES_CONDITION_OR",
+        "type": "SELECTOR_TEXT_RULE"
+      }
+    ],
+    "apiKey": "AP-IMFEHHOHPTJW-2"
+  },
+  {
+    "featureId": "94d771d8-0ed7-46eb-91a8-2f5ccf251133",
+    "mappedElements": [
+      {
+        "id": "3108b9b9-6b88-4d21-b9f6-08d339bbaca1",
+        "rulesCondition": "and",
+        "textElementRules": [
+          {
+            "cssSelector": ".MuiBox-root > [type=\"button\"]",
+            "textOperator": "is",
+            "text": [
+              "Save"
+            ]
+          }
+        ],
+        "scopeRules": [
+          {
+            "urlScope": "https://localhost:3000/userSettings*",
+            "urlCondition": "IS"
+          },
+          {
+            "urlScope": "https://marketplace.test.transporeon.com/userSettings*",
+            "urlCondition": "IS"
+          },
+          {
+            "urlScope": "https://marketplace.transporeon.com/userSettings*",
+            "urlCondition": "IS"
+          },
+          {
+            "urlScope": "https://marketplace.dev.transporeon.com/userSettings*",
+            "urlCondition": "IS"
+          }
+        ],
+        "urlLogicalOperator": "URL_SCOPES_CONDITION_OR",
+        "type": "SELECTOR_TEXT_RULE"
+      }
+    ],
+    "apiKey": "AP-IMFEHHOHPTJW-2"
+  }
+]

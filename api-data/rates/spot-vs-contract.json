@@ -1,0 +1,460 @@
+{
+  "cwHeaders": [
+    "CW9 Feb ’26",
+    "CW10 Mar ’26",
+    "CW11 Mar ’26",
+    "CW12 Mar ’26"
+  ],
+  "lanes": [
+    {
+      "rank": 1,
+      "lane": {
+        "from": "Germany East",
+        "to": "Germany Northeast",
+        "distance": 242
+      },
+      "weeks": [
+        {
+          "contract": 2.77,
+          "spot": 2.23,
+          "diff": -0.54
+        },
+        {
+          "contract": 2.76,
+          "spot": 2.2,
+          "diff": -0.55
+        },
+        {
+          "contract": 2.74,
+          "spot": 2.35,
+          "diff": -0.39
+        },
+        {
+          "contract": 2.75,
+          "spot": 2.45,
+          "diff": -0.3
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "lane": {
+        "from": "Germany Southeast",
+        "to": "Germany Southwest",
+        "distance": 238
+      },
+      "weeks": [
+        {
+          "contract": 2.53,
+          "spot": 2.08,
+          "diff": -0.45
+        },
+        {
+          "contract": 2.5,
+          "spot": 2.18,
+          "diff": -0.32
+        },
+        {
+          "contract": 2.5,
+          "spot": 2.28,
+          "diff": -0.22
+        },
+        {
+          "contract": 2.5,
+          "spot": 2.28,
+          "diff": -0.22
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "lane": {
+        "from": "Germany Central",
+        "to": "Germany Southwest",
+        "distance": 248
+      },
+      "weeks": [
+        {
+          "contract": 2.3,
+          "spot": 2.04,
+          "diff": -0.27
+        },
+        {
+          "contract": 2.33,
+          "spot": 2.08,
+          "diff": -0.25
+        },
+        {
+          "contract": 2.35,
+          "spot": 2.16,
+          "diff": -0.19
+        },
+        {
+          "contract": 2.36,
+          "spot": 2.19,
+          "diff": -0.17
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "lane": {
+        "from": "Germany West",
+        "to": "Germany West",
+        "distance": 159
+      },
+      "weeks": [
+        {
+          "contract": 3.01,
+          "spot": 2.64,
+          "diff": -0.38
+        },
+        {
+          "contract": 3.01,
+          "spot": 2.64,
+          "diff": -0.37
+        },
+        {
+          "contract": 3.01,
+          "spot": 2.78,
+          "diff": -0.23
+        },
+        {
+          "contract": 3.03,
+          "spot": 2.9,
+          "diff": -0.13
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "lane": {
+        "from": "Germany Northwest",
+        "to": "Germany Southeast",
+        "distance": 632
+      },
+      "weeks": [
+        {
+          "contract": 1.8,
+          "spot": 1.56,
+          "diff": -0.24
+        },
+        {
+          "contract": 1.79,
+          "spot": 1.73,
+          "diff": -0.06
+        },
+        {
+          "contract": 1.79,
+          "spot": 1.6,
+          "diff": -0.19
+        },
+        {
+          "contract": 1.81,
+          "spot": 1.7,
+          "diff": -0.11
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "lane": {
+        "from": "Germany Northwest",
+        "to": "Germany Southwest",
+        "distance": 635
+      },
+      "weeks": [
+        {
+          "contract": 1.96,
+          "spot": 1.77,
+          "diff": -0.19
+        },
+        {
+          "contract": 1.97,
+          "spot": 1.73,
+          "diff": -0.24
+        },
+        {
+          "contract": 1.94,
+          "spot": 1.76,
+          "diff": -0.18
+        },
+        {
+          "contract": 1.94,
+          "spot": 1.84,
+          "diff": -0.1
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "lane": {
+        "from": "Germany Central",
+        "to": "Germany Northeast",
+        "distance": 458
+      },
+      "weeks": [
+        {
+          "contract": 1.83,
+          "spot": 1.71,
+          "diff": -0.12
+        },
+        {
+          "contract": 1.83,
+          "spot": 1.9,
+          "diff": 0.07
+        },
+        {
+          "contract": 1.83,
+          "spot": 1.74,
+          "diff": -0.09
+        },
+        {
+          "contract": 1.87,
+          "spot": 1.77,
+          "diff": -0.09
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "lane": {
+        "from": "Germany Central",
+        "to": "Germany West",
+        "distance": 274
+      },
+      "weeks": [
+        {
+          "contract": 2.27,
+          "spot": 2.06,
+          "diff": -0.21
+        },
+        {
+          "contract": 2.27,
+          "spot": 2.03,
+          "diff": -0.24
+        },
+        {
+          "contract": 2.25,
+          "spot": 2.16,
+          "diff": -0.1
+        },
+        {
+          "contract": 2.24,
+          "spot": 2.17,
+          "diff": -0.07
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "lane": {
+        "from": "Germany Southeast",
+        "to": "Germany West",
+        "distance": 492
+      },
+      "weeks": [
+        {
+          "contract": 1.62,
+          "spot": 1.56,
+          "diff": -0.06
+        },
+        {
+          "contract": 1.63,
+          "spot": 1.49,
+          "diff": -0.13
+        },
+        {
+          "contract": 1.63,
+          "spot": 1.63,
+          "diff": 0
+        },
+        {
+          "contract": 1.63,
+          "spot": 1.56,
+          "diff": -0.07
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "lane": {
+        "from": "Germany Southwest",
+        "to": "Germany West",
+        "distance": 349
+      },
+      "weeks": [
+        {
+          "contract": 1.78,
+          "spot": 1.76,
+          "diff": -0.03
+        },
+        {
+          "contract": 1.8,
+          "spot": 1.62,
+          "diff": -0.18
+        },
+        {
+          "contract": 1.81,
+          "spot": 1.74,
+          "diff": -0.07
+        },
+        {
+          "contract": 1.83,
+          "spot": 1.76,
+          "diff": -0.06
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "lane": {
+        "from": "Germany Northwest",
+        "to": "Germany Northeast",
+        "distance": 304
+      },
+      "weeks": [
+        {
+          "contract": 2.34,
+          "spot": 2.36,
+          "diff": 0.02
+        },
+        {
+          "contract": 2.34,
+          "spot": 2.1,
+          "diff": -0.24
+        },
+        {
+          "contract": 2.35,
+          "spot": 2.07,
+          "diff": -0.28
+        },
+        {
+          "contract": 2.38,
+          "spot": 2.33,
+          "diff": -0.04
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "lane": {
+        "from": "Germany Central",
+        "to": "Germany East",
+        "distance": 267
+      },
+      "weeks": [
+        {
+          "contract": 2.18,
+          "spot": 2.07,
+          "diff": -0.11
+        },
+        {
+          "contract": 2.17,
+          "spot": 2.02,
+          "diff": -0.15
+        },
+        {
+          "contract": 2.17,
+          "spot": 2.09,
+          "diff": -0.08
+        },
+        {
+          "contract": 2.18,
+          "spot": 2.14,
+          "diff": -0.04
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "lane": {
+        "from": "Germany Central",
+        "to": "Germany Central",
+        "distance": 205
+      },
+      "weeks": [
+        {
+          "contract": 2.57,
+          "spot": 2.4,
+          "diff": -0.17
+        },
+        {
+          "contract": 2.55,
+          "spot": 2.47,
+          "diff": -0.07
+        },
+        {
+          "contract": 2.56,
+          "spot": 2.51,
+          "diff": -0.05
+        },
+        {
+          "contract": 2.6,
+          "spot": 2.58,
+          "diff": -0.02
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "lane": {
+        "from": "Germany Southeast",
+        "to": "Germany Central",
+        "distance": 348
+      },
+      "weeks": [
+        {
+          "contract": 1.85,
+          "spot": 1.79,
+          "diff": -0.06
+        },
+        {
+          "contract": 1.85,
+          "spot": 1.8,
+          "diff": -0.05
+        },
+        {
+          "contract": 1.87,
+          "spot": 1.87,
+          "diff": 0
+        },
+        {
+          "contract": 1.88,
+          "spot": 1.86,
+          "diff": -0.02
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "lane": {
+        "from": "Germany Southeast",
+        "to": "Germany Northwest",
+        "distance": 661
+      },
+      "weeks": [
+        {
+          "contract": 1.49,
+          "spot": 1.37,
+          "diff": -0.11
+        },
+        {
+          "contract": 1.52,
+          "spot": 1.41,
+          "diff": -0.11
+        },
+        {
+          "contract": 1.52,
+          "spot": 1.39,
+          "diff": -0.13
+        },
+        {
+          "contract": 1.54,
+          "spot": 1.53,
+          "diff": -0.01
+        }
+      ]
+    }
+  ]
+}

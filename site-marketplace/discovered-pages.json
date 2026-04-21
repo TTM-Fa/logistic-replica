@@ -1,0 +1,77 @@
+[
+  {
+    "name": "analysis",
+    "path": "/analysis",
+    "url": "https://marketplace.transporeon.com/analysis"
+  },
+  {
+    "name": "freightPerspectives",
+    "path": "/freightPerspectives",
+    "url": "https://marketplace.transporeon.com/freightPerspectives"
+  },
+  {
+    "name": "index",
+    "path": "/home",
+    "url": "https://marketplace.transporeon.com/home"
+  },
+  {
+    "name": "laneRequest",
+    "path": "/laneRequest",
+    "url": "https://marketplace.transporeon.com/laneRequest"
+  },
+  {
+    "name": "myLaneRequest",
+    "path": "/myLaneRequest",
+    "url": "https://marketplace.transporeon.com/myLaneRequest"
+  },
+  {
+    "name": "pro-applications",
+    "path": "/pro/applications",
+    "url": "https://marketplace.transporeon.com/pro/applications"
+  },
+  {
+    "name": "pro-exports",
+    "path": "/pro/exports",
+    "url": "https://marketplace.transporeon.com/pro/exports"
+  },
+  {
+    "name": "pro-reports",
+    "path": "/pro/reports",
+    "url": "https://marketplace.transporeon.com/pro/reports"
+  },
+  {
+    "name": "pro-spotlight",
+    "path": "/pro/spotlight",
+    "url": "https://marketplace.transporeon.com/pro/spotlight"
+  },
+  {
+    "name": "profile-tpa-company-649040",
+    "path": "/profile/tpa%7Ccompany%7C649040",
+    "url": "https://marketplace.transporeon.com/profile/tpa%7Ccompany%7C649040"
+  },
+  {
+    "name": "rfq",
+    "path": "/rfq",
+    "url": "https://marketplace.transporeon.com/rfq"
+  },
+  {
+    "name": "spot-spotMyShipments",
+    "path": "/spot/spotMyShipments",
+    "url": "https://marketplace.transporeon.com/spot/spotMyShipments"
+  },
+  {
+    "name": "spot-spotShipment",
+    "path": "/spot/spotShipment",
+    "url": "https://marketplace.transporeon.com/spot/spotShipment"
+  },
+  {
+    "name": "userManagement",
+    "path": "/userManagement",
+    "url": "https://marketplace.transporeon.com/userManagement"
+  },
+  {
+    "name": "userSettings",
+    "path": "/userSettings",
+    "url": "https://marketplace.transporeon.com/userSettings"
+  }
+]

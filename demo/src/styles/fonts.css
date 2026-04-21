@@ -1,0 +1,67 @@
+/* Silka */
+@font-face {
+  font-family: 'Silka';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/525eb46c4de3099335fa.woff2') format('woff2'),
+       url('/fonts/d4a02e221a18b839b37d.woff') format('woff');
+}
+@font-face {
+  font-family: 'Silka';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/f93227198de557016fac.woff2') format('woff2'),
+       url('/fonts/b0f94b6b696780121472.woff') format('woff');
+}
+@font-face {
+  font-family: 'Silka';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/d65646ff673ff6780601.woff2') format('woff2'),
+       url('/fonts/1109c9c2dcc6fa529e04.woff') format('woff');
+}
+@font-face {
+  font-family: 'Silka';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/dfc23b0a6b58402eb3cb.woff2') format('woff2'),
+       url('/fonts/830ea9149679f37c8a25.woff') format('woff');
+}
+
+/* Inter */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/c8ba52b05a9ef10f4758.woff2') format('woff2'),
+       url('/fonts/8c206db99195777c6769.woff') format('woff');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/cb10ffd7684cd9836a05.woff2') format('woff2'),
+       url('/fonts/890025e726861dba417f.woff') format('woff');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/fonts/b5f0f109bc88052d4000.woff2') format('woff2'),
+       url('/fonts/cca62d21c8c555c392e5.woff') format('woff');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/fonts/d9467ee321a8f38aefff.woff2') format('woff2'),
+       url('/fonts/463bdbfb28abad0fa6df.woff') format('woff');
+}
