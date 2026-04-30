@@ -7,15 +7,15 @@ import { T } from "@/lib/T";
 
 const DEMO_URL = "https://calendly.com/shenatech/30min";
 
-// Top-bar menu. Items with a real `#anchor` href scroll within the homepage.
-// Items marked `placeholder` don't navigate yet — we'll wire them to real
-// routes (e.g. "/pricing", "/about") once those pages exist.
+// Top-bar menu. Anchor hrefs use absolute "/#xxx" so they work from any page
+// (clicking "Platform" on /faq jumps to homepage and scrolls there).
+// Items marked `placeholder` don't navigate yet — they'll get real routes later.
 const MENU: { id: string; href: string; placeholder?: boolean }[] = [
-  { id: "nav.platform", href: "#platform" },
-  { id: "nav.solutions", href: "#segments" },
-  { id: "nav.customers", href: "#", placeholder: true },
+  { id: "nav.platform", href: "/#platform" },
+  { id: "nav.solutions", href: "/#segments" },
+  { id: "nav.faq", href: "/faq" },
+  { id: "nav.contact", href: "/contact" },
   { id: "nav.pricing", href: "#", placeholder: true },
-  { id: "nav.resources", href: "#", placeholder: true },
   { id: "nav.company", href: "#", placeholder: true },
 ];
 

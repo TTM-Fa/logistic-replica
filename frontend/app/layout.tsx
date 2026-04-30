@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Inter, IBM_Plex_Mono, Tajawal } from "next/font/google";
 import { LanguageProvider } from "@/lib/LanguageContext";
+import { Nav } from "@/components/Nav";
+import { Footer } from "@/components/Footer";
+import { Effects } from "./effects";
 import "./globals.css";
 
 const inter = Inter({
@@ -72,7 +75,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <LanguageProvider>
           <div className="scroll-progress" aria-hidden="true" />
+          <Nav />
           {children}
+          <Footer />
+          <Effects />
         </LanguageProvider>
       </body>
     </html>

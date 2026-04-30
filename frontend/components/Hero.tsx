@@ -36,32 +36,8 @@ export function Hero() {
             >
               <T id="hero.cta_demo" />
             </a>
-            <a href="#platform" className="btn btn--ghost-cream">
-              <T id="hero.cta_platform" />
-              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
-                <path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
-              </svg>
-            </a>
           </div>
 
-          <div className="hero__pillars" aria-label="Platform capabilities">
-            <div className="hero__pillar">
-              <T as="p" id="hero.pillar.visibility_tag" className="hero__pillar-tag" />
-              <T as="p" id="hero.pillar.visibility_name" className="hero__pillar-name" />
-            </div>
-            <div className="hero__pillar">
-              <T as="p" id="hero.pillar.prediction_tag" className="hero__pillar-tag" />
-              <T as="p" id="hero.pillar.prediction_name" className="hero__pillar-name" />
-            </div>
-            <div className="hero__pillar">
-              <T as="p" id="hero.pillar.marketplace_tag" className="hero__pillar-tag" />
-              <T as="p" id="hero.pillar.marketplace_name" className="hero__pillar-name" />
-            </div>
-            <div className="hero__pillar">
-              <T as="p" id="hero.pillar.documentation_tag" className="hero__pillar-tag" />
-              <T as="p" id="hero.pillar.documentation_name" className="hero__pillar-name" />
-            </div>
-          </div>
         </div>
       </div>
     </section>

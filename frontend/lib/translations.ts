@@ -9,6 +9,7 @@ export const translations: Record<Lang, Record<string, string>> = {
   en: {
     "nav.platform": "Platform",
     "nav.solutions": "Solutions",
+    "nav.faq": "FAQ",
     "nav.customers": "Customers",
     "nav.pricing": "Pricing",
     "nav.resources": "Resources",
@@ -40,7 +41,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     "problem.p3":
       "Shenatech was built to close that gap. Not with a generic TMS bolted onto a Western logistics market — but with a platform designed from the ground up for the ports, corridors, and partners that move the GCC.",
 
-    "platform.index": "002 · The Platform",
+    "platform.index": "003 · The Platform",
     "platform.heading_html": "Four capabilities.<br />One operating layer.",
     "platform.sub":
       "Each product works independently. Together, they give your operation a single source of truth — from first mile to final signature.",
@@ -63,7 +64,7 @@ export const translations: Record<Lang, Record<string, string>> = {
       "Eliminate paper from your last mile. Capture proof of delivery electronically, auto-generate customs-ready documents, and close the loop on every shipment with a complete, auditable digital trail.",
     "offering.explore": "Explore",
 
-    "segments.index": "003 · Who It's For",
+    "segments.index": "002 · Who It's For",
     "segments.heading_html": "Built for operators,<br />not IT teams.",
     "segments.sub":
       "Every role in the freight chain deals with a different version of the visibility problem. Shenatech solves it for all of them.",
@@ -87,7 +88,47 @@ export const translations: Record<Lang, Record<string, string>> = {
     "partners.sub":
       "Collaborating with freight operators, carriers, and technology providers across the GCC to move the region forward.",
 
-    "cta.index": "004 · Get Started",
+    "waitlist.index": "004 · Join Waitlist",
+    "waitlist.heading": "Be first when we open the platform.",
+    "waitlist.sub":
+      "We're rolling out access to freight operators across the GCC. Drop your email and we'll let you know the moment it's your turn.",
+    "waitlist.email_placeholder": "you@company.com",
+    "waitlist.cta": "Join waitlist →",
+    "waitlist.success": "✓ You're on the list. We'll be in touch.",
+    "waitlist.counter_text": "freight operators already waiting",
+
+    "faq.index": "FAQ",
+    "faq.heading_html": "Common questions.",
+    "faq.sub":
+      "If you don't see your question here, drop us a note — we're happy to dig into the specifics of your operation.",
+    "faq.01.q": "How does Shenatech integrate with my existing TMS or ERP?",
+    "faq.01.a":
+      "Shenatech connects through standard APIs and EDI feeds. Most integrations take 1–2 weeks. We support direct connections to major TMS platforms and provide custom adapters for legacy systems — your IT team won't need to rebuild anything.",
+    "faq.02.q": "Which carriers, ports, and corridors do you cover in the GCC?",
+    "faq.02.a":
+      "All major GCC ports — Jebel Ali, Khalifa, Hamad, King Abdulaziz, Sohar, and others — plus the inland corridors connecting them. Carrier coverage spans road, sea, and air across regional and international operators.",
+    "faq.03.q": "How long does implementation take?",
+    "faq.03.a":
+      "Most teams are running on Shenatech in 4–6 weeks. Initial visibility comes online within days. Full integration with your TMS, customs, and partner systems typically completes within 6 weeks.",
+    "faq.04.q": "What's the pricing model?",
+    "faq.04.a":
+      "Pricing scales with your operation — based on shipment volume rather than seats. Tiered plans starting at the operations-team level. Reach out for a tailored quote.",
+    "faq.05.q": "Is my data secure and compliant?",
+    "faq.05.a":
+      "Yes. Data is encrypted in transit and at rest, hosted in regional data centres (KSA / UAE) for sovereignty compliance, and we follow ISO 27001 practices. We're happy to share security documentation under NDA.",
+    "faq.06.q": "Can I trial Shenatech before committing?",
+    "faq.06.a":
+      "Yes. We typically run a 30-day pilot on one of your active corridors so you can see real value before any contract. Reach out to schedule a demo and discuss the pilot scope.",
+
+    "contact.index": "Contact",
+    "contact.heading_html": "Get in touch.",
+    "contact.sub":
+      "Reach out by email or phone — we'd love to hear about your operation and how Shenatech can fit in.",
+    "contact.email_label": "Email",
+    "contact.phone_label": "Phone",
+    "contact.office_label": "Office",
+
+    "cta.index": "005 · Get Started",
     "cta.headline": "Ready to run tighter operations?",
     "cta.sub":
       "Join freight operators across the GCC who've replaced guesswork with intelligence. Demos take 30 minutes.",
@@ -115,6 +156,7 @@ export const translations: Record<Lang, Record<string, string>> = {
   ar: {
     "nav.platform": "المنصة",
     "nav.solutions": "الحلول",
+    "nav.faq": "الأسئلة الشائعة",
     "nav.customers": "العملاء",
     "nav.pricing": "الأسعار",
     "nav.resources": "الموارد",
@@ -146,7 +188,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     "problem.p3":
       "بُنيت شحنتك لسدّ هذه الفجوة. ليس بنظام TMS عام مُركَّب على سوق لوجستية غربية — بل بمنصّة مُصمَّمة من الصفر للموانئ والممرات والشركاء الذين يُحرّكون الخليج.",
 
-    "platform.index": "002 · المنصة",
+    "platform.index": "003 · المنصة",
     "platform.heading_html": "أربع قدرات.<br />طبقة تشغيل واحدة.",
     "platform.sub":
       "كلّ منتج يعمل باستقلالية. ومعاً، تمنح عملياتك مصدراً واحداً للحقيقة — من الميل الأول إلى التوقيع الأخير.",
@@ -169,7 +211,7 @@ export const translations: Record<Lang, Record<string, string>> = {
       "تخلّص من الورق في الميل الأخير. التقط إثبات التسليم إلكترونياً، وولّد المستندات الجمركية تلقائياً، وأغلق الحلقة على كل شحنة بمسار رقمي كامل قابل للتدقيق.",
     "offering.explore": "اكتشف",
 
-    "segments.index": "003 · لمن",
+    "segments.index": "002 · لمن",
     "segments.heading_html": "مبنية للمشغّلين،<br />لا لفرق التقنية.",
     "segments.sub":
       "كل دور في سلسلة الشحن يواجه نسخة مختلفة من مشكلة الرؤية. شحنتك تحلّها لجميعهم.",
@@ -193,7 +235,47 @@ export const translations: Record<Lang, Record<string, string>> = {
     "partners.sub":
       "نتعاون مع مشغّلي الشحن والناقلين ومزوّدي التقنية في الخليج لتحريك المنطقة قُدُماً.",
 
-    "cta.index": "004 · ابدأ",
+    "waitlist.index": "004 · انضم لقائمة الانتظار",
+    "waitlist.heading": "كن من الأوائل عند إطلاق المنصة.",
+    "waitlist.sub":
+      "نطلق الوصول تدريجياً لمشغّلي الشحن في الخليج. أدخل بريدك الإلكتروني ونخبرك حالما يأتي دورك.",
+    "waitlist.email_placeholder": "you@company.com",
+    "waitlist.cta": "انضم للقائمة ←",
+    "waitlist.success": "✓ تمت إضافتك. سنتواصل معك قريباً.",
+    "waitlist.counter_text": "مشغّل شحن في القائمة بالفعل",
+
+    "faq.index": "الأسئلة الشائعة",
+    "faq.heading_html": "أسئلة متكرّرة.",
+    "faq.sub":
+      "إن لم تجد سؤالك هنا، تواصل معنا — يسعدنا معرفة تفاصيل عملياتك.",
+    "faq.01.q": "كيف تتكامل شحنتك مع نظام إدارة النقل (TMS) أو نظام تخطيط الموارد (ERP) لديّ؟",
+    "faq.01.a":
+      "تتصل شحنتك عبر واجهات برمجة قياسية (APIs) وتغذيات EDI. تستغرق معظم عمليات التكامل من أسبوع إلى أسبوعين. ندعم الاتصال المباشر مع منصات TMS الرئيسية، ونوفّر محوّلات مخصّصة للأنظمة القديمة — لن يحتاج فريق التقنية لديك إلى إعادة بناء أي شيء.",
+    "faq.02.q": "ما الموانئ والناقلين والممرات التي تغطّونها في الخليج؟",
+    "faq.02.a":
+      "نغطّي جميع موانئ الخليج الرئيسية — جبل علي، خليفة، حمد، الملك عبدالعزيز، صحار وغيرها — بالإضافة إلى الممرات البرية التي تربطها. تشمل تغطية الناقلين النقل البري والبحري والجوي عبر مزوّدين إقليميين ودوليين.",
+    "faq.03.q": "كم تستغرق عملية التطبيق؟",
+    "faq.03.a":
+      "تكون معظم الفرق جاهزة على شحنتك خلال 4–6 أسابيع. تظهر الرؤية الأولية خلال أيام. يكتمل التكامل الكامل مع TMS والجمارك وأنظمة الشركاء عادةً خلال 6 أسابيع.",
+    "faq.04.q": "ما نموذج التسعير؟",
+    "faq.04.a":
+      "يتكيّف التسعير مع حجم عملياتك — مبنيٌّ على عدد الشحنات لا على عدد المستخدمين. توجد باقات متدرّجة تبدأ من مستوى فريق العمليات. تواصل معنا للحصول على عرض مخصّص.",
+    "faq.05.q": "هل بياناتي آمنة ومتوافقة مع الأنظمة؟",
+    "faq.05.a":
+      "نعم. البيانات مشفّرة أثناء النقل وعند التخزين، ومستضافة في مراكز بيانات إقليمية (السعودية / الإمارات) لضمان السيادة، ونلتزم بمعايير ISO 27001. يسعدنا مشاركة وثائق الأمان بموجب اتفاقية عدم إفصاح.",
+    "faq.06.q": "هل يمكنني تجربة شحنتك قبل الالتزام؟",
+    "faq.06.a":
+      "نعم. نُجري عادةً تجربة لمدة 30 يوماً على أحد ممراتك الفعلية لترى القيمة الحقيقية قبل أي عقد. تواصل معنا لجدولة عرض ومناقشة نطاق التجربة.",
+
+    "contact.index": "تواصل معنا",
+    "contact.heading_html": "تواصل معنا.",
+    "contact.sub":
+      "تواصل معنا عبر البريد الإلكتروني أو الهاتف — يسعدنا أن نسمع عن عملياتك وكيف يمكن لشحنتك أن تكون جزءاً منها.",
+    "contact.email_label": "البريد الإلكتروني",
+    "contact.phone_label": "الهاتف",
+    "contact.office_label": "المكتب",
+
+    "cta.index": "005 · ابدأ",
     "cta.headline": "مستعد لتشغيل عمليات أكثر إحكاماً؟",
     "cta.sub":
       "انضم إلى مشغّلي الشحن في الخليج الذين استبدلوا التخمين بالذكاء. العروض التوضيحية تستغرق 30 دقيقة.",

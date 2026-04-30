@@ -29,8 +29,14 @@ export function Platform() {
         </div>
 
         <div className="offerings">
-          {(["01", "02", "03", "04"] as const).map((n) => (
-            <div key={n} className="offering reveal">
+          {(["01", "02", "03", "04"] as const).map((n) => {
+            // Each offering number maps to a capability key, used to attach the
+            // matching background image (public/illustrations/<key>.png) via CSS.
+            const capability = (
+              { "01": "visibility", "02": "prediction", "03": "marketplace", "04": "documentation" } as const
+            )[n];
+            return (
+            <div key={n} className={`offering reveal offering--has-image offering--${capability}`}>
               <div className="offering__num">{n}</div>
               <div className="offering__meta">
                 <T as="p" id={`offering.${n}.tag`} className="offering__tag" />
@@ -66,7 +72,8 @@ export function Platform() {
                 </svg>
               </span>
             </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>
