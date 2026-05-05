@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
+import { usePathname } from "next/navigation";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -11,8 +12,14 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
  * - GSAP ScrollTrigger stagger reveals for cards/paragraphs/sections
  * - Smooth scroll for in-page anchor links
  * - Hero mouse parallax (atmosphere blobs)
+ *
+ * `pathname` is a dependency so the effect re-runs on client-side navigation —
+ * otherwise observers/ScrollTriggers set up on page A would never observe
+ * elements on page B, and `.reveal` elements would stay invisible until refresh.
  */
 export function Effects() {
+  const pathname = usePathname();
+
   useEffect(() => {
     if (typeof window === "undefined") return;
 
@@ -226,7 +233,7 @@ export function Effects() {
       links.forEach((l) => l.removeEventListener("click", onAnchorClick));
       hoverCleanups.forEach((fn) => fn());
     };
-  }, []);
+  }, [pathname]);
 
   return null;
 }

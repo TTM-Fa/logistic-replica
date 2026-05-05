@@ -8,9 +8,10 @@ export const metadata: Metadata = {
 };
 
 export default function FaqPage() {
-  // Add top padding so the section clears the fixed nav bar.
+  // No top padding — the dark FAQ hero handles its own nav clearance, so its
+  // dark background extends up behind the transparent nav.
   return (
-    <main style={{ paddingTop: "var(--nav-h, 64px)" }}>
+    <main>
       <FAQ />
     </main>
   );

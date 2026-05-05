@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# Claude Code local scratch (worktrees, session state, etc.)
+.claude/
+
+# Local backup files kept on disk only — never committed or served publicly
+frontend/public/illustrations/*-original.*
+
+# Node / Next.js (already typically inside frontend/.gitignore from create-next-app,
+# listed here as belt-and-braces in case the inner one is missing)
+node_modules/
+.next/
+out/
+.env*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

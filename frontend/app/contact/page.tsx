@@ -8,8 +8,11 @@ export const metadata: Metadata = {
 };
 
 export default function ContactPage() {
+  // No top padding here — the dark contact hero extends up behind the nav so
+  // the transparent nav shows the dark hero color through it (same pattern
+  // as the homepage Hero, which handles its own nav clearance internally).
   return (
-    <main style={{ paddingTop: "var(--nav-h, 64px)" }}>
+    <main>
       <Contact />
     </main>
   );

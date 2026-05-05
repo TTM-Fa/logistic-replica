@@ -7,6 +7,13 @@ export type Lang = "en" | "ar";
  */
 export const translations: Record<Lang, Record<string, string>> = {
   en: {
+    "nav.home": "Home",
+    "nav.services": "Services",
+    "nav.services.visibility": "Visibility",
+    "nav.services.marketplace": "Marketplace",
+    "nav.services.benchmark": "Benchmark Rate",
+    "nav.about": "About us",
+    "nav.signin": "Sign in",
     "nav.platform": "Platform",
     "nav.solutions": "Solutions",
     "nav.faq": "FAQ",
@@ -14,9 +21,9 @@ export const translations: Record<Lang, Record<string, string>> = {
     "nav.pricing": "Pricing",
     "nav.resources": "Resources",
     "nav.company": "Company",
-    "nav.contact": "Contact",
+    "nav.contact": "Contact us",
     "nav.join_waitlist": "Join Waitlist",
-    "nav.request_demo": "Request Demo",
+    "nav.request_demo": "Request a Demo",
 
     "hero.headline_html": 'Freight intelligence for the corridors<br />that run the <em>region</em>',
     "hero.sub":
@@ -40,9 +47,31 @@ export const translations: Record<Lang, Record<string, string>> = {
       "The result: <strong>operations that react instead of plan.</strong> Missed windows. Demurrage fees that shouldn't exist. Customers who've stopped believing the numbers you give them.",
     "problem.p3":
       "Shenatech was built to close that gap. Not with a generic TMS bolted onto a Western logistics market — but with a platform designed from the ground up for the ports, corridors, and partners that move the GCC.",
+    "problem.lead":
+      "Across the Gulf, freight is still glued together with WhatsApp threads, paper PODs, and educated-guess ETAs. The volume has grown. The tools haven't.",
+    "problem.card1.title": "Updates by chat",
+    "problem.card1.desc": "Carrier updates land in WhatsApp threads. Untraceable, lost mid-conversation.",
+    "problem.card2.title": "Proof on paper",
+    "problem.card2.desc": "PODs still printed and signed. Filed in folders no one opens.",
+    "problem.card3.title": "Guesswork ETAs",
+    "problem.card3.desc": "Predictions based on experience. Customers stopped believing the numbers.",
+    "problem.chat.q": "Where is truck 1008?",
+    "problem.chat.q2": "?",
+    "problem.chat.a": "Sorry, I will check now",
+    "problem.cost.eyebrow": "THE COST",
+    "problem.cost.tile1.label": "TIME",
+    "problem.cost.tile1.body":
+      "Hours each week vanish into WhatsApp triage instead of running operations.",
+    "problem.cost.tile2.label": "TRUST",
+    "problem.cost.tile2.body":
+      "Customers stopped believing your ETAs months before they told you.",
+    "problem.cost.tile3.label": "MONEY",
+    "problem.cost.tile3.body":
+      "Demurrage fees show up on a Monday invoice — never on a dashboard.",
+    "problem.closing": "Shenatech was built to close that gap.",
 
     "platform.index": "003 · The Platform",
-    "platform.heading_html": "Four capabilities.<br />One operating layer.",
+    "platform.heading_html": "Our capabilities",
     "platform.sub":
       "Each product works independently. Together, they give your operation a single source of truth — from first mile to final signature.",
 
@@ -65,7 +94,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     "offering.explore": "Explore",
 
     "segments.index": "002 · Who It's For",
-    "segments.heading_html": "Built for operators,<br />not IT teams.",
+    "segments.heading_html": "Built for <em>operators</em>,<br />not IT teams.",
     "segments.sub":
       "Every role in the freight chain deals with a different version of the visibility problem. Shenatech solves it for all of them.",
     "segments.forwarders": "Freight Forwarders",
@@ -97,6 +126,38 @@ export const translations: Record<Lang, Record<string, string>> = {
     "waitlist.success": "✓ You're on the list. We'll be in touch.",
     "waitlist.counter_text": "freight operators already waiting",
 
+    "faq.hero.eyebrow": "005 · FAQ",
+    "faq.hero.heading_html": "Common <em>questions</em>",
+    "faq.hero.sub": "Quick answers about onboarding, the platform, pricing, and security. Can't find what you need? Talk to us.",
+    "faq.hero.status": "LIVE HELP AVAILABLE",
+
+    "faq.cat.start.label": "Getting Started",
+    "faq.cat.platform.label": "The Platform",
+    "faq.cat.pricing.label": "Pricing",
+    "faq.cat.security.label": "Security & Compliance",
+    "faq.cat.questions_label": "QUESTIONS",
+
+    "faq.07.q": "What support is available during onboarding?",
+    "faq.07.a":
+      "Every customer gets a dedicated onboarding manager for the first 60 days. We help configure integrations, train your operations team, and tune the platform to match your specific corridors and SLAs.",
+    "faq.08.q": "Do you support real-time tracking via API?",
+    "faq.08.a":
+      "Yes — Shenatech provides REST and webhook APIs for shipment tracking, document retrieval, and rate queries. Your engineering team can pull live status updates into any internal dashboard or notify customers automatically.",
+    "faq.09.q": "Is there a contract or month-to-month option?",
+    "faq.09.a":
+      "Both. Most customers start with a 12-month commitment that comes with discounted rates. Month-to-month is available for smaller volumes or evaluation periods, billed via monthly subscription.",
+    "faq.10.q": "Where is my data hosted?",
+    "faq.10.a":
+      "Your data is hosted on regional cloud infrastructure within the GCC, with primary nodes in Qatar and Saudi Arabia. We comply with local data residency requirements and offer dedicated environments for enterprise customers.",
+
+    "faq.cta.heading": "Still have questions?",
+    "faq.cta.tile1.heading": "Talk to our team",
+    "faq.cta.tile1.desc": "Sales and support, in one inbox.",
+    "faq.cta.tile1.cta": "Contact us",
+    "faq.cta.tile2.heading": "See it live",
+    "faq.cta.tile2.desc": "Book a 30-min demo with our team.",
+    "faq.cta.tile2.cta": "Schedule",
+
     "faq.index": "FAQ",
     "faq.heading_html": "Common questions.",
     "faq.sub":
@@ -120,6 +181,90 @@ export const translations: Record<Lang, Record<string, string>> = {
     "faq.06.a":
       "Yes. We typically run a 30-day pilot on one of your active corridors so you can see real value before any contract. Reach out to schedule a demo and discuss the pilot scope.",
 
+    "contact.hero.eyebrow": "004 · Contact us",
+    "contact.hero.heading_html": "Let's talk <em>logistics</em>",
+    "contact.hero.sub": "We respond within 24 hours on business days.",
+
+    /* ─── About page ─── */
+    "about.hero.eyebrow": "006 · About us",
+    "about.hero.heading_html": "Built by <em>operators</em>, for operators.",
+    "about.hero.sub":
+      "Shenatech is the supply-chain platform we wished existed when we ran freight ourselves — built in Qatar, designed for the GCC.",
+    "about.hero.status": "BASED IN QATAR",
+
+    "about.mission.eyebrow": "Our mission",
+    "about.mission.heading_html": "Make GCC logistics <em>visible</em>, predictable, and fair.",
+    "about.mission.body":
+      "Freight in this region runs on phone calls, spreadsheets, and trust. That worked at small scale — it doesn't anymore. We're building a single platform where ops teams see every shipment in real time, predict ETAs with confidence, and source carriers on transparent terms. Less chasing, more moving.",
+
+    "about.values.eyebrow": "What we believe",
+    "about.values.heading": "Three principles, no compromise.",
+    "about.values.visibility.title": "Visibility wins",
+    "about.values.visibility.desc":
+      "If you can't see the shipment, you can't manage it. Truth in real time beats guesswork every day.",
+    "about.values.trust.title": "Trust by default",
+    "about.values.trust.desc":
+      "Data stays in the region. Pricing is transparent. We earn renewals — we don't lock you in.",
+    "about.values.speed.title": "Speed of execution",
+    "about.values.speed.desc":
+      "Pilots in days, integrations in weeks. We ship working software fast and iterate with our customers.",
+
+    "about.stats.eyebrow": "By the numbers",
+    "about.stats.heading": "A small team, moving fast.",
+    "about.stats.stat1.value": "25+",
+    "about.stats.stat1.label": "Years combined logistics & software experience",
+    "about.stats.stat2.value": "6",
+    "about.stats.stat2.label": "GCC ports & corridors covered at launch",
+    "about.stats.stat3.value": "94%",
+    "about.stats.stat3.label": "ETA accuracy on pilot shipments",
+    "about.stats.stat4.value": "4–6 wk",
+    "about.stats.stat4.label": "Typical implementation time",
+
+    "about.team.eyebrow": "The team",
+    "about.team.heading": "Engineers, operators, and a couple of stubborn freight people.",
+    "about.team.body":
+      "Shenatech was founded in Doha by a team with backgrounds across freight forwarding, supply-chain software, and machine learning. We've moved containers, written TMS code, and built prediction models — and we've been frustrated by the same gaps for years. So we're closing them.",
+
+    "about.cta.heading": "Want to know more?",
+    "about.cta.tile1.heading": "Talk to our team",
+    "about.cta.tile1.desc": "We'd love to hear about your operation.",
+    "about.cta.tile1.cta": "Contact us",
+    "about.cta.tile2.heading": "See it live",
+    "about.cta.tile2.desc": "Book a 30-min walkthrough.",
+    "about.cta.tile2.cta": "Schedule",
+
+    "contact.channels.heading": "Reach the right team",
+    "contact.channels.sales.label": "Sales",
+    "contact.channels.sales.desc": "Demos, pricing, and partnerships.",
+    "contact.channels.support.label": "Support",
+    "contact.channels.support.desc": "General inquiries and help for existing customers.",
+    "contact.channels.phone.label": "Phone",
+    "contact.channels.whatsapp": "Chat on WhatsApp",
+
+    "contact.hours.label": "Office hours",
+    "contact.hours.value": "Sunday – Thursday  ·  10:00 – 18:00 GMT+3",
+    "contact.hours.closed": "Closed Friday & Saturday",
+    "contact.hours.response": "Response time under 24 hours on business days",
+
+    "contact.form.heading": "Send us a message",
+    "contact.form.name": "Full name",
+    "contact.form.email": "Email",
+    "contact.form.company": "Company (optional)",
+    "contact.form.topic": "I'm interested in",
+    "contact.form.topic.demo": "Booking a demo",
+    "contact.form.topic.sales": "Sales / pricing",
+    "contact.form.topic.support": "Support",
+    "contact.form.topic.other": "Something else",
+    "contact.form.message": "Message",
+    "contact.form.submit": "Send message",
+    "contact.form.placeholder.message": "Tell us a bit about your operation, what you're looking for, or any question you have…",
+
+    "contact.faq.heading": "Looking for a quick answer?",
+    "contact.faq.cta": "Browse our FAQ",
+    "contact.demo.heading": "Book a 30-min demo",
+    "contact.demo.desc": "See the platform live with our team.",
+    "contact.demo.cta": "Schedule",
+
     "contact.index": "Contact",
     "contact.heading_html": "Get in touch.",
     "contact.sub":
@@ -128,10 +273,13 @@ export const translations: Record<Lang, Record<string, string>> = {
     "contact.phone_label": "Phone",
     "contact.office_label": "Office",
 
-    "cta.index": "005 · Get Started",
-    "cta.headline": "Ready to run tighter operations?",
+    "cta.index": "005 · Live Demo",
+    "cta.headline": "See Shenatech in action.",
     "cta.sub":
-      "Join freight operators across the GCC who've replaced guesswork with intelligence. Demos take 30 minutes.",
+      "A 30-minute walkthrough of the platform — visibility, marketplace, and benchmark rates — live with the team that built it.",
+    "cta.bullet.duration": "30-minute walkthrough",
+    "cta.bullet.tailored": "Tailored to your operation",
+    "cta.bullet.live_qa": "Live Q&A with our team",
 
     "footer.tagline": "Supply chain intelligence for the freight operators who run the GCC.",
     "footer.location": "Doha, Qatar · Est. 2025",
@@ -154,6 +302,13 @@ export const translations: Record<Lang, Record<string, string>> = {
     "partners.logo.omani_alt": "Omani & Partners",
   },
   ar: {
+    "nav.home": "الرئيسية",
+    "nav.services": "الخدمات",
+    "nav.services.visibility": "الرؤية",
+    "nav.services.marketplace": "السوق",
+    "nav.services.benchmark": "أسعار مرجعية",
+    "nav.about": "من نحن",
+    "nav.signin": "تسجيل الدخول",
     "nav.platform": "المنصة",
     "nav.solutions": "الحلول",
     "nav.faq": "الأسئلة الشائعة",
@@ -179,6 +334,28 @@ export const translations: Record<Lang, Record<string, string>> = {
     "hero.pillar.documentation_tag": "التوثيق",
     "hero.pillar.documentation_name": "الإثبات الرقمي للتسليم",
 
+    "problem.lead":
+      "في أنحاء الخليج، لا تزال عمليات الشحن مرتبطة بمحادثات واتساب، وأوراق إثبات تسليم، وتقديرات وصول تخمينية. الحجم يكبر. الأدوات لم تواكب.",
+    "problem.card1.title": "تحديثات عبر الدردشة",
+    "problem.card1.desc": "تصل تحديثات الناقل عبر محادثات واتساب. غير قابلة للتتبع، تضيع وسط النقاش.",
+    "problem.card2.title": "إثبات ورقي",
+    "problem.card2.desc": "إثباتات التسليم لا تزال تُطبع وتُوقّع. تُحفظ في ملفات لا يفتحها أحد.",
+    "problem.card3.title": "تقديرات تخمينية",
+    "problem.card3.desc": "تنبؤات مبنية على الخبرة. العملاء توقّفوا عن تصديق الأرقام.",
+    "problem.chat.q": "أين الشاحنة 1008؟",
+    "problem.chat.q2": "؟",
+    "problem.chat.a": "آسف، سأتحقّق الآن",
+    "problem.cost.eyebrow": "التكلفة",
+    "problem.cost.tile1.label": "الوقت",
+    "problem.cost.tile1.body":
+      "ساعات تضيع كل أسبوع في فرز محادثات واتساب بدلاً من إدارة العمليات.",
+    "problem.cost.tile2.label": "الثقة",
+    "problem.cost.tile2.body":
+      "العملاء توقّفوا عن تصديق مواعيد الوصول قبل أن يخبروك بشهور.",
+    "problem.cost.tile3.label": "المال",
+    "problem.cost.tile3.body":
+      "رسوم التأخير تظهر يوم الاثنين على الفاتورة — لا على لوحة التحكم.",
+    "problem.closing": "صُمّمت شحنتك لسدّ هذه الفجوة.",
     "problem.index": "001 · السياق",
     "problem.heading_html": "الفجوة اللوجستية<br />في الخليج.",
     "problem.p1":
@@ -189,7 +366,7 @@ export const translations: Record<Lang, Record<string, string>> = {
       "بُنيت شحنتك لسدّ هذه الفجوة. ليس بنظام TMS عام مُركَّب على سوق لوجستية غربية — بل بمنصّة مُصمَّمة من الصفر للموانئ والممرات والشركاء الذين يُحرّكون الخليج.",
 
     "platform.index": "003 · المنصة",
-    "platform.heading_html": "أربع قدرات.<br />طبقة تشغيل واحدة.",
+    "platform.heading_html": "قدراتنا",
     "platform.sub":
       "كلّ منتج يعمل باستقلالية. ومعاً، تمنح عملياتك مصدراً واحداً للحقيقة — من الميل الأول إلى التوقيع الأخير.",
 
@@ -212,7 +389,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     "offering.explore": "اكتشف",
 
     "segments.index": "002 · لمن",
-    "segments.heading_html": "مبنية للمشغّلين،<br />لا لفرق التقنية.",
+    "segments.heading_html": "مبنية <em>للمشغّلين</em>،<br />لا لفرق التقنية.",
     "segments.sub":
       "كل دور في سلسلة الشحن يواجه نسخة مختلفة من مشكلة الرؤية. شحنتك تحلّها لجميعهم.",
     "segments.forwarders": "وسطاء الشحن",
@@ -244,6 +421,38 @@ export const translations: Record<Lang, Record<string, string>> = {
     "waitlist.success": "✓ تمت إضافتك. سنتواصل معك قريباً.",
     "waitlist.counter_text": "مشغّل شحن في القائمة بالفعل",
 
+    "faq.hero.eyebrow": "005 · الأسئلة الشائعة",
+    "faq.hero.heading_html": "أسئلة <em>متكرّرة</em>",
+    "faq.hero.sub": "إجابات سريعة حول التأهيل، المنصّة، الأسعار، والأمان. لم تجد ما تبحث عنه؟ تواصل معنا.",
+    "faq.hero.status": "الدعم المباشر متاح",
+
+    "faq.cat.start.label": "البدء",
+    "faq.cat.platform.label": "المنصّة",
+    "faq.cat.pricing.label": "الأسعار",
+    "faq.cat.security.label": "الأمان والامتثال",
+    "faq.cat.questions_label": "أسئلة",
+
+    "faq.07.q": "ما الدعم المتاح خلال مرحلة التأهيل؟",
+    "faq.07.a":
+      "يحصل كل عميل على مدير تأهيل مخصّص خلال أول 60 يوماً. نساعد في تهيئة التكاملات، وتدريب فريق العمليات، وضبط المنصّة لتناسب ممرّاتك واتفاقيات الخدمة الخاصة بك.",
+    "faq.08.q": "هل تدعمون التتبّع الفوري عبر واجهات API؟",
+    "faq.08.a":
+      "نعم — توفّر شحنتك واجهات REST وWebhook لتتبّع الشحنات، واسترجاع المستندات، والاستعلام عن الأسعار. يمكن لفريقك الهندسي سحب التحديثات الفورية إلى أي لوحة داخلية أو إشعار العملاء آلياً.",
+    "faq.09.q": "هل هناك عقد أم اشتراك شهري؟",
+    "faq.09.a":
+      "كلاهما متاح. يبدأ معظم العملاء بالتزام لمدّة 12 شهراً مع أسعار مخفّضة. الاشتراك الشهري متاح للأحجام الأصغر أو فترات التقييم، ويُحاسب على أساس شهري.",
+    "faq.10.q": "أين تُستضاف بياناتي؟",
+    "faq.10.a":
+      "تُستضاف بياناتك على بنية تحتية سحابية إقليمية داخل دول الخليج، مع عُقد أساسية في قطر والمملكة العربية السعودية. نلتزم بمتطلّبات الإقامة المحلية للبيانات ونقدّم بيئات مخصّصة للعملاء من فئة المؤسسات.",
+
+    "faq.cta.heading": "هل لديك أسئلة أخرى؟",
+    "faq.cta.tile1.heading": "تحدّث مع فريقنا",
+    "faq.cta.tile1.desc": "المبيعات والدعم، في صندوق وارد واحد.",
+    "faq.cta.tile1.cta": "تواصل معنا",
+    "faq.cta.tile2.heading": "شاهدها مباشرة",
+    "faq.cta.tile2.desc": "احجز عرضاً توضيحياً لمدة 30 دقيقة مع فريقنا.",
+    "faq.cta.tile2.cta": "احجز",
+
     "faq.index": "الأسئلة الشائعة",
     "faq.heading_html": "أسئلة متكرّرة.",
     "faq.sub":
@@ -267,6 +476,90 @@ export const translations: Record<Lang, Record<string, string>> = {
     "faq.06.a":
       "نعم. نُجري عادةً تجربة لمدة 30 يوماً على أحد ممراتك الفعلية لترى القيمة الحقيقية قبل أي عقد. تواصل معنا لجدولة عرض ومناقشة نطاق التجربة.",
 
+    "contact.hero.eyebrow": "004 · تواصل معنا",
+    "contact.hero.heading_html": "لنتحدث في <em>اللوجستيات</em>",
+    "contact.hero.sub": "نردّ خلال 24 ساعة في أيام العمل.",
+
+    /* ─── About page ─── */
+    "about.hero.eyebrow": "006 · من نحن",
+    "about.hero.heading_html": "بُنيت على يد <em>المختصين</em>، لخدمة المختصين.",
+    "about.hero.sub":
+      "شِنتك هي منصّة سلاسل الإمداد التي تمنّينا وجودها حين كنّا نُشغّل الشحن بأنفسنا — صُنعت في قطر، وصُمّمت لخدمة منطقة الخليج.",
+    "about.hero.status": "مقرّنا قطر",
+
+    "about.mission.eyebrow": "مهمّتنا",
+    "about.mission.heading_html": "جعل اللوجستيات في الخليج <em>واضحة</em> وقابلة للتنبؤ ومنصفة.",
+    "about.mission.body":
+      "تعتمد عمليات الشحن في المنطقة على المكالمات الهاتفية والجداول والثقة الشخصية. نجح ذلك في النطاقات الصغيرة — لكنه لم يعد كافيًا. نبني منصّة موحّدة تتيح لفِرَق العمليات رؤية كل شحنة لحظيًا، والتنبؤ بمواعيد الوصول بدقة، والوصول إلى الناقلين بشروط شفافة. مطاردة أقل، إنجاز أكثر.",
+
+    "about.values.eyebrow": "ما نؤمن به",
+    "about.values.heading": "ثلاثة مبادئ، بلا مساومة.",
+    "about.values.visibility.title": "الرؤية تربح",
+    "about.values.visibility.desc":
+      "إن لم ترَ الشحنة فلن تستطيع إدارتها. الحقيقة الفورية تتفوّق على التخمين كل يوم.",
+    "about.values.trust.title": "الثقة افتراضيًا",
+    "about.values.trust.desc":
+      "البيانات تبقى داخل المنطقة. الأسعار شفافة. نكسب التجديد بالأداء، لا بالقيود.",
+    "about.values.speed.title": "سرعة التنفيذ",
+    "about.values.speed.desc":
+      "تجارب ميدانية في أيام، وتكامل في أسابيع. نُطلق برمجيات شغّالة بسرعة ونطوّرها مع عملائنا.",
+
+    "about.stats.eyebrow": "بالأرقام",
+    "about.stats.heading": "فريق صغير، يتحرّك بسرعة.",
+    "about.stats.stat1.value": "+25",
+    "about.stats.stat1.label": "سنة من الخبرة المجتمعة في اللوجستيات والبرمجيات",
+    "about.stats.stat2.value": "6",
+    "about.stats.stat2.label": "موانئ ومحاور خليجية مغطّاة عند الإطلاق",
+    "about.stats.stat3.value": "%94",
+    "about.stats.stat3.label": "دقّة التنبؤ بمواعيد الوصول في الشحنات التجريبية",
+    "about.stats.stat4.value": "4–6 أسابيع",
+    "about.stats.stat4.label": "مدّة التنفيذ المعتادة",
+
+    "about.team.eyebrow": "الفريق",
+    "about.team.heading": "مهندسون ومشغّلون وأهل شحن عنيدون.",
+    "about.team.body":
+      "تأسّست شِنتك في الدوحة على يد فريق ذي خلفيات متنوّعة في الشحن والوسائط البرمجية لسلاسل الإمداد وتعلم الآلة. حرّكنا الحاويات، وكتبنا أنظمة TMS، وبنينا نماذج تنبّؤ — وعانينا من الفجوات نفسها لسنوات. لذلك بدأنا بإغلاقها.",
+
+    "about.cta.heading": "هل تودّ معرفة المزيد؟",
+    "about.cta.tile1.heading": "تواصل مع فريقنا",
+    "about.cta.tile1.desc": "يسعدنا التعرّف على عملك.",
+    "about.cta.tile1.cta": "تواصل معنا",
+    "about.cta.tile2.heading": "شاهدها مباشرة",
+    "about.cta.tile2.desc": "احجز جولة 30 دقيقة.",
+    "about.cta.tile2.cta": "احجز",
+
+    "contact.channels.heading": "اختر الجهة المناسبة",
+    "contact.channels.sales.label": "المبيعات",
+    "contact.channels.sales.desc": "العروض التوضيحية والأسعار والشراكات.",
+    "contact.channels.support.label": "الدعم",
+    "contact.channels.support.desc": "الاستفسارات العامة ودعم العملاء الحاليين.",
+    "contact.channels.phone.label": "الهاتف",
+    "contact.channels.whatsapp": "تواصل عبر واتساب",
+
+    "contact.hours.label": "ساعات العمل",
+    "contact.hours.value": "الأحد – الخميس  ·  10:00 – 18:00 بتوقيت قطر (GMT+3)",
+    "contact.hours.closed": "مغلق الجمعة والسبت",
+    "contact.hours.response": "زمن الاستجابة أقل من 24 ساعة في أيام العمل",
+
+    "contact.form.heading": "أرسل لنا رسالة",
+    "contact.form.name": "الاسم الكامل",
+    "contact.form.email": "البريد الإلكتروني",
+    "contact.form.company": "الشركة (اختياري)",
+    "contact.form.topic": "أرغب في",
+    "contact.form.topic.demo": "حجز عرض توضيحي",
+    "contact.form.topic.sales": "المبيعات / الأسعار",
+    "contact.form.topic.support": "الدعم",
+    "contact.form.topic.other": "شيء آخر",
+    "contact.form.message": "الرسالة",
+    "contact.form.submit": "إرسال الرسالة",
+    "contact.form.placeholder.message": "أخبرنا قليلاً عن عملياتك، ما تبحث عنه، أو أي سؤال لديك…",
+
+    "contact.faq.heading": "تبحث عن إجابة سريعة؟",
+    "contact.faq.cta": "تصفّح الأسئلة الشائعة",
+    "contact.demo.heading": "احجز عرضاً في 30 دقيقة",
+    "contact.demo.desc": "شاهد المنصة مباشرة مع فريقنا.",
+    "contact.demo.cta": "احجز",
+
     "contact.index": "تواصل معنا",
     "contact.heading_html": "تواصل معنا.",
     "contact.sub":
@@ -275,10 +568,13 @@ export const translations: Record<Lang, Record<string, string>> = {
     "contact.phone_label": "الهاتف",
     "contact.office_label": "المكتب",
 
-    "cta.index": "005 · ابدأ",
-    "cta.headline": "مستعد لتشغيل عمليات أكثر إحكاماً؟",
+    "cta.index": "005 · عرض مباشر",
+    "cta.headline": "شاهد شحنتك أثناء العمل.",
     "cta.sub":
-      "انضم إلى مشغّلي الشحن في الخليج الذين استبدلوا التخمين بالذكاء. العروض التوضيحية تستغرق 30 دقيقة.",
+      "جولة مدّتها 30 دقيقة في المنصة — الرؤية، السوق، وأسعار المرجع — مباشرةً مع الفريق الذي بناها.",
+    "cta.bullet.duration": "جولة من 30 دقيقة",
+    "cta.bullet.tailored": "مُصمّمة لعملياتك",
+    "cta.bullet.live_qa": "أسئلة وأجوبة مباشرة مع فريقنا",
 
     "footer.tagline": "ذكاء سلاسل التوريد لمشغّلي الشحن الذين يُديرون الخليج.",
     "footer.location": "الدوحة، قطر · تأسست 2025",

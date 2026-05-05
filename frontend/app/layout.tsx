@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, IBM_Plex_Mono, Tajawal } from "next/font/google";
+import { Inter, IBM_Plex_Mono, Tajawal, Space_Grotesk } from "next/font/google";
 import { LanguageProvider } from "@/lib/LanguageContext";
 import { Nav } from "@/components/Nav";
 import { Footer } from "@/components/Footer";
@@ -22,6 +22,14 @@ const tajawal = Tajawal({
   subsets: ["arabic", "latin"],
   weight: ["300", "400", "500", "700", "800", "900"],
   variable: "--font-tajawal",
+  display: "swap",
+});
+// Used for capability-card titles — gives them a modern, slightly tech vibe
+// distinct from Inter (which is the brand body font everywhere else).
+const spaceGrotesk = Space_Grotesk({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-space-grotesk",
   display: "swap",
 });
 
@@ -70,7 +78,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html
       lang="en"
       dir="ltr"
-      className={`${inter.variable} ${plexMono.variable} ${tajawal.variable}`}
+      className={`${inter.variable} ${plexMono.variable} ${tajawal.variable} ${spaceGrotesk.variable}`}
     >
       <body>
         <LanguageProvider>
