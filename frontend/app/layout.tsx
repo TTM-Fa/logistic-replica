@@ -1,10 +1,26 @@
 import type { Metadata } from "next";
 import { Inter, IBM_Plex_Mono, Tajawal, Space_Grotesk } from "next/font/google";
 import { LanguageProvider } from "@/lib/LanguageContext";
+import { ThemeProvider } from "@/lib/ThemeContext";
 import { Nav } from "@/components/Nav";
 import { Footer } from "@/components/Footer";
 import { Effects } from "./effects";
 import "./globals.css";
+
+// Tiny inline script that runs BEFORE React hydrates, so the user's
+// preferred theme is already applied to <html> on first paint. Without
+// this you'd see a flash of light theme before dark mode is applied.
+// Falls back to the OS-level dark mode preference if no choice saved.
+const themeBootScript = `
+  try {
+    var saved = localStorage.getItem('theme');
+    var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    var theme = (saved === 'dark' || saved === 'light') ? saved : (prefersDark ? 'dark' : 'light');
+    document.documentElement.setAttribute('data-theme', theme);
+  } catch (e) {
+    document.documentElement.setAttribute('data-theme', 'light');
+  }
+`;
 
 const inter = Inter({
   subsets: ["latin"],
@@ -61,15 +77,10 @@ export const metadata: Metadata = {
     title: TITLE,
     description: DESCRIPTION,
   },
-  // Favicon: gold "S" on a dark rounded-square background (app-icon style).
+  // Favicon shown in the browser tab — uses the Shenatech logo at
+  // frontend/public/logo.png. To change it, just replace that file.
   icons: {
-    icon: [
-      {
-        url:
-          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48cmVjdCB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgcng9IjIyIiBmaWxsPSIjMEIwRDBGIi8+PHRleHQgeD0iNTAiIHk9Ijc0IiBmb250LWZhbWlseT0iSW50ZXIsQXJpYWwsc2Fucy1zZXJpZiIgZm9udC1zaXplPSI3MiIgZm9udC13ZWlnaHQ9IjkwMCIgZmlsbD0iI0ZDQkEwMiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+UzwvdGV4dD48L3N2Zz4=",
-        type: "image/svg+xml",
-      },
-    ],
+    icon: "/logo.png",
   },
 };
 
@@ -80,14 +91,21 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       dir="ltr"
       className={`${inter.variable} ${plexMono.variable} ${tajawal.variable} ${spaceGrotesk.variable}`}
     >
+      <head>
+        {/* Theme boot script — runs synchronously before hydration to avoid
+            a flash of the wrong theme on first load. */}
+        <script dangerouslySetInnerHTML={{ __html: themeBootScript }} />
+      </head>
       <body>
-        <LanguageProvider>
-          <div className="scroll-progress" aria-hidden="true" />
-          <Nav />
-          {children}
-          <Footer />
-          <Effects />
-        </LanguageProvider>
+        <ThemeProvider>
+          <LanguageProvider>
+            <div className="scroll-progress" aria-hidden="true" />
+            <Nav />
+            {children}
+            <Footer />
+            <Effects />
+          </LanguageProvider>
+        </ThemeProvider>
       </body>
     </html>
   );

@@ -1,5 +1,6 @@
 "use client";
 
+import { usePathname } from "next/navigation";
 import { useLanguage } from "@/lib/LanguageContext";
 import { T } from "@/lib/T";
 
@@ -40,6 +41,15 @@ const SOCIALS = [
 
 export function Footer() {
   const { lang, t } = useLanguage();
+  const pathname = usePathname();
+
+  // Dashboard area has its own (minimal) chrome — skip the marketing footer
+  // on every /dashboard/* route so the app feel isn't broken by a big
+  // marketing footer at the bottom.
+  if (pathname?.startsWith("/dashboard")) {
+    return null;
+  }
+
   return (
     <footer className="footer" aria-label="Site footer">
       <div className="container">

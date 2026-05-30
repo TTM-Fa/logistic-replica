@@ -45,6 +45,12 @@ export function Nav() {
     setMobileServicesOpen(false);
   };
 
+  // Dashboard area has its own top bar — hide the public marketing nav there
+  // so the app-style chrome can take over completely.
+  if (pathname?.startsWith("/dashboard")) {
+    return null;
+  }
+
   // Pages with a DARK hero strip at the top — on these the nav stays
   // transparent (white text) until the user scrolls past it, then transitions
   // to cream. On other pages (FAQ, etc.) we force cream immediately so the
