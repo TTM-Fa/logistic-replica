@@ -79,7 +79,7 @@ export function Variant3() {
 
       <header className="v3-header">
         <div>
-          <p className="eyebrow v3-header__eyebrow">OPERATOR'S DESK</p>
+          <p className="eyebrow v3-header__eyebrow">OPERATOR&apos;S DESK</p>
           <h1 className="v3-header__heading">
             Good morning, <span className="v3-header__name">Nasser</span>
           </h1>

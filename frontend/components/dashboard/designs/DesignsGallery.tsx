@@ -64,7 +64,7 @@ export function DesignsGallery() {
           Four directions for the main dashboard hub. All four keep the three
           models — Visibility, Marketplace, Rate Benchmark — front and centre,
           but each surrounds them with a different mix of content and layout.
-          Open each in its own tab and we'll iterate from your favourite.
+          Open each in its own tab and we&apos;ll iterate from your favourite.
         </p>
       </div>
 

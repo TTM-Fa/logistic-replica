@@ -55,7 +55,7 @@ export function DashboardNews() {
           </svg>
         </span>
         <h2 className="dash-news__title">
-          <T id="dashboard.news.heading" />
+          <T id="dashboardnews.heading" />
         </h2>
       </header>
 

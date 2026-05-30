@@ -274,7 +274,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     "dashboard.sidebar.home": "Home",
     "dashboard.sidebar.apps": "Applications and utilities",
 
-    "dashboard.news.heading": "Stay informed with Shenatech",
+    "dashboardnews.heading": "Stay informed with Shenatech",
     "dashboard.news.platform.badge": "PLATFORM PREVIEW",
     "dashboard.news.platform.title": "The GCC freight network — built for operators",
     "dashboard.news.waitlist.badge": "JOIN WAITLIST",
@@ -1815,7 +1815,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     "dashboard.sidebar.home": "الرئيسية",
     "dashboard.sidebar.apps": "التطبيقات والأدوات",
 
-    "dashboard.news.heading": "تابع آخر أخبار شِنتك",
+    "dashboardnews.heading": "تابع آخر أخبار شِنتك",
     "dashboard.news.platform.badge": "معاينة المنصّة",
     "dashboard.news.platform.title": "شبكة الشحن في الخليج — مبنيّة للمختصين",
     "dashboard.news.waitlist.badge": "انضم لقائمة الانتظار",

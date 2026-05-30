@@ -102,7 +102,7 @@ export function Variant2() {
             <span className="v2-tile__pill">−4% VS MARKET</span>
           </div>
           <h3 className="v2-tile__title">Rate Benchmark</h3>
-          <p className="v2-tile__desc">You're paying 4% under regional median this week. 🎯</p>
+          <p className="v2-tile__desc">You&apos;re paying 4% under regional median this week. 🎯</p>
         </Link>
 
         {/* QUICK ACTIONS tile */}

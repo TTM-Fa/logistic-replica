@@ -104,7 +104,7 @@ export function Variant4() {
           <span className="v4-tip__label">TIP OF THE DAY</span>
           <h3 className="v4-tip__heading">Pin your busiest lane</h3>
           <p className="v4-tip__body">
-            Open the Visibility model and pin a corridor — you'll get instant alerts whenever a shipment on that route deviates from its plan.
+            Open the Visibility model and pin a corridor — you&apos;ll get instant alerts whenever a shipment on that route deviates from its plan.
           </p>
           <a href="#" onClick={(e) => e.preventDefault()} className="v4-tip__link">
             Show me how →
