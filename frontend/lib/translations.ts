@@ -305,6 +305,8 @@ export const translations: Record<Lang, Record<string, string>> = {
     "dashboard.greeting.afternoon": "Good afternoon",
     "dashboard.greeting.evening": "Good evening",
     "dashboard.explore": "Explore",
+    "dashboard.models.heading": "Choose a model",
+    "dashboard.models.sub": "Three connected products for Gulf logistics. Open one to get started.",
 
     "dashboard.news.heading": "Latest news",
     "dashboard.news1.title": "New customs lane reduced Jebel Ali → Doha crossing time by 30%",
@@ -1846,6 +1848,8 @@ export const translations: Record<Lang, Record<string, string>> = {
     "dashboard.greeting.afternoon": "مساء الخير",
     "dashboard.greeting.evening": "مساء الخير",
     "dashboard.explore": "اكتشف",
+    "dashboard.models.heading": "اختر نموذجًا",
+    "dashboard.models.sub": "ثلاثة منتجات مترابطة للخدمات اللوجستية في الخليج. افتح أحدها للبدء.",
 
     "dashboard.news.heading": "آخر الأخبار",
     "dashboard.news1.title": "ممرّ جمركي جديد يقلّل وقت العبور من جبل علي إلى الدوحة بنسبة 30%",
